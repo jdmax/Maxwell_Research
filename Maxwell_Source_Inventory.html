@@ -82,7 +82,13 @@
   .src-link:hover { text-decoration:underline; }
   .deadend-box { background:#f2f2f2; border:1px solid #bbb; border-left:4px solid var(--deadend); padding:0.8rem 1rem; margin:1rem 0; border-radius:3px; font-size:0.9rem; color:var(--deadend); }
   @media print { body { background:white; padding:0; } .source-card:hover { box-shadow:none; } }
-  @media (max-width:600px) { .source-card { grid-template-columns:1fr; } .thumb-wrap a img { width:100%; height:120px; } }
+  @media (max-width:600px) {
+    .page-header { flex-direction:column; align-items:center; gap:0.8rem; }
+    .page-header .crest-sidebar { height:200px; }
+    header h1 { font-size:1.4rem; }
+    .source-card { grid-template-columns:1fr; }
+    .thumb-wrap a img { width:100%; height:120px; }
+  }
 </style>
 </head>
 <body>
