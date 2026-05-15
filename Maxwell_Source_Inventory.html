@@ -14,9 +14,10 @@
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body { font-family:'EB Garamond',Georgia,serif; font-size:15px; line-height:1.6; background:var(--parchment); color:var(--ink); padding:2rem 1rem; }
   .page { max-width:960px; margin:0 auto; }
-  header { display:flex; align-items:center; justify-content:center; border-top:3px double var(--border); border-bottom:3px double var(--border); padding:1.5rem 1rem; margin-bottom:2rem; background:var(--aged); }
-  header img.crest { height:120px; width:auto; margin-right:2.0rem; flex-shrink:0; }
-  header .header-text { text-align:center; }
+  .page-header { display:flex; align-items:stretch; gap:1.4rem; margin-bottom:2rem; }
+  .page-header .crest-sidebar { height:212px; width:auto; flex-shrink:0; display:block; }
+  .header-main { flex:1; min-width:0; }
+  header { text-align:center; border-top:3px double var(--border); border-bottom:3px double var(--border); padding:1.5rem 1rem; margin-bottom:0.6rem; background:var(--aged); }
   header h1 { font-family:'Cinzel',serif; font-size:1.9rem; font-weight:600; letter-spacing:0.04em; color:var(--rust); margin-bottom:0.4rem; }
   header p { color:var(--faded); font-style:italic; font-size:0.95rem; }
   .legend { display:flex; flex-wrap:wrap; gap:1rem; margin-bottom:2rem; padding:0.8rem 1.2rem; background:var(--aged); border:1px solid var(--border); border-radius:3px; font-size:0.88rem; }
@@ -50,7 +51,7 @@
   .next-steps { counter-reset:steps; list-style:none; padding:0; }
   .next-steps li { counter-increment:steps; padding:0.5rem 0.5rem 0.5rem 2.5rem; position:relative; border-bottom:1px dotted var(--border); font-size:0.9rem; }
   .next-steps li::before { content:counter(steps); position:absolute; left:0.5rem; top:0.5rem; width:1.4rem; height:1.4rem; background:var(--rust); color:white; border-radius:50%; display:flex; align-items:center; justify-content:center; font-family:'Cinzel',serif; font-size:0.75rem; font-weight:600; }
-  .site-nav { display:flex; flex-wrap:wrap; gap:0.5rem 1.2rem; margin-bottom:2rem; padding:0.6rem 1rem; background:var(--aged); border:1px solid var(--border); border-radius:3px; font-size:0.83rem; }
+  .site-nav { display:flex; flex-wrap:wrap; gap:0.5rem 1.2rem; margin-bottom:0; padding:0.6rem 1rem; background:var(--aged); border:1px solid var(--border); border-radius:3px; font-size:0.83rem; }
   .site-nav a { color:var(--rust); text-decoration:none; }
   .site-nav a:hover { text-decoration:underline; }
   .summary-section { margin-bottom:2.5rem; }
@@ -87,23 +88,24 @@
 <body>
 <div class="page">
 
-<header>
-  <img src="crest_tartan.png" alt="Maxwell crest" class="crest">
-  <div class="header-text">
-    <h1>Maxwell Genealogy</h1>
-    <p>Research Summary &amp; Source Document Inventory &nbsp;·&nbsp; May 2026</p>
-    <p style="margin-top:0.3rem">FTDNA Kit 752085 &nbsp;·&nbsp; David B. Maxwell &amp; James D. Maxwell</p>
+<div class="page-header">
+  <img src="crest_tartan.png" alt="Maxwell crest" class="crest-sidebar">
+  <div class="header-main">
+    <header>
+      <h1>Maxwell Genealogy</h1>
+      <p>Research Summary &amp; Source Document Inventory &nbsp;·&nbsp; May 2026</p>
+      <p style="margin-top:0.3rem">FTDNA Kit 752085 &nbsp;·&nbsp; David B. Maxwell &amp; James D. Maxwell</p>
+    </header>
+    <nav class="site-nav">
+      <a href="#summary">Research Summary</a>
+      <a href="#chain">Ancestry Chain</a>
+      <a href="#gap">Remaining Gap</a>
+      <a href="#questions">Questions for Researchers</a>
+      <a href="#sources">Source Documents</a>
+      <a href="#deadends">Dead Ends</a>
+    </nav>
   </div>
-</header>
-
-<nav class="site-nav">
-  <a href="#summary">Research Summary</a>
-  <a href="#chain">Ancestry Chain</a>
-  <a href="#gap">Remaining Gap</a>
-  <a href="#questions">Questions for Researchers</a>
-  <a href="#sources">Source Documents</a>
-  <a href="#deadends">Dead Ends</a>
-</nav>
+</div>
 
 <div class="legend">
   <div class="legend-item"><span class="badge badge-confirmed">✓ Confirmed</span> Primary source proof</div>
