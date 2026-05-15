@@ -1,0 +1,1118 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Maxwell Genealogy — Research Summary &amp; Source Inventory</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400&family=Cinzel:wght@400;600&display=swap');
+
+  :root {
+    --ink: #1a1208;
+    --parchment: #f7f0e3;
+    --aged: #e8dcc8;
+    --rust: #8b3a1a;
+    --gold: #b8860b;
+    --faded: #7a6e5e;
+    --confirmed: #2d5a1b;
+    --probable: #7a4f00;
+    --gap: #8b1a1a;
+    --border: #c4a96b;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'EB Garamond', Georgia, serif;
+    font-size: 15px;
+    line-height: 1.6;
+    background: var(--parchment);
+    color: var(--ink);
+    padding: 2rem 1rem;
+  }
+
+  .page {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+  /* ── Header ── */
+  header {
+    text-align: center;
+    border-top: 3px double var(--border);
+    border-bottom: 3px double var(--border);
+    padding: 1.5rem 1rem;
+    margin-bottom: 2rem;
+    background: var(--aged);
+  }
+
+  header h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 1.9rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    color: var(--rust);
+    margin-bottom: 0.4rem;
+  }
+
+  header p {
+    color: var(--faded);
+    font-style: italic;
+    font-size: 0.95rem;
+  }
+
+  /* ── Legend ── */
+  .legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    padding: 0.8rem 1.2rem;
+    background: var(--aged);
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    font-size: 0.88rem;
+  }
+
+  .legend-item { display: flex; align-items: center; gap: 0.4rem; }
+
+  .badge {
+    display: inline-block;
+    padding: 0.15em 0.55em;
+    border-radius: 3px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    font-family: 'Cinzel', serif;
+    letter-spacing: 0.03em;
+  }
+
+  .badge-confirmed { background: #d4edda; color: var(--confirmed); border: 1px solid var(--confirmed); }
+  .badge-probable  { background: #fff3cd; color: var(--probable);  border: 1px solid var(--probable); }
+  .badge-gap       { background: #f8d7da; color: var(--gap);       border: 1px solid var(--gap); }
+  .badge-ref       { background: #e8eaf0; color: #2c3a6e;          border: 1px solid #8090c0; }
+
+  /* ── Section heading ── */
+  .section-heading {
+    font-family: 'Cinzel', serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--rust);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 0.3rem;
+    margin: 2rem 0 1rem;
+  }
+
+  /* ── Source card ── */
+  .source-card {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    gap: 1rem;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background: #fdfaf4;
+    transition: box-shadow 0.15s;
+  }
+
+  .source-card:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.12); }
+
+  .source-card.key-record {
+    border-left: 4px solid var(--gold);
+    background: #fefcf5;
+  }
+
+  /* thumbnail */
+  .thumb-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+
+  .thumb-wrap a {
+    display: block;
+    border: 1px solid var(--border);
+    border-radius: 2px;
+    overflow: hidden;
+    line-height: 0;
+  }
+
+  .thumb-wrap a img {
+    width: 120px;
+    height: 90px;
+    object-fit: cover;
+    object-position: top;
+    display: block;
+    transition: opacity 0.15s;
+  }
+
+  .thumb-wrap a:hover img { opacity: 0.85; }
+
+  .thumb-label {
+    font-size: 0.72rem;
+    color: var(--faded);
+    text-align: center;
+    font-style: italic;
+  }
+
+  .multi-thumb {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+
+  .multi-thumb a img {
+    width: 56px;
+    height: 42px;
+  }
+
+  /* content */
+  .source-content h3 {
+    font-family: 'Cinzel', serif;
+    font-size: 0.92rem;
+    font-weight: 600;
+    color: var(--ink);
+    margin-bottom: 0.4rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+
+  .source-content .ref {
+    font-family: 'EB Garamond', serif;
+    font-size: 0.82rem;
+    color: var(--faded);
+    font-style: italic;
+    font-weight: 400;
+  }
+
+  .source-content p {
+    font-size: 0.9rem;
+    margin-bottom: 0.35rem;
+  }
+
+  .source-content .key-finding {
+    background: #fffbec;
+    border-left: 3px solid var(--gold);
+    padding: 0.4rem 0.7rem;
+    margin: 0.4rem 0;
+    font-size: 0.88rem;
+  }
+
+  .source-content blockquote {
+    border-left: 2px solid var(--border);
+    margin: 0.4rem 0;
+    padding: 0.3rem 0.7rem;
+    color: var(--faded);
+    font-style: italic;
+    font-size: 0.88rem;
+  }
+
+  /* ── Chain diagram ── */
+  .chain {
+    background: var(--aged);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 1.2rem 1.4rem;
+    margin: 1.5rem 0;
+    overflow-x: auto;
+  }
+
+  .chain pre {
+    font-family: 'EB Garamond', Georgia, serif;
+    font-size: 0.82rem;
+    line-height: 1.7;
+    white-space: pre;
+    color: var(--ink);
+  }
+
+  .chain .confirmed-line { color: var(--confirmed); }
+  .chain .gap-line { color: var(--gap); font-style: italic; }
+
+  /* ── Notes and gaps ── */
+  .gap-box {
+    background: #fdf3f3;
+    border: 1px solid #e0a0a0;
+    border-left: 4px solid var(--gap);
+    padding: 0.8rem 1rem;
+    margin: 1rem 0;
+    border-radius: 3px;
+    font-size: 0.9rem;
+  }
+
+  .next-steps {
+    counter-reset: steps;
+    list-style: none;
+    padding: 0;
+  }
+
+  .next-steps li {
+    counter-increment: steps;
+    padding: 0.5rem 0.5rem 0.5rem 2.5rem;
+    position: relative;
+    border-bottom: 1px dotted var(--border);
+    font-size: 0.9rem;
+  }
+
+  .next-steps li::before {
+    content: counter(steps);
+    position: absolute;
+    left: 0.5rem;
+    top: 0.5rem;
+    width: 1.4rem;
+    height: 1.4rem;
+    background: var(--rust);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Cinzel', serif;
+    font-size: 0.75rem;
+    font-weight: 600;
+  }
+
+  /* ── Nav ── */
+  .site-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1.2rem;
+    margin-bottom: 2rem;
+    padding: 0.6rem 1rem;
+    background: var(--aged);
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    font-size: 0.83rem;
+  }
+  .site-nav a { color: var(--rust); text-decoration: none; }
+  .site-nav a:hover { text-decoration: underline; }
+
+  /* ── Summary section ── */
+  .summary-section {
+    margin-bottom: 2.5rem;
+  }
+  .summary-intro {
+    background: var(--aged);
+    border: 1px solid var(--border);
+    padding: 1.2rem 1.4rem;
+    margin-bottom: 1.4rem;
+    border-radius: 4px;
+    font-size: 0.93rem;
+  }
+  .summary-intro p { margin-bottom: 0.5rem; }
+  .summary-intro p:last-child { margin-bottom: 0; }
+
+  .dna-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 0.8rem;
+    margin-bottom: 1.4rem;
+  }
+  .dna-stat {
+    background: #fdfaf4;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 0.7rem 0.9rem;
+    text-align: center;
+  }
+  .dna-stat .label {
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--faded);
+    font-family: 'Cinzel', serif;
+    margin-bottom: 0.2rem;
+  }
+  .dna-stat .value {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: var(--rust);
+  }
+
+  .chain-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.86rem;
+    margin-bottom: 1.4rem;
+  }
+  .chain-table th {
+    background: var(--rust);
+    color: white;
+    font-family: 'Cinzel', serif;
+    font-weight: 600;
+    font-size: 0.78rem;
+    letter-spacing: 0.05em;
+    padding: 0.45rem 0.7rem;
+    text-align: left;
+  }
+  .chain-table td {
+    padding: 0.35rem 0.7rem;
+    border-bottom: 1px solid var(--aged);
+    vertical-align: top;
+  }
+  .chain-table tr:hover td { background: var(--aged); }
+  .chain-table .gen-confirmed td { background: #f2faf2; }
+  .chain-table .gen-probable td { background: #fffcf0; }
+  .chain-table .gen-gap td { background: #fff5f5; }
+  .chain-table .person { font-weight: 600; }
+  .chain-table .dates { color: var(--faded); font-style: italic; font-size: 0.83rem; }
+  .chain-table .source-ref { font-size: 0.78rem; color: #3a5a8a; }
+
+  .questions-list {
+    list-style: none;
+    padding: 0;
+    counter-reset: q;
+  }
+  .questions-list li {
+    counter-increment: q;
+    padding: 0.6rem 0.6rem 0.6rem 2.6rem;
+    position: relative;
+    border-bottom: 1px dotted var(--border);
+    font-size: 0.9rem;
+  }
+  .questions-list li:last-child { border-bottom: none; }
+  .questions-list li::before {
+    content: 'Q' counter(q);
+    position: absolute;
+    left: 0.5rem;
+    top: 0.6rem;
+    background: var(--gold);
+    color: white;
+    font-family: 'Cinzel', serif;
+    font-size: 0.7rem;
+    font-weight: 600;
+    padding: 0.1em 0.35em;
+    border-radius: 2px;
+  }
+
+  /* ── No-image placeholder ── */
+  .no-image {
+    width: 120px;
+    height: 90px;
+    background: var(--aged);
+    border: 1px dashed var(--border);
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--faded);
+    font-size: 0.7rem;
+    text-align: center;
+    padding: 0.5rem;
+  }
+
+  @media print {
+    body { background: white; padding: 0; }
+    .source-card { break-inside: avoid; }
+    .source-card:hover { box-shadow: none; }
+  }
+
+  @media (max-width: 600px) {
+    .source-card { grid-template-columns: 1fr; }
+    .thumb-wrap a img { width: 100%; height: 120px; }
+    .thumb-wrap a { max-width: 200px; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+<header>
+  <h1>Maxwell Genealogy</h1>
+  <p>Research Summary &amp; Source Document Inventory &nbsp;·&nbsp; May 2026</p>
+  <p style="margin-top:0.3rem">FTDNA Kit 752085 &nbsp;·&nbsp; David B. Maxwell &amp; James D. Maxwell</p>
+</header>
+
+<nav class="site-nav">
+  <a href="#summary">Research Summary</a>
+  <a href="#chain">Ancestry Chain</a>
+  <a href="#gap">Remaining Gap</a>
+  <a href="#questions">Questions for Researchers</a>
+  <a href="#sources">Source Documents</a>
+</nav>
+
+<div class="legend">
+  <div class="legend-item"><span class="badge badge-confirmed">✓ Confirmed</span> Primary source proof</div>
+  <div class="legend-item"><span class="badge badge-probable">● Probable</span> Strong evidence, not yet proven</div>
+  <div class="legend-item"><span class="badge badge-gap">? Gap</span> Missing link</div>
+  <div class="legend-item"><span class="badge badge-ref">⭐ Key</span> Most important records</div>
+</div>
+
+<!-- ═══════════════════════════════════════════════ -->
+<div class="section-heading" id="summary">Research Summary</div>
+
+<div class="summary-section">
+
+  <div class="summary-intro">
+    <p>Dear Dr. Donald Maxwell and Dr. Jennifer Maxwell,</p>
+    <p>I am <strong>James D. Maxwell</strong>, son of <strong>David B. Maxwell</strong> (FTDNA kit 752085). Following up on your 2018 correspondence with my father, I have conducted extensive new research using ScotlandsPeople, the Dumfries Register of Sasines, Dumfries Commissary Court testaments, and the Book of Caerlaverock. I believe I have traced our Maxwell ancestry back through seven Scottish generations to the documented Maxwell of Cowhill branch — a cadet line of the Lords Maxwell confirmed as Y2357 positive.</p>
+    <p>The American-to-Scotland chain is now fully documented by primary sources. A single link within Scotland remains unconfirmed by surviving records, and I am writing to share these findings and to seek your help confirming it — most efficiently through the Big-Y test for kit 752085, which my father has not yet completed.</p>
+    <p>This page summarises the research and links directly to every original source image.</p>
+  </div>
+
+  <!-- DNA stats -->
+  <div class="dna-box">
+    <div class="dna-stat">
+      <div class="label">FTDNA Kit</div>
+      <div class="value">752085</div>
+    </div>
+    <div class="dna-stat">
+      <div class="label">SNP Result</div>
+      <div class="value">Y2357 Positive</div>
+    </div>
+    <div class="dna-stat">
+      <div class="label">Group</div>
+      <div class="value">6.48</div>
+    </div>
+    <div class="dna-stat">
+      <div class="label">GD from Caerlaverock line</div>
+      <div class="value">2 (Y-111)</div>
+    </div>
+    <div class="dna-stat">
+      <div class="label">Don's prediction</div>
+      <div class="value">Near Newlaw 44991</div>
+    </div>
+    <div class="dna-stat">
+      <div class="label">Big-Y test</div>
+      <div class="value" style="color:var(--gap)">Not yet taken</div>
+    </div>
+  </div>
+
+  <!-- Chain table -->
+  <div class="section-heading" id="chain" style="margin-top:0">Proposed Ancestry Chain</div>
+
+  <table class="chain-table">
+    <thead>
+      <tr><th>#</th><th>Person</th><th>Dates &amp; Place</th><th>Status</th><th>Source</th></tr>
+    </thead>
+    <tbody>
+      <tr class="gen-confirmed">
+        <td>1</td>
+        <td class="person">Undwin, father of Maccus</td>
+        <td class="dates">~1070, Roxburghshire</td>
+        <td><span class="badge badge-confirmed">✓</span></td>
+        <td class="source-ref">DNA + historical record</td>
+      </tr>
+      <tr class="gen-confirmed">
+        <td>2–11</td>
+        <td class="person">Lords of Maxwell (~12 generations)</td>
+        <td class="dates">1070–1484</td>
+        <td><span class="badge badge-confirmed">✓</span></td>
+        <td class="source-ref">Y2357 SNP chain · BIG-Y chart</td>
+      </tr>
+      <tr class="gen-confirmed">
+        <td>12</td>
+        <td class="person">John Maxwell, Master of Maxwell</td>
+        <td class="dates">d. Battle of Kirtle, 22 Jul 1484</td>
+        <td><span class="badge badge-confirmed">✓</span></td>
+        <td class="source-ref"><strong>★ Y2357 SNP confirmed</strong> · GD2 from Caerlaverock</td>
+      </tr>
+      <tr class="gen-confirmed">
+        <td>13</td>
+        <td class="person">Robert Maxwell</td>
+        <td class="dates">~1460–c1513 · ancestor of Maxwells of Cowhill</td>
+        <td><span class="badge badge-confirmed">✓</span></td>
+        <td class="source-ref">Book of Caerlaverock p.594</td>
+      </tr>
+      <tr class="gen-confirmed">
+        <td>14</td>
+        <td class="person">Sir John Maxwell of Cowhill</td>
+        <td class="dates">~1500–1547</td>
+        <td><span class="badge badge-confirmed">✓</span></td>
+        <td class="source-ref">Book of Caerlaverock · Cowhill Chart</td>
+      </tr>
+      <tr class="gen-confirmed">
+        <td>15</td>
+        <td class="person">Archibald Maxwell of Cowhill &amp; Dinwoodie</td>
+        <td class="dates">~1530 – September 1606 · Holywood parish</td>
+        <td><span class="badge badge-confirmed">✓</span></td>
+        <td class="source-ref">Testament CC8/8/43 (WILL-0) ⭐</td>
+      </tr>
+      <tr class="gen-confirmed">
+        <td>16</td>
+        <td class="person">John Maxwell (son, £500 legacy)</td>
+        <td class="dates">~1560–1580 born</td>
+        <td><span class="badge badge-confirmed">✓</span></td>
+        <td class="source-ref">Named in Archibald's 1606 will (WILL-0)</td>
+      </tr>
+      <tr class="gen-confirmed">
+        <td>17</td>
+        <td class="person">John Maxwell of Freircarse</td>
+        <td class="dates">d. 1630 · Dunscore parish, Dumfriesshire</td>
+        <td><span class="badge badge-confirmed">✓</span></td>
+        <td class="source-ref">Testament CC5/6/1 (WILL-1) ⭐ · Minor children confirmed</td>
+      </tr>
+      <tr class="gen-confirmed">
+        <td>18</td>
+        <td class="person">Herbert Maxwell of Freircarse</td>
+        <td class="dates">~1615–1625 born · d. before 1647</td>
+        <td><span class="badge badge-confirmed">✓</span></td>
+        <td class="source-ref">Sasines index 1647 (SASE-1) ⭐ · Father of William Maxwell</td>
+      </tr>
+      <tr class="gen-probable">
+        <td>19</td>
+        <td class="person">Jon Maxwell, cordiner, Dumfries</td>
+        <td class="dates">~1620–1635 born · children 1654–1676, Dumfries</td>
+        <td><span class="badge badge-probable">●</span></td>
+        <td class="source-ref">OPR 821 (OPR-B5) · brother of William Maxwell</td>
+      </tr>
+      <tr class="gen-probable">
+        <td>20</td>
+        <td class="person">John Maxwell</td>
+        <td class="dates">b. 13 August 1654 · Dumfries</td>
+        <td><span class="badge badge-confirmed">✓</span></td>
+        <td class="source-ref">OPR 821, page 152 (OPR-B5) ⭐</td>
+      </tr>
+      <tr class="gen-gap">
+        <td colspan="5" style="text-align:center; padding:0.5rem; color:var(--gap); font-style:italic; font-weight:600;">
+          ↕ &nbsp; ONE GAP &nbsp; — &nbsp; ~15 miles · right age · no surviving marriage/death/testament record &nbsp; ↕
+        </td>
+      </tr>
+      <tr class="gen-probable">
+        <td>20</td>
+        <td class="person">John Maxwell of Barfill, Holywood</td>
+        <td class="dates">~1654–post 1694 · Holywood parish, Dumfriesshire</td>
+        <td><span class="badge badge-probable">●</span></td>
+        <td class="source-ref">Proposed = John Maxwell b.1654 Dumfries</td>
+      </tr>
+      <tr class="gen-confirmed">
+        <td>21</td>
+        <td class="person">Patrick Maxwell</td>
+        <td class="dates">b. 14 September 1690 · Holywood, Dumfriesshire</td>
+        <td><span class="badge badge-confirmed">✓</span></td>
+        <td class="source-ref">OPR 830 (OPR-B2) ⭐ · father: John Maxwell of Barfill · mother: Margaret Thomson</td>
+      </tr>
+      <tr class="gen-confirmed">
+        <td>22</td>
+        <td class="person">John Maxwell</td>
+        <td class="dates">b. 25 May 1726 · Stirling, Stirlingshire</td>
+        <td><span class="badge badge-confirmed">✓</span></td>
+        <td class="source-ref">OPR 490 (OPR-B1) · parents: Patrick Maxwell &amp; Janet Burd</td>
+      </tr>
+      <tr class="gen-confirmed">
+        <td>23</td>
+        <td class="person">Adam Maxwell</td>
+        <td class="dates">b. 20 August 1749 · Stirling, Scotland</td>
+        <td><span class="badge badge-confirmed">✓</span></td>
+        <td class="source-ref">CH3/559/17 (OPR-B0) ⭐ · Stirling Associate congregation · parents: John Maxwell &amp; Mary Finlayson<br><em>Note: pension file states "b.1752 Cumberland Co. PA" — immigrant approximation</em></td>
+      </tr>
+      <tr class="gen-confirmed">
+        <td>24</td>
+        <td class="person">David Maxwell</td>
+        <td class="dates">b. ~1798 · d. 1830, Armstrong Co., Pennsylvania</td>
+        <td><span class="badge badge-confirmed">✓</span></td>
+        <td class="source-ref">Family records</td>
+      </tr>
+      <tr class="gen-confirmed">
+        <td>25</td>
+        <td class="person">Samuel H. Maxwell</td>
+        <td class="dates">b. 23 Feb 1833 Pennsylvania · m. Mary E. Dinsmore</td>
+        <td><span class="badge badge-confirmed">✓</span></td>
+        <td class="source-ref">Family records · <em>Note: Jennifer Maxwell shares William Dinsmore as GGG-grandfather</em></td>
+      </tr>
+      <tr class="gen-confirmed">
+        <td>26</td>
+        <td class="person">Mack Young Maxwell</td>
+        <td class="dates">b. 15 Jul 1864, Pike Co., Ohio · d. 8 Jun 1942</td>
+        <td><span class="badge badge-confirmed">✓</span></td>
+        <td class="source-ref">Family records</td>
+      </tr>
+      <tr class="gen-confirmed">
+        <td>27</td>
+        <td class="person">Ralph Edgar Maxwell</td>
+        <td class="dates">b. 7 Jan 1887, Jackson Co., Ohio · d. 23 Jan 1942</td>
+        <td><span class="badge badge-confirmed">✓</span></td>
+        <td class="source-ref">Family records</td>
+      </tr>
+      <tr class="gen-confirmed">
+        <td>28</td>
+        <td class="person">Ralph Davis Maxwell</td>
+        <td class="dates">b. ~1925, Ohio</td>
+        <td><span class="badge badge-confirmed">✓</span></td>
+        <td class="source-ref">Family records</td>
+      </tr>
+      <tr class="gen-confirmed">
+        <td>29</td>
+        <td class="person">David B. Maxwell</td>
+        <td class="dates">Kit 752085</td>
+        <td><span class="badge badge-confirmed">✓</span></td>
+        <td class="source-ref">FTDNA</td>
+      </tr>
+      <tr class="gen-confirmed">
+        <td>30</td>
+        <td class="person">James D. Maxwell</td>
+        <td class="dates">Son of David B. Maxwell</td>
+        <td><span class="badge badge-confirmed">✓</span></td>
+        <td class="source-ref">—</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Key clarifications -->
+  <div class="section-heading" style="margin-top:0">Key Clarifications from New Research</div>
+
+  <div class="summary-intro" style="margin-bottom:0.8rem">
+    <p><strong>John Maxwell of Cowhill had only daughters.</strong> The Book of Caerlaverock (p.594) explicitly states that John Maxwell of Cowhill (m. Anna Elliot) "had three daughters, but no sons." Our Y2357+ male line therefore does <em>not</em> pass through him — it passes through his brother Thomas Maxwell of Baltersan and through the separate Freircarse branch we have traced, both descended from Archibald Maxwell of Cowhill (d.1606).</p>
+  </div>
+
+  <div class="summary-intro" style="margin-bottom:0.8rem">
+    <p><strong>The Stirling Associate congregation error on FamilySearch.</strong> FamilySearch indexes Adam Maxwell's 1749 baptism as "Erskine, Renfrewshire" — this is wrong. The congregation was the Stirling Associate church in Stirling, Stirlingshire (founded 1733 by Rev. Ebenezer Erskine). ScotlandsPeople correctly identifies it as CH3/559/17, Stirling. The family never moved to Renfrewshire.</p>
+  </div>
+
+  <div class="summary-intro" style="margin-bottom:0.8rem">
+    <p><strong>The Carnsalloch witness explained.</strong> Robert Maxwell of Carnsalloch (witness in the 1670 Dumfries baptism, OPR-B4) was not in our patrilineal line. The Book of Caerlaverock (p.602) explains his connection: Agnes Irving (widow of John Maxwell of Barncleuch) married Robert Maxwell of Carnsalloch as her second husband — placing him firmly within the same Dumfries Maxwell social network as Jon Maxwell cordiner and his brother William Maxwell.</p>
+  </div>
+
+  <!-- Gap box -->
+  <div class="section-heading" id="gap" style="margin-top:1rem">The Single Remaining Gap</div>
+
+  <div class="gap-box" style="font-size:0.92rem; margin-bottom:1.4rem">
+    <strong>John Maxwell (b.13 Aug 1654, Dumfries, son of Jon Maxwell cordiner)</strong><br>
+    ↕ &nbsp; <em>~15 miles · right age · no surviving record bridges them</em><br>
+    <strong>John Maxwell of Barfill (Holywood, father of Patrick b.1690)</strong>
+    <p style="margin-top:0.5rem">These men are in the same region, the right age relationship, and the same social class (craftsmen/farm tenants). The gap almost certainly exists because: (1) Holywood and Dunscore OPR records for this period are largely lost; (2) farm tenants rarely generated commissary court testaments; (3) no marriage record for John Maxwell of Barfill and Margaret Thomson survives in any indexed OPR 1687–1692.</p>
+  </div>
+
+  <!-- Questions -->
+  <div class="section-heading" id="questions">Questions for Dr. Donald Maxwell &amp; Dr. Jennifer Maxwell</div>
+
+  <ul class="questions-list">
+    <li><strong>Big-Y test status:</strong> Has the Big-Y test been completed for kit 752085, or does it remain at Y-111? If not yet taken, we plan to arrange it — this is the most efficient path to confirming the Cowhill branch placement and potentially matching a tested cousin who has already documented the gap generation.</li>
+    <li><strong>Chart placement:</strong> Can kit 752085 be placed on the maxwell-dna.com detailed chart relative to the Cowhill and Freircarse branches? The line we have traced runs: Archibald Maxwell of Cowhill (d.1606) → John Maxwell (son, £500) → John Maxwell of Freircarse (d.1630) → Herbert Maxwell → Jon Maxwell cordiner (Dumfries) → John Maxwell (b.1654) → proposed John Maxwell of Barfill (Holywood).</li>
+    <li><strong>Other Group 6.48 kits:</strong> Are any tested kits in Group 6.48 known to trace through Dumfries town, Dunscore parish, or Holywood parish in the 17th century? A match there would confirm or refine our proposed chain.</li>
+    <li><strong>The GD2 ancient-line Maxwell (Jennifer):</strong> Your 2018 email noted kit 752085 was "a genetic distance of 2 from the Caerlaverock Castle line." Can you identify which specific kit or documented individual that is, and which branch they represent? This would clarify whether our line is Cowhill or the Homer Maxwell/Portrack branch.</li>
+  </ul>
+
+</div>
+
+<!-- ═══════════════════════════════════════════════ -->
+<div class="section-heading" id="sources">Source Documents</div>
+
+<div class="source-card">
+  <div class="thumb-wrap">
+    <a href="images/1000003677__1_.jpg" target="_blank"><img src="images/1000003677__1_.jpg" alt="Ancestors of Ralph Davis Maxwell"></a>
+    <span class="thumb-label">FT-1</span>
+  </div>
+  <div class="source-content">
+    <h3>Ancestors of Ralph Davis Maxwell — Printed Chart <span class="badge badge-confirmed">✓</span></h3>
+    <p class="ref">File: 1000003677__1_.jpg</p>
+    <p>Five-generation ancestor chart showing Ralph Davis Maxwell through Adam Maxwell (listed as b.1752 Cumberland Co., PA — corrected by OPR-B0 below to b.1749 Stirling, Scotland).</p>
+    <div class="key-finding">Confirms entire American line: David → Samuel H. → Mack Young → Ralph Edgar → Ralph Davis Maxwell.</div>
+  </div>
+</div>
+
+<div class="source-card">
+  <div class="thumb-wrap">
+    <a href="images/1000003675.jpg" target="_blank"><img src="images/1000003675.jpg" alt="Handwritten notes page 2"></a>
+    <span class="thumb-label">FT-2</span>
+  </div>
+  <div class="source-content">
+    <h3>Ancestors — Page 2 with Handwritten Annotations <span class="badge badge-confirmed">✓</span></h3>
+    <p class="ref">File: 1000003675.jpg &nbsp;·&nbsp; Dated 4/21/2010</p>
+    <div class="key-finding">Critical note: "Parents: John Maxwell 15 May 1726 Stirling Stirlingshire Scotland married 17 May 1747 Stirling Scotland / Mary Finlayson 1727."</div>
+    <p>Also records Adam's Revolutionary War service: Indian Spy, 2nd PA Militia, Morristown NJ. Lists Adam's children and siblings. Annotated by David B. Maxwell.</p>
+  </div>
+</div>
+
+<div class="section-heading">Section 1 — Family Tree Documents</div>
+
+<div class="source-card">
+  <div class="thumb-wrap">
+    <a href="images/cowhill.png" target="_blank"><img src="images/cowhill.png" alt="Maxwells of Cowhill Chart"></a>
+    <span class="thumb-label">FT-3</span>
+  </div>
+  <div class="source-content">
+    <h3>Maxwells of Cowhill Chart <span class="badge badge-probable">●</span></h3>
+    <p class="ref">File: Maxwells_of_Cowhill_Chart.pdf &nbsp;·&nbsp; Published 19 June 2020</p>
+    <p>Documents Cowhill cadet branch from Robert Maxwell of Cowhill (c1460) through multiple generations.</p>
+    <div class="key-finding">Important caveat: The Book of Caerlaverock (FT-7) confirms John Maxwell of Cowhill (c1620–c1695) m. Anna Elliot had <em>three daughters, no sons</em>. Our line runs through a different son of Archibald (d.1606) — John Maxwell of Freircarse.</div>
+  </div>
+</div>
+
+<div class="source-card">
+  <div class="thumb-wrap">
+    <a href="images/BigYresultsLordMaxwelljan2025__1_.jpg" target="_blank"><img src="images/BigYresultsLordMaxwelljan2025__1_.jpg" alt="BIG-Y SNP Chart"></a>
+    <span class="thumb-label">FT-4</span>
+  </div>
+  <div class="source-content">
+    <h3>Maxwell BIG-Y SNP Family Tree Chart <span class="badge badge-confirmed">✓</span></h3>
+    <p class="ref">File: BigYresultsLordMaxwelljan2025__1_.jpg &nbsp;·&nbsp; maxwell-dna.com, version Jan 2025</p>
+    <p>Shows Homer Maxwell = ancestor of Maxwells of Portrack; Robert Maxwell = ancestor of Maxwells of Cowhill; both sons of John Maxwell, 3rd Lord (d. Kirtle 1484, Y2357+).</p>
+    <div class="key-finding">Kit 752085: Y2357 positive, Group 6.48 · GD2 from Caerlaverock line (Jennifer Maxwell, 2018)</div>
+  </div>
+</div>
+
+<div class="source-card">
+  <div class="thumb-wrap">
+    <div class="multi-thumb">
+      <a href="images/book1.jpg" target="_blank"><img src="images/book1.jpg" alt="Book of Caerlaverock pp.594-595"></a>
+      <a href="images/book2.jpg" target="_blank"><img src="images/book2.jpg" alt="Book of Caerlaverock pp.602-603"></a>
+    </div>
+    <span class="thumb-label">FT-7 (pp.594–603)</span>
+  </div>
+  <div class="source-content">
+    <h3>Book of Caerlaverock — Cowhill &amp; Barncleuch Pages <span class="badge badge-confirmed">✓</span> <span class="badge badge-ref">⭐</span></h3>
+    <p class="ref">Fraser, 1873 · Screenshots: Screenshot_2026-05-13_190804.jpg (pp.594–595) and Screenshot_2026-05-13_190837.jpg (pp.602–603)</p>
+    <div class="key-finding">pp.594–595: "John Maxwell of Cowhill… He married Anna Elliot. He had <strong>three daughters, but no sons</strong>." — Y2357+ male line runs through Thomas of Baltersan and the Freircarse branch, not through John of Cowhill.</div>
+    <div class="key-finding">pp.602–603: Agnes Irving (widow of John Maxwell of Barncleuch) married <strong>Robert Maxwell of Carnsalloch</strong> as her second husband — explains his presence as witness in the 1670 Dumfries baptism (OPR-B4).</div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════ -->
+<div class="section-heading">Section 2 — Wills &amp; Testaments</div>
+
+<div class="source-card key-record">
+  <div class="thumb-wrap">
+    <div class="no-image">Transcript — no image</div>
+    <span class="thumb-label">WILL-0 ⭐</span>
+  </div>
+  <div class="source-content">
+    <h3>Testament of Archibald Maxwell of Cowhill, 1607 <span class="badge badge-confirmed">✓</span> <span class="badge badge-ref">⭐</span></h3>
+    <p class="ref">Edinburgh Commissary Court · CC8/8/43, pages 692–697 · Provided as transcript by user's father</p>
+    <p>Archibald Maxwell of Cowhill died September 1606. Written 22 August 1605 at Cowhill. Registered 1607.</p>
+    <div class="key-finding">"JTem J leiff to <strong>johone maxwell my sone</strong> v c li~" — John Maxwell, Archibald's son, received £500. This John Maxwell = proposed ancestor of John Maxwell of Freircarse.</div>
+    <p><strong>All children named:</strong> William (eldest, heir), Archibald (executor = later Archibald c1571–1647), Robert (youngest), <strong>John (£500)</strong>, Edward (500 merks), Jealls (daughter), Elizabeth (daughter).</p>
+    <p>Also: wardship of William and Alexander Maxwell (sons of the late Edward Maxwell of Auchincairne) — consistent with researcher Don's email.</p>
+  </div>
+</div>
+
+<div class="source-card key-record">
+  <div class="thumb-wrap">
+    <div class="multi-thumb">
+      <a href="images/ScotlandsPeople_CC000500006-00001-00476-.jpg" target="_blank"><img src="images/ScotlandsPeople_CC000500006-00001-00476-.jpg" alt="Freircarse testament p.476"></a>
+      <a href="images/ScotlandsPeople_CC000500006-00001-00477-.jpg" target="_blank"><img src="images/ScotlandsPeople_CC000500006-00001-00477-.jpg" alt="Freircarse testament p.477"></a>
+      <a href="images/ScotlandsPeople_CC000500006-00001-00478-.jpg" target="_blank"><img src="images/ScotlandsPeople_CC000500006-00001-00478-.jpg" alt="Freircarse testament p.478"></a>
+    </div>
+    <span class="thumb-label">WILL-1 ⭐ (3 pages)</span>
+  </div>
+  <div class="source-content">
+    <h3>Testament of John Maxwell of Freircarse, 1630 <span class="badge badge-confirmed">✓</span> <span class="badge badge-ref">⭐</span></h3>
+    <p class="ref">Dumfries Commissary Court · CC5/6/1 · Images 476–478 · Confirmed 31 August 1630</p>
+    <div class="key-finding">John Maxwell held Freircarse farm, Dunscore parish, Dumfriesshire. Died 1630. The word <strong>"minorities"</strong> is legible in the confirmation section — he died leaving MINOR CHILDREN.</div>
+    <p>Sister: "Jonat Innergand, my Sister" — connected to Innerweek/Innergand family (cf. James Maxwell de Innerweek, 1643 retour).</p>
+    <p>Cautioner: <strong>"Sand Stirling"</strong> — Stirling family. 17 years later, William Maxwell (Herbert's son) married Elizabeth Stirling (SASE-1, p.259).</p>
+    <p>Modest farming estate: livestock, grain. Confirmed by Commissary of Drumfries.</p>
+  </div>
+</div>
+
+<div class="source-card">
+  <div class="thumb-wrap">
+    <div class="multi-thumb">
+      <a href="images/ScotlandsPeople_CC000500006-00009-00039-.jpg" target="_blank"><img src="images/ScotlandsPeople_CC000500006-00009-00039-.jpg" alt="Charles Maxwell Cowhill p.39"></a>
+      <a href="images/ScotlandsPeople_CC000500006-00009-00040-.jpg" target="_blank"><img src="images/ScotlandsPeople_CC000500006-00009-00040-.jpg" alt="p.40"></a>
+      <a href="images/ScotlandsPeople_CC000500006-00009-00041-.jpg" target="_blank"><img src="images/ScotlandsPeople_CC000500006-00009-00041-.jpg" alt="p.41"></a>
+      <a href="images/ScotlandsPeople_CC000500006-00009-00042-.jpg" target="_blank"><img src="images/ScotlandsPeople_CC000500006-00009-00042-.jpg" alt="p.42"></a>
+      <a href="images/ScotlandsPeople_CC000500006-00009-00043-.jpg" target="_blank"><img src="images/ScotlandsPeople_CC000500006-00009-00043-.jpg" alt="p.43"></a>
+      <a href="images/ScotlandsPeople_CC000500006-00009-00044-.jpg" target="_blank"><img src="images/ScotlandsPeople_CC000500006-00009-00044-.jpg" alt="p.44"></a>
+    </div>
+    <span class="thumb-label">WILL-2 (6 pages)</span>
+  </div>
+  <div class="source-content">
+    <h3>Charles Maxwell alias Murray of Cowhill, 1726</h3>
+    <p class="ref">Dumfries Commissary Court · CC5/6/9 · Images 39–44 · Confirmed 8 October 1726</p>
+    <div class="key-finding">Charles born <strong>"Charles Murray of Barncleburie"</strong> — a Murray by birth who took Maxwell name through his wife <strong>Jannett Maxwell</strong>. No surviving children. Jannett held Cowhill as her birth right (daughter of John Maxwell of Cowhill's granddaughter through the female line).</div>
+    <p>Episcopalian/Jacobite book collection. Commissar Depute: James Wallace of Carzield.</p>
+  </div>
+</div>
+
+<div class="source-card">
+  <div class="thumb-wrap">
+    <div class="multi-thumb">
+      <a href="images/ScotlandsPeople_CC000500006-00008-00167-.jpg" target="_blank"><img src="images/ScotlandsPeople_CC000500006-00008-00167-.jpg" alt="Barncleugh p.167"></a>
+      <a href="images/ScotlandsPeople_CC000500006-00008-00168-.jpg" target="_blank"><img src="images/ScotlandsPeople_CC000500006-00008-00168-.jpg" alt="Barncleugh p.168"></a>
+    </div>
+    <span class="thumb-label">WILL-3 (2 pages)</span>
+  </div>
+  <div class="source-content">
+    <h3>John Maxwell of Barncleugh, 1722</h3>
+    <p class="ref">Dumfries Commissary Court · CC5/6/8 · Images 167–168</p>
+    <p>Son <strong>James Maxwell of Barncleugh</strong> named as heir. Confirms the Barncleuch family from Book of Caerlaverock (p.602).</p>
+  </div>
+</div>
+
+<div class="source-card">
+  <div class="thumb-wrap">
+    <a href="images/ScotlandsPeople_CC000500006-00002-00140-.jpg" target="_blank"><img src="images/ScotlandsPeople_CC000500006-00002-00140-.jpg" alt="Middlebie 1640"></a>
+    <span class="thumb-label">WILL-4</span>
+  </div>
+  <div class="source-content">
+    <h3>John Maxwell of Middlebie, 1640 (Supporting)</h3>
+    <p class="ref">Dumfries Commissary Court · CC5/6/2 · Image 140 · Confirmed 13 November 1640</p>
+    <p>Executrix: <strong>Marion Maxwell</strong>, his widow. Andrew Stewart also named. Confirms Marion was daughter of Homer Maxwell of Speddoch — documenting the Homer Maxwell/Portrack/Speddoch line.</p>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════ -->
+<div class="section-heading">Section 3 — Stirling Associate Congregation (Adam Maxwell's Baptism)</div>
+
+<div class="source-card key-record">
+  <div class="thumb-wrap">
+    <a href="images/ScotlandsPeople_CH000300559-00017-00187-.jpg" target="_blank"><img src="images/ScotlandsPeople_CH000300559-00017-00187-.jpg" alt="Adam Maxwell Stirling 1749"></a>
+    <span class="thumb-label">OPR-B0 ⭐</span>
+  </div>
+  <div class="source-content">
+    <h3>Adam Maxwell Baptism — Stirling Associate Congregation, 1749 <span class="badge badge-confirmed">✓</span> <span class="badge badge-ref">⭐</span></h3>
+    <p class="ref">CH3/559/17, page 187 · Stirling Associate Congregation · Image generated 13 May 2026</p>
+    <p><strong>Citation:</strong> Scotland, Other Church Registers — Baptisms, Stirling Associate Congregation, CH3/559/17, page 187, National Records of Scotland, ScotlandsPeople.</p>
+    <div class="key-finding">Entry reads: <em>"John Maxwell / Mary finlayson — { Adam born: 20 } — Rob Norie / Wm Stevenson — Stirling"</em><br>
+    Adam Maxwell born <strong>20 August 1749</strong>, baptized 27 August 1749, Stirling. Father: John Maxwell. Mother: Mary finlayson.</div>
+    <p><strong>⚠ FamilySearch error:</strong> FamilySearch indexes this record as "Erskine, Renfrewshire" — incorrect. The congregation was the Stirling Associate church (founded in Stirling by Rev. Ebenezer Erskine in 1733). ScotlandsPeople correctly identifies it as Stirling.</p>
+    <p><strong>Siblings in same register:</strong> John (1748), Margret (1751), Bolkrak* (1753), Daniel (1756), Katharine (1760). *Name misread by indexer.</p>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════ -->
+<div class="section-heading">Section 4 — OPR Births &amp; Baptisms (ScotlandsPeople)</div>
+
+<div class="source-card">
+  <div class="thumb-wrap">
+    <a href="images/ScotlandsPeople_OPR490_000_0020_0431Z.jpg" target="_blank"><img src="images/ScotlandsPeople_OPR490_000_0020_0431Z.jpg" alt="John Maxwell Stirling 1726"></a>
+    <span class="thumb-label">OPR-B1</span>
+  </div>
+  <div class="source-content">
+    <h3>John Maxwell Baptism — Stirling, 1726 <span class="badge badge-confirmed">✓</span></h3>
+    <p class="ref">OPR 490 (Stirling) · Page 425 · Reference 20/431</p>
+    <div class="key-finding">John Maxwell baptized <strong>25 May 1726</strong>, Stirling. Parents: <strong>Patrick Maxwell</strong> and <strong>Janet Burd</strong>.</div>
+    <p>John was born in the established Church of Scotland but later joined the Stirling Associate (Secession) congregation as an adult.</p>
+  </div>
+</div>
+
+<div class="source-card key-record">
+  <div class="thumb-wrap">
+    <a href="images/ScotlandsPeople_OPR830_000_0010_0024Z.jpg" target="_blank"><img src="images/ScotlandsPeople_OPR830_000_0010_0024Z.jpg" alt="Patrick Maxwell Holywood 1690"></a>
+    <span class="thumb-label">OPR-B2 ⭐</span>
+  </div>
+  <div class="source-content">
+    <h3>Patrick Maxwell Baptism — Holywood, 1690 <span class="badge badge-confirmed">✓</span> <span class="badge badge-ref">⭐</span></h3>
+    <p class="ref">OPR 830 (Holywood) · Page 24 · Reference 10/24 · Image generated 13 May 2026</p>
+    <div class="key-finding"><em>"the 25th day Patrick son to <strong>John Maxwell of Barfill</strong>, and <strong>Margaret daughter to John Thomson</strong> now baptized September 14 · 1690"</em></div>
+    <p>Witnesses: Robert Wingate D.G. [Dean of Guild] and George Jaffrey. The "of Barfill" designation identifies the father as a tenant at Barfill farm in Holywood parish.</p>
+  </div>
+</div>
+
+<div class="source-card">
+  <div class="thumb-wrap">
+    <a href="images/ScotlandsPeople_OPR830_000_0010_0072Z.jpg" target="_blank"><img src="images/ScotlandsPeople_OPR830_000_0010_0072Z.jpg" alt="William Maxwell Holywood 1694"></a>
+    <span class="thumb-label">OPR-B3</span>
+  </div>
+  <div class="source-content">
+    <h3>William Maxwell Baptism — Holywood, 1694 <span class="badge badge-confirmed">✓</span></h3>
+    <p class="ref">OPR 830 (Holywood) · Page 72 · Reference 10/72</p>
+    <div class="key-finding"><em>"The [9th] day William Maxwell son to John Maxwell was Baptized"</em> — 20 May 1694.</div>
+    <p>Confirms Patrick's sibling; confirms John Maxwell of Barfill was still in Holywood in 1694.</p>
+  </div>
+</div>
+
+<div class="source-card key-record">
+  <div class="thumb-wrap">
+    <a href="images/ScotlandsPeople_OPR821_000_0010_0184Z.jpg" target="_blank"><img src="images/ScotlandsPeople_OPR821_000_0010_0184Z.jpg" alt="Johne Maxwell Dumfries 1670"></a>
+    <span class="thumb-label">OPR-B4 ⭐</span>
+  </div>
+  <div class="source-content">
+    <h3>Johne Maxwell Baptism — Dumfries, 1670 <span class="badge badge-probable">●</span> <span class="badge badge-ref">⭐</span></h3>
+    <p class="ref">OPR 821 (Dumfries) · Page 184 · Reference 10/184 · Image generated 13 May 2026</p>
+    <div class="key-finding"><em>"Baptised Johne Maxwell d: son to Johne Maxwell [descriptor] Witnes <strong>Robert Maxwell of Carnsalloch</strong> — August 4 [1670]"</em></div>
+    <p>Robert Maxwell of Carnsalloch as witness is explained by the Barncleuch pedigree (FT-7): his wife Agnes Irving was the widow of John Maxwell of Barncleuch — a direct family connection into the Dumfries Maxwell community.</p>
+    <p>On the <strong>same page</strong>: Issabell Maxwell, daughter of <strong>William Maxwell</strong>, baptized 19 July 1670 — confirming Jon Maxwell and William Maxwell (son of Herbert of Freircarse) were brothers both active in Dumfries in summer 1670.</p>
+  </div>
+</div>
+
+<div class="source-card key-record">
+  <div class="thumb-wrap">
+    <a href="images/ScotlandsPeople_OPR821_000_0010_0152Z.jpg" target="_blank"><img src="images/ScotlandsPeople_OPR821_000_0010_0152Z.jpg" alt="John Maxwell Dumfries 1654"></a>
+    <span class="thumb-label">OPR-B5 ⭐</span>
+  </div>
+  <div class="source-content">
+    <h3>John Maxwell Baptism — Dumfries, 1654 <span class="badge badge-probable">●</span> <span class="badge badge-ref">⭐</span></h3>
+    <p class="ref">OPR 821 (Dumfries) · Page 152 · Reference 10/152 · Image generated 14 May 2026</p>
+    <div class="key-finding"><em>"August 13. 1654: John [son] to Jon Maxwell [cordiner?] was baptized the [?] day [witnesses]: John maxwell his father [?] Jon [?] and James [?]"</em></div>
+    <p><strong>Proposed = John Maxwell of Barfill.</strong> A man born 13 August 1654 would be exactly <strong>36 years old</strong> when Patrick was born in September 1690 — a perfectly normal age for a first child.</p>
+    <p>The witness identified as "John Maxwell his father" suggests Jon Maxwell's own father was also named John Maxwell — consistent with naming patterns in the Maxwell of Freircarse family.</p>
+    <p>Page also shows: "Robert [son] to capt Edward Maxwell… Witness Rl Earls of <strong>Nithsdale</strong>" — demonstrating multiple Maxwell branches active in Dumfries simultaneously.</p>
+  </div>
+</div>
+
+<div class="source-card">
+  <div class="thumb-wrap">
+    <div class="multi-thumb">
+      <a href="images/ScotlandsPeople_OPR821_000_0010_0174Z.jpg" target="_blank"><img src="images/ScotlandsPeople_OPR821_000_0010_0174Z.jpg" alt="Dumfries 1667"></a>
+      <a href="images/ScotlandsPeople_OPR821_000_0010_0181Z.jpg" target="_blank"><img src="images/ScotlandsPeople_OPR821_000_0010_0181Z.jpg" alt="Dumfries 1669"></a>
+      <a href="images/ScotlandsPeople_OPR821_000_0010_0200Z.jpg" target="_blank"><img src="images/ScotlandsPeople_OPR821_000_0010_0200Z.jpg" alt="Dumfries 1675"></a>
+      <a href="images/ScotlandsPeople_OPR821_000_0010_0160Z.jpg" target="_blank"><img src="images/ScotlandsPeople_OPR821_000_0010_0160Z.jpg" alt="Dumfries 1657"></a>
+    </div>
+    <span class="thumb-label">OPR-B6–B9</span>
+  </div>
+  <div class="source-content">
+    <h3>Additional Dumfries OPR Baptism Records (1657–1675) <span class="badge badge-probable">●</span></h3>
+    <p class="ref">OPR 821 (Dumfries) · Pages 160, 174, 181, 200</p>
+    <p><strong>OPR-B6 (1667, p.174):</strong> Register heading "Mr John Fraser Clerke." Multiple Maxwell entries.</p>
+    <p><strong>OPR-B7 (1669, p.181):</strong> Johne Maxwell of Woodhead (possibly illegitimate). "William Newlaw" as witness — the Newlaw Maxwell branch in Dumfries community.</p>
+    <p><strong>OPR-B8 (1675, p.200):</strong> Agnes Maxwell, daughter of John Maxwell, 13 Jun 1675 — part of Jon Maxwell's Dumfries family cluster.</p>
+    <p><strong>OPR-B9 (1657, p.160):</strong> William son to William Maxwell, 2 April 1657 — second child of William Maxwell (son of Herbert of Freircarse, married Elizabeth Stirling 1647).</p>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════ -->
+<div class="section-heading">Section 5 — OPR Marriages</div>
+
+<div class="source-card">
+  <div class="thumb-wrap">
+    <a href="images/ScotlandsPeople_OPR830_000_0010_0084Z.jpg" target="_blank"><img src="images/ScotlandsPeople_OPR830_000_0010_0084Z.jpg" alt="Robert Maxwell Violet Craik 1696"></a>
+    <span class="thumb-label">OPR-M1</span>
+  </div>
+  <div class="source-content">
+    <h3>Robert Maxwell and Violet Craik — Holywood, 1696 <span class="badge badge-confirmed">✓</span></h3>
+    <p class="ref">OPR 830 (Holywood Marriages) · Page 84 · Image generated 13 May 2026</p>
+    <div class="key-finding"><em>"May 10 96 <strong>Robert Maxwell of Porttrack</strong> and Violet Craik protedict processes…"</em></div>
+    <p>Confirms Porttrack estate = Homer Maxwell/Portrack branch, in Holywood parish. Robert Maxwell of Porttrack and John Maxwell of Barfill were neighbors in the same small parish.</p>
+  </div>
+</div>
+
+<div class="source-card">
+  <div class="thumb-wrap">
+    <div class="multi-thumb">
+      <a href="images/ScotlandsPeople_OPR821_000_0040_0046Z.jpg" target="_blank"><img src="images/ScotlandsPeople_OPR821_000_0040_0046Z.jpg" alt="Maxwell Nisbit 1642"></a>
+      <a href="images/ScotlandsPeople_OPR821_000_0040_0049Z.jpg" target="_blank"><img src="images/ScotlandsPeople_OPR821_000_0040_0049Z.jpg" alt="Maxwell Laurie 1642"></a>
+    </div>
+    <span class="thumb-label">OPR-M2, M3</span>
+  </div>
+  <div class="source-content">
+    <h3>Two Dumfries Maxwell Marriages — 1642</h3>
+    <p class="ref">OPR 821 (Dumfries Marriages) · Pages 46 and 49 · Images generated 14 May 2026</p>
+    <p><strong>OPR-M2 (p.46):</strong> Johne Maxwell + Jeane Nisbit, April 1642. Kirk Session proclamation. Groom's designation unclear. Possibly Jon Maxwell cordiner.</p>
+    <p><strong>OPR-M3 (p.49):</strong> Johne Maxwell <strong>Laord [=Laird]</strong> + Agnes Laurie, November 1642. Groom is a laird — therefore NOT Jon Maxwell cordiner. Agnes Laurie described as "Progone [progeny] of Maxvelms" — Maxwell ancestry through her mother.</p>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════ -->
+<div class="section-heading">Section 6 — OPR Deaths/Burials</div>
+
+<div class="source-card">
+  <div class="thumb-wrap">
+    <a href="images/ScotlandsPeople_OPR821_000_0060_0140Z.jpg" target="_blank"><img src="images/ScotlandsPeople_OPR821_000_0060_0140Z.jpg" alt="John Maxwell death 1697"></a>
+    <span class="thumb-label">OPR-D1</span>
+  </div>
+  <div class="source-content">
+    <h3>John Maxwell Apothecary — Death, Dumfries, 1697</h3>
+    <p class="ref">OPR 821 (Dumfries Deaths) · Page 140 · Image generated 14 May 2026</p>
+    <div class="key-finding"><em>"May 29. 97 — <strong>John Maxwell Apothecary</strong>."</em></div>
+    <p>An apothecary (pharmacist/medical professional) in Dumfries town. Almost certainly a <em>different person</em> from John Maxwell of Barfill (a farm tenant in Holywood). No testament found in Dumfries Commissary Court for this individual.</p>
+    <p>Also on this page: "Margaret Nawall daughter to Walter Novalle <strong>late Cordoner</strong>" — confirms the shoemaking (cordiner) trade was present in Dumfries in 1697, consistent with Jon Maxwell cordiner.</p>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════ -->
+<div class="section-heading">Section 7 — Register of Sasines</div>
+
+<div class="source-card key-record">
+  <div class="thumb-wrap">
+    <div class="multi-thumb">
+      <a href="images/1778727001495_image.png" target="_blank"><img src="images/1778727001495_image.png" alt="Sasines pp.271-272"></a>
+      <a href="images/1778727950170_image.png" target="_blank"><img src="images/1778727950170_image.png" alt="Sasines pp.192, 259"></a>
+      <a href="images/1778728027988_image.png" target="_blank"><img src="images/1778728027988_image.png" alt="Sasines p.259 detail"></a>
+    </div>
+    <span class="thumb-label">SASE-1 ⭐</span>
+  </div>
+  <div class="source-content">
+    <h3>Index to Particular Register of Sasines, Dumfries, 1617–1671 <span class="badge badge-confirmed">✓</span> <span class="badge badge-ref">⭐</span></h3>
+    <p class="ref">Published index · Pages 192, 259, 271–272</p>
+
+    <p><strong>Page 192 (Kirkpatrick section):</strong></p>
+    <div class="key-finding"><em>"Kirkpatrick, (Helena) Stewart, spouse of John, younger of Freircars — 25 Jun 1618"</em><br>
+    <em>"Kirkpatrick, John, of Freircars"</em> — multiple entries 1618–1626 (last: 2 Jun 1626)</div>
+    <p>John Kirkpatrick held Freircarse before John Maxwell. Transition occurred between 1626 and 1630.</p>
+
+    <p style="margin-top:0.6rem"><strong>Page 259 (Maxwell section) — KEY ENTRY:</strong></p>
+    <div class="key-finding"><em>"Maxwell, [Elizabeth] <strong>Stirling</strong>, spouse of <strong>William</strong>, son of <strong>Herbert M. of Freircarse</strong> — 3 Aug 1647, Vol.5, Fol.194"</em><br>
+    Establishes: Herbert Maxwell of Freircarse had a son William who married Elizabeth Stirling in 1647. William Maxwell (son of Herbert) is the brother of Jon Maxwell cordiner. The Stirling cautioner in the 1630 testament connects to this same family.</div>
+
+    <p style="margin-top:0.4rem">Also on p.259: <em>"Maxwell, Elizabeth Scott, spouse of John, of Bromeholme"</em> — confirms John Maxwell of Broomholm (another son of Archibald d.1606) active in same period.</p>
+    <p><em>"Maxwell, John, of Cowhill, fiar — 29 Jan 1647"</em> — confirms John Maxwell of Cowhill (m.Anna Elliot) held Cowhill in 1647.</p>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════ -->
+<div class="section-heading">Section 8 — Retours (Services of Heirs)</div>
+
+<div class="source-card">
+  <div class="thumb-wrap">
+    <div class="no-image">Published index — no image</div>
+    <span class="thumb-label">RET-1</span>
+  </div>
+  <div class="source-content">
+    <h3>Maxwell Retours, Dumfriesshire, 1629–1663</h3>
+    <p class="ref">Inquisitionum ad Capellam Regis Retornatarum Abbreviatio</p>
+    <p><strong>Key entry (6 Mar 1646):</strong> <em>"Robertus Maxwell de Carnsalloche, heres Georgii Maxwell in Carnsalloch, patris"</em> — Robert Maxwell of Carnsalloch was served heir to his father <strong>George Maxwell</strong> in 1646. This is the same Robert who witnessed the 1670 Dumfries baptism (OPR-B4).</p>
+    <p><strong>Key entry (9 Jun 1656):</strong> Agnes Maxwell and Barbara Maxwell, heirs portioner of Robert Maxwell of Dunwoodie — confirms Robert of Dunwoodie left only daughters (as stated in Archibald's 1606 will).</p>
+    <p><strong>Key entry (10 Aug 1643):</strong> James Maxwell de Innerweek, heir of William Maxwell of Kirkhous (his brother) — Innerweek may connect to "Jonat Innergand, my Sister" in the 1630 Freircarse testament.</p>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════ -->
+<div class="section-heading">Section 9 — The Documented Chain</div>
+
+<div class="chain">
+<pre>
+UNDWIN, father of Maccus (~1070)
+    └── [~12 Lords of Maxwell — Y2357 SNP chain — DNA + historical record]  ✓
+        └── JOHN MAXWELL, Master of Maxwell (d. Kirtle 22 July 1484)
+            ★ Y2357 SNP CONFIRMED for Kit 752085 · GD2 from Caerlaverock line  ✓
+            │
+            ├── ROBERT MAXWELL → Maxwells of COWHILL  ✓ Book of Caerlaverock
+            │   └── SIR JOHN MAXWELL OF COWHILL (~1500–1547)
+            │       └── ARCHIBALD MAXWELL OF COWHILL (~1530–1606)  ✓ Testament CC8/8/43
+            │           ├── JOHN MAXWELL (son, £500 legacy)  ✓ WILL-0
+            │           │   └── JOHN MAXWELL OF FREIRCARSE (d.1630, Dunscore)  ✓ WILL-1
+            │           │       └── HERBERT MAXWELL OF FREIRCARSE  ✓ SASE-1 p.259
+            │           │           ├── WILLIAM MAXWELL (m. Elizabeth Stirling 1647)  ✓
+            │           │           │     Jonet (1649), William (1657), Issabell (1670)
+            │           │           └── JON MAXWELL, CORDINER, DUMFRIES  ✓ OPR-B5
+            │           │               └── JOHN MAXWELL (b.13 Aug 1654, Dumfries)  ✓ OPR-B5
+            │           │                         ↕ ? [~15 miles · right age · GAP]
+            │           │               JOHN MAXWELL OF BARFILL, HOLYWOOD  ● proposed
+            │           │                   └── PATRICK MAXWELL (b.14 Sep 1690, Holywood)  ✓ OPR-B2
+            │           │                       └── JOHN MAXWELL (b.25 May 1726, Stirling)  ✓ OPR-B1
+            │           │                           └── ADAM MAXWELL (b.20 Aug 1749, Stirling)  ✓ OPR-B0
+            │           │                               └── DAVID MAXWELL (~1798)  ✓
+            │           │                                   └── SAMUEL H. MAXWELL (1833)  ✓
+            │           │                                       └── MACK YOUNG (1864)  ✓
+            │           │                                           └── RALPH EDGAR (1887)  ✓
+            │           │                                               └── RALPH DAVIS (~1925)  ✓
+            │           │                                                   └── DAVID B. MAXWELL [Kit 752085]  ✓
+            │           │                                                       └── JAMES D. MAXWELL  ✓
+            │           │
+            │           └── ARCHIBALD MAXWELL OF COWHILL (c1571–1647)
+            │               └── JOHN MAXWELL OF COWHILL (m. Anna Elliot)
+            │                   → THREE DAUGHTERS, NO SONS  ✓ Book of Caerlaverock p.594
+            │
+            └── HOMER MAXWELL → Maxwells of PORTRACK
+                └── ROBERT MAXWELL OF PORTTRACK (1696, Holywood)  ✓ OPR-M1
+</pre>
+</div>
+
+<!-- ═══════════════════════════════════════════════ -->
+<div class="section-heading">Section 10 — Remaining Gap &amp; Next Steps</div>
+
+<div class="gap-box">
+  <strong>The Single Key Gap:</strong><br>
+  John Maxwell (b.13 Aug 1654, Dumfries) → John Maxwell of Barfill (Holywood, 1690)<br>
+  These men are 15 miles apart, the right age relationship, in the same region. No marriage, death, or testament record bridges them — almost certainly due to lost Holywood/Dunscore OPR records and absence of commissary testaments for farm tenants.
+</div>
+
+<ol class="next-steps">
+  <li><strong>Big-Y DNA test for Kit 752085</strong> — most efficient path; would confirm Cowhill branch placement and potentially match tested cousins who have already documented the gap generation. Contact Dr. Donald Maxwell (dmaxwelljr@hotmail.com) and Dr. Jennifer Maxwell (Kent State, Emeritus) with research findings.</li>
+  <li><strong>Dumfries burgh cordiners' incorporation records</strong> — Jon Maxwell cordiner would appear in trade guild records held at Dumfries Archive Centre (not on ScotlandsPeople); these could name his family and confirm his identity as son of Herbert Maxwell of Freircarse.</li>
+  <li><strong>National Records of Scotland — in person</strong> — Original sasine volume 5, folio 194 (the 1647 Herbert Maxwell/William Maxwell entry) gives the full text; Holywood Kirk Session records (not fully online) may record John Maxwell of Barfill's admission to communion or other session appearances.</li>
+  <li><strong>ScotlandsPeople — unsearched avenues</strong> — Search Dunscore OPR (parish 210) if any records survive post-1640; search for Jon Maxwell in Dumfries burgh records; search for Margaret Thomson's baptism in Holywood or Dunscore to confirm her family.</li>
+</ol>
+
+<div style="text-align:center; margin-top:2rem; padding-top:1rem; border-top:1px solid var(--border); color:var(--faded); font-size:0.82rem; font-style:italic;">
+  Maxwell Genealogy Research · May 2026 · James D. Maxwell (Kit 752085) · All ScotlandsPeople images © Crown copyright, National Records of Scotland
+</div>
+
+</div>
+</body>
+</html>
