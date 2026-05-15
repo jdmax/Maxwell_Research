@@ -14,7 +14,9 @@
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body { font-family:'EB Garamond',Georgia,serif; font-size:15px; line-height:1.6; background:var(--parchment); color:var(--ink); padding:2rem 1rem; }
   .page { max-width:960px; margin:0 auto; }
-  header { text-align:center; border-top:3px double var(--border); border-bottom:3px double var(--border); padding:1.5rem 1rem; margin-bottom:2rem; background:var(--aged); }
+  header { display:flex; align-items:center; justify-content:center; border-top:3px double var(--border); border-bottom:3px double var(--border); padding:1.5rem 1rem; margin-bottom:2rem; background:var(--aged); }
+  header img.crest { height:110px; width:auto; margin-right:1.2rem; flex-shrink:0; }
+  header .header-text { text-align:center; }
   header h1 { font-family:'Cinzel',serif; font-size:1.9rem; font-weight:600; letter-spacing:0.04em; color:var(--rust); margin-bottom:0.4rem; }
   header p { color:var(--faded); font-style:italic; font-size:0.95rem; }
   .legend { display:flex; flex-wrap:wrap; gap:1rem; margin-bottom:2rem; padding:0.8rem 1.2rem; background:var(--aged); border:1px solid var(--border); border-radius:3px; font-size:0.88rem; }
@@ -86,9 +88,12 @@
 <div class="page">
 
 <header>
-  <h1>Maxwell Genealogy</h1>
-  <p>Research Summary &amp; Source Document Inventory &nbsp;·&nbsp; May 2026</p>
-  <p style="margin-top:0.3rem">FTDNA Kit 752085 &nbsp;·&nbsp; David B. Maxwell &amp; James D. Maxwell</p>
+  <img src="crest.png" alt="Maxwell crest" class="crest">
+  <div class="header-text">
+    <h1>Maxwell Genealogy</h1>
+    <p>Research Summary &amp; Source Document Inventory &nbsp;·&nbsp; May 2026</p>
+    <p style="margin-top:0.3rem">FTDNA Kit 752085 &nbsp;·&nbsp; David B. Maxwell &amp; James D. Maxwell</p>
+  </div>
 </header>
 
 <nav class="site-nav">
@@ -113,8 +118,8 @@
 <div class="summary-section">
 
   <div class="summary-intro">
-    <p>I am <strong>James D. Maxwell</strong>, son of <strong>David B. Maxwell</strong> (FTDNA kit 752085). Following up on your 2018 and 2026 correspondence, I have conducted extensive research using ScotlandsPeople, the Dumfries Register of Sasines, Dumfries Commissary Court testaments, the Register of the Privy Council of Scotland (1684), and the Book of Caerlaverock.</p>
-    <p>Based on Don's updated chart placing kit 752085 on the <strong>James Maxwell of Auchincairn</strong> branch (brother of Sir John Maxwell of Cowhill), and the discovery of two testaments confirming sons of this line in south Dumfriesshire in the 1620s–1630s, I now believe the line runs through the Auchincairn branch rather than through Archibald of Cowhill's direct descendants. The American chain is fully documented. One generational gap remains between the confirmed John Maxwells (sons of Alexander/Edward of the Auchincairn line) and John Maxwell of Barfill who fathered Patrick in 1690.</p>
+    <p>I am <strong>James D. Maxwell</strong>, son of <strong>David B. Maxwell</strong> (FTDNA kit 752085). I have been conducting research, mostly using ScotlandsPeople, the Dumfries Register of Sasines, Dumfries Commissary Court testaments, the Register of the Privy Council of Scotland (1684), and the Book of Caerlaverock.</p>
+    <p>Based on <a href="http://maxwell-dna.com/">Donald Maxwell's research</a> placing kit 752085 on the <strong>James Maxwell of Auchincairn</strong> branch (brother of Sir John Maxwell of Cowhill), and the discovery of two testaments confirming sons of this line in south Dumfriesshire in the 1620s–1630s, I now believe the line runs through the Auchincairn branch rather than through Archibald of Cowhill's direct descendants. The American chain is fully documented. One generational gap remains between the confirmed John Maxwells (sons of Alexander/Edward of the Auchincairn line) and John Maxwell of Barfill who fathered Patrick in 1690.</p>
     <p>This page summarises the research and links to every original source image.</p>
   </div>
 
