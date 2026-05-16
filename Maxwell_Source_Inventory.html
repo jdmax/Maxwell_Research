@@ -14,7 +14,7 @@
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body { font-family:'EB Garamond',Georgia,serif; font-size:15px; line-height:1.6; background:var(--parchment); color:var(--ink); padding:2rem 1rem; }
   .page { max-width:960px; margin:0 auto; }
-  header { text-align:center; border-top:3px double var(--border); border-bottom:3px double var(--border); padding:1.5rem 1rem; margin-bottom:0.6rem; background:var(--aged); }
+  header { text-align:center; border-top:3px double var(--border); border-bottom:3px double var(--border); padding:1.5rem 1rem; margin-bottom:2rem; background:var(--aged); }
   header h1 { font-family:'Cinzel',serif; font-size:1.9rem; font-weight:600; letter-spacing:0.04em; color:var(--rust); margin-bottom:0.4rem; }
   header p { color:var(--faded); font-style:italic; font-size:0.95rem; }
   .legend { display:flex; flex-wrap:wrap; gap:1rem; margin-bottom:2rem; padding:0.8rem 1.2rem; background:var(--aged); border:1px solid var(--border); border-radius:3px; font-size:0.88rem; }
@@ -46,7 +46,7 @@
   .chain pre { font-family:'EB Garamond',Georgia,serif; font-size:0.82rem; line-height:1.7; white-space:pre; color:var(--ink); }
   .gap-box { background:#fdf3f3; border:1px solid #e0a0a0; border-left:4px solid var(--gap); padding:0.8rem 1rem; margin:1rem 0; border-radius:3px; font-size:0.9rem; }
   .next-steps { counter-reset:steps; list-style:none; padding:0; }
-  .next-steps li { counter-increment:steps; padding:0.5rem 0.5rem 0.5rem 2.5rem; position:relative; font-size:0.9rem; }
+  .next-steps li { counter-increment:steps; padding:0.5rem 0.5rem 0.5rem 2.5rem; position:relative; border-bottom:1px dotted var(--border); font-size:0.9rem; }
   .next-steps li::before { content:counter(steps); position:absolute; left:0.5rem; top:0.5rem; width:1.4rem; height:1.4rem; background:var(--rust); color:white; border-radius:50%; display:flex; align-items:center; justify-content:center; font-family:'Cinzel',serif; font-size:0.75rem; font-weight:600; }
   .site-nav { display:flex; flex-wrap:wrap; gap:0.5rem 1.2rem; margin-bottom:0; padding:0.6rem 1rem; background:var(--aged); border:1px solid var(--border); border-radius:3px; font-size:0.83rem; }
   .site-nav a { color:var(--rust); text-decoration:none; }
@@ -74,7 +74,8 @@
   .chain-table .dates { color:var(--faded); font-style:italic; font-size:0.83rem; }
   .chain-table .source-ref { font-size:0.78rem; color:#3a5a8a; }
   .questions-list { list-style:none; padding:0; counter-reset:q; }
-  .questions-list li { counter-increment:q; padding:0.6rem 0.6rem 0.6rem 2.6rem; position:relative; font-size:0.9rem; }
+  .questions-list li { counter-increment:q; padding:0.6rem 0.6rem 0.6rem 2.6rem; position:relative; border-bottom:1px dotted var(--border); font-size:0.9rem; }
+  .questions-list li:last-child { border-bottom:none; }
   .questions-list li::before { content:'Q' counter(q); position:absolute; left:0.5rem; top:0.6rem; background:var(--gold); color:white; font-family:'Cinzel',serif; font-size:0.7rem; font-weight:600; padding:0.1em 0.35em; border-radius:2px; }
   .no-image { width:120px; height:90px; background:var(--aged); border:1px dashed var(--border); border-radius:2px; display:flex; align-items:center; justify-content:center; color:var(--faded); font-size:0.7rem; text-align:center; padding:0.5rem; }
   .src-link { color:var(--rust); text-decoration:none; font-weight:600; font-family:'Cinzel',serif; font-size:0.78rem; white-space:nowrap; }
@@ -165,26 +166,26 @@
       </tr>
       <tr class="gen-branch">
         <td>13</td><td class="person">Robert Maxwell of Cowhill <span style="font-weight:400;font-size:0.85em">(FTA17177)</span></td>
-        <td class="dates">~1460–c1513 · XIV per Don's chart</td>
+        <td class="dates">~1460–c1513 · XIII in our chain · XIV per Don's chart (counting from Robert Maxwell of Caerlaverock)</td>
         <td><span class="badge badge-confirmed">✓</span></td>
         <td class="source-ref"><a href="#ft-7" class="src-link">FT-7</a> &nbsp;<a href="#dna-2" class="src-link">DNA-2</a> &nbsp;<a href="#dna-3" class="src-link">DNA-3</a></td>
       </tr>
       <tr class="gen-branch">
-        <td>13a</td>
+        <td>14</td>
         <td class="person">James Maxwell of Auchincairn<br>
-        <span style="font-weight:400;font-size:0.85em">Brother of Sir John Maxwell of Cowhill · both sons of Robert Maxwell of Cowhill</span></td>
-        <td class="dates">same generation as Sir John · FTA17177 without BY24084</td>
+        <span style="font-weight:400;font-size:0.85em">Son of Robert Maxwell of Cowhill · brother of Sir John Maxwell of Cowhill (BY24084 line)</span></td>
+        <td class="dates">born ~1495–1510 · generation XIV per Don's chart · FTA17177 without BY24084</td>
         <td><span class="badge badge-confirmed">✓ DNA</span></td>
         <td class="source-ref"><a href="#dna-1" class="src-link">DNA-1</a> &nbsp;<a href="#dna-2" class="src-link">DNA-2</a> &nbsp;<a href="#dna-3" class="src-link">DNA-3</a><br>Kit 752085 on R-FTA17177, not R-BY24084 (Sir John's line) — confirmed by Jennifer Maxwell's BigY analysis</td>
       </tr>
       <tr class="gen-confirmed">
-        <td>14</td><td class="person">Edward Maxwell of Auchincairn</td>
+        <td>15</td><td class="person">Edward Maxwell of Auchincairn</td>
         <td class="dates">d. before 1606 · son of James</td>
         <td><span class="badge badge-confirmed">✓</span></td>
         <td class="source-ref"><a href="#will-0" class="src-link">WILL-0</a> &nbsp;Minor sons named in Archibald of Cowhill's will</td>
       </tr>
       <tr class="gen-confirmed">
-        <td>15</td>
+        <td>16</td>
         <td class="person">Alexander Maxwell, Towbill-hill, Kirkmahoe &nbsp;<em style="font-weight:400;color:var(--faded)">— preferred</em><br>
         <span style="font-weight:400;font-size:0.85em">OR: Edward Maxwell of Isle, Caerlaverock</span></td>
         <td class="dates">Alexander: d. Nov 1625 · Kirkmahoe<br>
@@ -194,7 +195,7 @@
         <a href="#will-1b" class="src-link">WILL-1b</a> (Edward)</td>
       </tr>
       <tr class="gen-confirmed">
-        <td>16</td><td class="person">John Maxwell (son of Alexander or Edward)</td>
+        <td>17</td><td class="person">John Maxwell (son of Alexander or Edward)</td>
         <td class="dates">born ~1610–1625 · named as heir in testaments</td>
         <td><span class="badge badge-confirmed">✓</span></td>
         <td class="source-ref"><a href="#will-1a" class="src-link">WILL-1a</a> / <a href="#will-1b" class="src-link">WILL-1b</a></td>
@@ -206,7 +207,7 @@
         </td>
       </tr>
       <tr class="gen-confirmed">
-        <td>17</td>
+        <td>18</td>
         <td class="person">John Maxwell <strong>elder</strong> of Barfill, Holywood<br>
         <span style="font-weight:400;font-size:0.85em">Wife: Constance (a Lindsay)</span></td>
         <td class="dates">active 1662–1677 · Holywood parish / Kirkcudbright property</td>
@@ -214,7 +215,7 @@
         <td class="source-ref"><a href="#deed-1" class="src-link">DEED-1</a> (1662) · <a href="#deed-2" class="src-link">DEED-2</a> (1664 Tack) · <a href="#deed-3" class="src-link">DEED-3</a> (1667) · <a href="#sase-2" class="src-link">SASE-2</a> (1672 with younger &amp; Constance) · <a href="#sase-3" class="src-link">SASE-3</a></td>
       </tr>
       <tr class="gen-confirmed">
-        <td>18</td>
+        <td>19</td>
         <td class="person">John Maxwell <strong>younger</strong> of Barfill, Holywood<br>
         <span style="font-weight:400;font-size:0.85em">Wife: Margaret daughter of John Thomson</span></td>
         <td class="dates">born ~1650–1658 · active 1672–1694</td>
@@ -222,61 +223,61 @@
         <td class="source-ref"><a href="#sase-2" class="src-link">SASE-2</a> (same 1672 doc as elder) · <a href="#opr-b2" class="src-link">OPR-B2</a> (father of Patrick 1690)</td>
       </tr>
       <tr class="gen-confirmed">
-        <td>19</td><td class="person">Patrick Maxwell</td>
+        <td>20</td><td class="person">Patrick Maxwell</td>
         <td class="dates">b. 14 September 1690 · Holywood, Dumfriesshire</td>
         <td><span class="badge badge-confirmed">✓</span></td>
         <td class="source-ref"><a href="#opr-b2" class="src-link">OPR-B2 ⭐</a> &nbsp;father: John Maxwell younger of Barfill · mother: Margaret dau. of John Thomson</td>
       </tr>
       <tr class="gen-confirmed">
-        <td>20</td><td class="person">John Maxwell</td>
+        <td>21</td><td class="person">John Maxwell</td>
         <td class="dates">b. 25 May 1726 · Stirling</td>
         <td><span class="badge badge-confirmed">✓</span></td>
         <td class="source-ref"><a href="#opr-b1" class="src-link">OPR-B1</a> &nbsp;parents: Patrick Maxwell &amp; Janet Burd</td>
       </tr>
       <tr class="gen-confirmed">
-        <td>21</td><td class="person">Adam Maxwell</td>
+        <td>22</td><td class="person">Adam Maxwell</td>
         <td class="dates">b. 20 August 1749 · Stirling, Scotland</td>
         <td><span class="badge badge-confirmed">✓</span></td>
         <td class="source-ref"><a href="#opr-b0" class="src-link">OPR-B0 ⭐</a> &nbsp;Stirling Associate congregation · parents: John Maxwell &amp; Mary Finlayson</td>
       </tr>
       <tr class="gen-confirmed">
-        <td>22</td><td class="person">David Maxwell</td>
+        <td>23</td><td class="person">David Maxwell</td>
         <td class="dates">b. ~1798 · d. 1830, Armstrong Co., PA</td>
         <td><span class="badge badge-confirmed">✓</span></td>
         <td class="source-ref"><a href="#ft-1" class="src-link">FT-1</a> <a href="#ft-2" class="src-link">FT-2</a></td>
       </tr>
       <tr class="gen-confirmed">
-        <td>23</td><td class="person">Samuel H. Maxwell</td>
+        <td>24</td><td class="person">Samuel H. Maxwell</td>
         <td class="dates">b. 23 Feb 1833 Pennsylvania · m. Mary E. Dinsmore</td>
         <td><span class="badge badge-confirmed">✓</span></td>
         <td class="source-ref"><a href="#ft-1" class="src-link">FT-1</a></td>
       </tr>
       <tr class="gen-confirmed">
-        <td>24</td><td class="person">Mack Young Maxwell</td>
+        <td>25</td><td class="person">Mack Young Maxwell</td>
         <td class="dates">b. 15 Jul 1864, Pike Co., Ohio · d. 8 Jun 1942</td>
         <td><span class="badge badge-confirmed">✓</span></td>
         <td class="source-ref"><a href="#ft-1" class="src-link">FT-1</a></td>
       </tr>
       <tr class="gen-confirmed">
-        <td>25</td><td class="person">Ralph Edgar Maxwell</td>
+        <td>26</td><td class="person">Ralph Edgar Maxwell</td>
         <td class="dates">b. 7 Jan 1887, Jackson Co., Ohio · d. 23 Jan 1942</td>
         <td><span class="badge badge-confirmed">✓</span></td>
         <td class="source-ref"><a href="#ft-1" class="src-link">FT-1</a></td>
       </tr>
       <tr class="gen-confirmed">
-        <td>26</td><td class="person">Ralph Davis Maxwell</td>
+        <td>27</td><td class="person">Ralph Davis Maxwell</td>
         <td class="dates">b. ~1925, Ohio</td>
         <td><span class="badge badge-confirmed">✓</span></td>
         <td class="source-ref"><a href="#ft-1" class="src-link">FT-1</a></td>
       </tr>
       <tr class="gen-confirmed">
-        <td>27</td><td class="person">David B. Maxwell</td>
+        <td>28</td><td class="person">David B. Maxwell</td>
         <td class="dates">Kit 752085</td>
         <td><span class="badge badge-confirmed">✓</span></td>
         <td class="source-ref">FTDNA</td>
       </tr>
       <tr class="gen-confirmed">
-        <td>28</td><td class="person">James D. Maxwell</td>
+        <td>29</td><td class="person">James D. Maxwell</td>
         <td class="dates">Son of David B. Maxwell</td>
         <td><span class="badge badge-confirmed">✓</span></td>
         <td class="source-ref">—</td>
@@ -746,7 +747,7 @@ UNDWIN, father of Maccus (~1070)
                 ├── SIR JOHN MAXWELL OF COWHILL (XV · BY24084 ~1500 CE)  ✓ FT-3  [NOT our line]
                 │   └── Archibald IV → Broomholm, Cowhill, Drumpark etc.
                 │
-                └── JAMES MAXWELL OF AUCHINCAIRN (XV · FTA17177 without BY24084)  ✓ DNA-1 · DNA-2 · DNA-3
+                └── JAMES MAXWELL OF AUCHINCAIRN (XIV · FTA17177 without BY24084)  ✓ DNA-1 · DNA-2 · DNA-3
                     │   [Sir John's brother · BigY confirmed: kit 752085 carries FTA17177, NOT BY24084]
                     └── EDWARD MAXWELL OF AUCHINCAIRN (d. before 1606)  ✓ WILL-0
                         │   [deceased at time of Archibald's 1606 will; minor sons in wardship]
