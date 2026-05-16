@@ -14,7 +14,7 @@
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body { font-family:'EB Garamond',Georgia,serif; font-size:15px; line-height:1.6; background:var(--parchment); color:var(--ink); padding:2rem 1rem; }
   .page { max-width:960px; margin:0 auto; }
-  header { text-align:center; border-top:3px double var(--border); border-bottom:3px double var(--border); padding:1.5rem 1rem; margin-bottom:.5rem; background:var(--aged); }
+  header { text-align:center; border-top:3px double var(--border); border-bottom:3px double var(--border); padding:1.5rem 1rem; margin-bottom:0.5rem; background:var(--aged); }
   header h1 { font-family:'Cinzel',serif; font-size:1.9rem; font-weight:600; letter-spacing:0.04em; color:var(--rust); margin-bottom:0.4rem; }
   header p { color:var(--faded); font-style:italic; font-size:0.95rem; }
   .legend { display:flex; flex-wrap:wrap; gap:1rem; margin-bottom:2rem; padding:0.8rem 1.2rem; background:var(--aged); border:1px solid var(--border); border-radius:3px; font-size:0.88rem; }
@@ -188,26 +188,29 @@
       </tr>
       <tr class="gen-confirmed">
         <td>16</td>
-        <td class="person"><strong>Alexander</strong> Maxwell, Towbill-hill, Kirkmahoe &nbsp;<em style="font-weight:400;color:var(--faded)">— preferred candidate (named in will)</em><br>
-        <span style="font-weight:400;font-size:0.85em">OR: <strong>William</strong> Maxwell (also named in will; no testament found yet)<br>
-        OR: Edward Maxwell of Isle, Caerlaverock (not named in wardship clause — see note)</span></td>
-        <td class="dates">Alexander: d. Nov 1625 · Kirkmahoe<br>
-        <span style="font-size:0.85em">William: untraced · Edward of Isle: d. Jul 1637 · Caerlaverock</span></td>
+        <td class="person"><strong>Alexander</strong> Maxwell, Towbill-hill, Kirkmahoe &nbsp;<em style="font-weight:400;color:var(--faded)">— sole viable candidate</em><br>
+        <span style="font-weight:400;font-size:0.85em">William Maxwell (co-ward) traced to a collateral line not leading to Barfill — see WILL-1c<br>
+        Edward Maxwell of Isle not named in wardship clause — see note</span></td>
+        <td class="dates">Alexander: d. Nov 1625 · Kirkmahoe</td>
         <td><span class="badge badge-confirmed">✓</span></td>
-        <td class="source-ref"><a href="#will-1a" class="src-link">WILL-1a</a> (Alexander)<br>
-        <a href="#will-1b" class="src-link">WILL-1b</a> (Edward of Isle)<br>
-        <span style="color:var(--gap);font-size:0.78rem">⚠ Edward of Isle is not named in the wardship clause of WILL-0. If connected to the Auchincairn family he is either an adult son predating the will, or unrelated. William Maxwell (co-ward with Alexander) is an equally valid candidate not yet traced.</span></td>
+        <td class="source-ref"><a href="#will-1a" class="src-link">WILL-1a</a> (Alexander) ⭐<br>
+        <span style="color:var(--faded);font-size:0.78rem">William Maxwell → Bankend, Caerlaverock (d.1656) → son Edward Maxwell married Dumfries 1671 — diverges from Barfill line. See <a href="#will-1c" class="src-link">WILL-1c</a>.</span><br>
+        <span style="color:var(--gap);font-size:0.78rem">⚠ Edward of Isle not in wardship clause; if Auchincairn-connected, must be adult son or unrelated.</span></td>
       </tr>
       <tr class="gen-confirmed">
-        <td>17</td><td class="person">John Maxwell (son of Alexander, William, or Edward of Isle)</td>
-        <td class="dates">born ~1610–1625 · named as heir in testaments</td>
+        <td>17</td>
+        <td class="person">John Maxwell, son of Alexander Maxwell<br>
+        <span style="font-weight:400;font-size:0.85em;color:var(--faded)">Alternative: Thomas Maxwell (Alexander's other son) as an intermediate, with John elder as Thomas's son</span></td>
+        <td class="dates">born ~1610–1625 · named as heir in testament<br>
+        <span style="font-size:0.83em;color:var(--faded)">If Thomas intermediate: born ~1612–1622; his son John elder then ~1635–1645</span></td>
         <td><span class="badge badge-confirmed">✓</span></td>
-        <td class="source-ref"><a href="#will-1a" class="src-link">WILL-1a</a> / <a href="#will-1b" class="src-link">WILL-1b</a></td>
+        <td class="source-ref"><a href="#will-1a" class="src-link">WILL-1a</a><br>
+        <span style="font-size:0.78rem;color:var(--faded)">Preferred: John = John elder (ages 42–47 at Barfill 1662 — comfortable). Alternative: Thomas → John elder (John elder ~17–27 in 1662 — possible but tight). Thomas leaves no record after 1625.</span></td>
       </tr>
       <tr class="gen-gap">
         <td colspan="5" style="text-align:center;padding:0.6rem;color:var(--gap);font-style:italic;font-weight:600;">
-          ↕ &nbsp; THE GAP &nbsp;—&nbsp; John Maxwell (son of Alexander, born ~1610–1625) → John Maxwell elder of Barfill (first documented 1662) &nbsp; ↕<br>
-          <span style="font-weight:400;font-size:0.88em">One step · no document names parentage · ages entirely consistent · Kirkcudbright county links both</span>
+          ↕ &nbsp; THE GAP &nbsp;—&nbsp; John Maxwell (Alexander's son, born ~1610–1625) → John Maxwell elder of Barfill (first documented 1662) &nbsp; ↕<br>
+          <span style="font-weight:400;font-size:0.88em">No document names John elder's father · ages consistent for direct Alexander → John elder identification · Thomas Maxwell (Alexander's other son) remains an untraced alternative intermediate</span>
         </td>
       </tr>
       <tr class="gen-confirmed">
@@ -305,7 +308,7 @@
   </div>
 
   <div class="summary-intro" style="margin-bottom:0.8rem">
-    <p><strong>Alexander Maxwell &amp; William Maxwell — the two named Auchincairn wards.</strong> The wardship clause in WILL-0 names <strong>William and Alexander Maxwell</strong> as the minor sons of Edward of Auchincairn. Alexander Maxwell in Towbill-hill, Kirkmahoe (d. November 1625, CC5/6/1) is our preferred candidate — geography, timing, and confirmed sons John and Thomas all fit. <strong>William Maxwell</strong> (the co-ward) has not yet been traced in surviving records; he may be the William Maxwell who witnesses Edward of Isle's 1630 will (WILL-1b), which would place him in the same south Dumfriesshire circle. <strong>Edward Maxwell of Isle, Caerlaverock</strong> (d. July 1637) is an additional candidate but is <em>not</em> named in the wardship clause — if connected to the Auchincairn family, he would have been an adult son predating the will, not one of the named minor wards.</p>
+    <p><strong>Alexander Maxwell — now the sole viable candidate for the Barfill line.</strong> The wardship clause in WILL-0 names <strong>William and Alexander Maxwell</strong> as the minor sons of Edward of Auchincairn. Both have now been traced. <strong>William Maxwell</strong> is probably William Maxwell at Bankend, Caerlaverock (d.1656, CC5/6/3 — see WILL-1c): his son and sole heir was <strong>Edward Maxwell</strong>, who married in Dumfries in 1671 — a line that diverges from Barfill entirely. This rules William out as an ancestor of John elder of Barfill (who was already at Barfill by 1662). <strong>Alexander Maxwell in Towbill-hill, Kirkmahoe</strong> (d. November 1625, CC5/6/1) therefore stands as the sole named Auchincairn ward whose line plausibly leads to Barfill — geography, timing, and confirmed sons John and Thomas all fit. <strong>Edward Maxwell of Isle, Caerlaverock</strong> (d. July 1637) remains an outside possibility but is not named in the wardship clause.</p>
   </div>
 
   <div class="summary-intro" style="margin-bottom:0.8rem">
@@ -492,6 +495,21 @@
     <div class="key-finding"><em>"I Edward Maxwell of Isle … I nominate <strong>John Maxwell my sone</strong> my onlie air and executor to my haill guidis and geir."</em> Held Isle farm in Caerlaverock parish as tenant of <em>"my lady of Nithsdale"</em> for "the landis of Kirkblane." Estate: ~£780 (substantial for a farm tenant).</div>
     <p><strong>Witnesses to the 1630 will:</strong> Edward Maxwell of Lamingtoun (a known figure linked to the Newlaw/Balmangan/Breoch Maxwell networks) and <strong>William Maxwell</strong>. The presence of a William Maxwell as witness is a small but real datum: if this is William Maxwell, son of Edward of Auchincairn (co-ward with Alexander in WILL-0), it would place him in the same Kirkcudbright/Dumfriesshire social circle as Edward of Isle in 1630 — though the identification cannot be confirmed without further evidence.</p>
     <p><strong>Significance:</strong> Edward Maxwell of Isle, dying 1637 in Caerlaverock parish (south of Dumfries), is consistent with being one of the Auchincairn minor sons from the 1606 will. His son <strong>John Maxwell</strong> (already named as heir in 1630 when the will was made, so born by ~1615) is a second candidate to be the father of John of Barfill. The Nithsdale tenancy connection is notable given that Nithsdale Maxwell figures appear in contemporaneous Dumfries OPR records.</p>
+  </div>
+</div>
+
+<div class="source-card" id="will-1c">
+  <div class="thumb-wrap">
+    <div class="no-image">CC5/6/3 · transcript only</div>
+    <span class="thumb-label">WILL-1c</span>
+  </div>
+  <div class="source-content">
+    <h3>Testament of William Maxwell at Bankend — 1656 <span class="badge badge-probable">● Probable collateral branch</span></h3>
+    <p class="ref">Dumfries Commissary Court · CC5/6/3 · Confirmed 21 August 1656 · Testament Dative</p>
+    <div class="key-finding">William Maxwell at Bankend, Caerlaverock, died in [blank month] 1656. Sole executor: <strong>"Edward maxwell sone laufull and onlie exor dative decernit as neirest of kin to ye said defunct his father."</strong> A son named Edward — consistent with naming after grandfather Edward of Auchincairn. Personal estate modest (~£36); debts owed to him totalled ~£344 from thirteen people across south Dumfriesshire farms.</div>
+    <p><strong>The Isle connection:</strong> One debtor is <em>"Gibby Dicksone in Islle"</em> (£24) — Isle farm, Caerlaverock parish, where Edward Maxwell of Isle held his tack (WILL-1b). This places William in the same Caerlaverock financial network.</p>
+    <p><strong>Why William is NOT in the Barfill line:</strong> His son Edward Maxwell married in Dumfries (OPR 821, 25 May 1671 and 28 Jan 1673, Margaret Minise) — establishing a Dumfries line distinct from Holywood/Barfill. John Maxwell elder of Barfill was already at Barfill by 1662, nine years before this marriage. The two lines are contemporary and separate. William's branch is a collateral line of the Auchincairn family, not the Barfill ancestor.</p>
+    <p><strong>Significance:</strong> Confirms that the Auchincairn ward William Maxwell produced a son named Edward (consistent with family naming pattern), was active in Caerlaverock parish (the same parish as Edward of Isle), and that his line is accounted for — leaving Alexander as the sole named ward whose descendants could have moved to Holywood and Barfill.</p>
   </div>
 </div>
 
@@ -753,10 +771,16 @@ UNDWIN, father of Maccus (~1070)
                         │   [deceased by 29 Jun 1604–22 Aug 1605; widow Rosina Wallace; lands: Auchincairne, Quhytstanes, Bukrig]
                         │
                         ├── ALEXANDER MAXWELL, Towbill-hill, Kirkmahoe (d. Nov 1625)  ✓ WILL-1a  ← PREFERRED
-                        │   └── JOHN MAXWELL (his son, born ~1610–1625)  ✓ WILL-1a
+                        │   ├── JOHN MAXWELL (his son, born ~1610–1625)  ✓ WILL-1a  ← preferred path
+                        │   │      [ages comfortable if John = John elder of Barfill directly]
+                        │   └── THOMAS MAXWELL (his other son)  ✓ WILL-1a  ← alternative path
+                        │          [if Thomas is an intermediate, John elder his son born ~1635–1645]
+                        │          [Thomas leaves no record after 1625; ages tighter throughout]
                         │
-                        ├── WILLIAM MAXWELL (co-ward with Alexander; not yet traced)  ? unconfirmed
-                        │   [William Maxwell witnesses Edward of Isle's 1630 will — possible same person]
+                        ├── WILLIAM MAXWELL (co-ward with Alexander)  ● probable — WILL-1c
+                        │   [prob. = William Maxwell at Bankend, Caerlaverock, d.1656]
+                        │   [son: Edward Maxwell, married Dumfries 1671 — line diverges from Barfill]
+                        │   [does NOT lead to John elder of Barfill — Alexander is the Barfill ancestor]
                         │
                         └── EDWARD MAXWELL OF ISLE, Caerlaverock (d. Jul 1637)  ✓ WILL-1b
                             [not named in wardship clause; possible adult son or unrelated]
