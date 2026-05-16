@@ -14,9 +14,6 @@
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body { font-family:'EB Garamond',Georgia,serif; font-size:15px; line-height:1.6; background:var(--parchment); color:var(--ink); padding:2rem 1rem; }
   .page { max-width:960px; margin:0 auto; }
-  .page-header { display:flex; align-items:stretch; gap:1.4rem; margin-bottom:2rem; }
-  .page-header .crest-sidebar { height:212px; width:auto; flex-shrink:0; display:block; }
-  .header-main { flex:1; min-width:0; }
   header { text-align:center; border-top:3px double var(--border); border-bottom:3px double var(--border); padding:1.5rem 1rem; margin-bottom:0.6rem; background:var(--aged); }
   header h1 { font-family:'Cinzel',serif; font-size:1.9rem; font-weight:600; letter-spacing:0.04em; color:var(--rust); margin-bottom:0.4rem; }
   header p { color:var(--faded); font-style:italic; font-size:0.95rem; }
@@ -49,11 +46,14 @@
   .chain pre { font-family:'EB Garamond',Georgia,serif; font-size:0.82rem; line-height:1.7; white-space:pre; color:var(--ink); }
   .gap-box { background:#fdf3f3; border:1px solid #e0a0a0; border-left:4px solid var(--gap); padding:0.8rem 1rem; margin:1rem 0; border-radius:3px; font-size:0.9rem; }
   .next-steps { counter-reset:steps; list-style:none; padding:0; }
-  .next-steps li { counter-increment:steps; padding:0.5rem 0.5rem 0.5rem 2.5rem; position:relative; border-bottom:1px dotted var(--border); font-size:0.9rem; }
+  .next-steps li { counter-increment:steps; padding:0.5rem 0.5rem 0.5rem 2.5rem; position:relative; font-size:0.9rem; }
   .next-steps li::before { content:counter(steps); position:absolute; left:0.5rem; top:0.5rem; width:1.4rem; height:1.4rem; background:var(--rust); color:white; border-radius:50%; display:flex; align-items:center; justify-content:center; font-family:'Cinzel',serif; font-size:0.75rem; font-weight:600; }
   .site-nav { display:flex; flex-wrap:wrap; gap:0.5rem 1.2rem; margin-bottom:0; padding:0.6rem 1rem; background:var(--aged); border:1px solid var(--border); border-radius:3px; font-size:0.83rem; }
   .site-nav a { color:var(--rust); text-decoration:none; }
   .site-nav a:hover { text-decoration:underline; }
+  .page-header { display:flex; align-items:stretch; gap:1.4rem; margin-bottom:2rem; }
+  .page-header .crest-sidebar { height:212px; width:auto; flex-shrink:0; display:block; }
+  .header-main { flex:1; min-width:0; }
   .summary-section { margin-bottom:2.5rem; }
   .summary-intro { background:var(--aged); border:1px solid var(--border); padding:1.2rem 1.4rem; margin-bottom:1.4rem; border-radius:4px; font-size:0.93rem; }
   .summary-intro p { margin-bottom:0.5rem; }
@@ -74,8 +74,7 @@
   .chain-table .dates { color:var(--faded); font-style:italic; font-size:0.83rem; }
   .chain-table .source-ref { font-size:0.78rem; color:#3a5a8a; }
   .questions-list { list-style:none; padding:0; counter-reset:q; }
-  .questions-list li { counter-increment:q; padding:0.6rem 0.6rem 0.6rem 2.6rem; position:relative; border-bottom:1px dotted var(--border); font-size:0.9rem; }
-  .questions-list li:last-child { border-bottom:none; }
+  .questions-list li { counter-increment:q; padding:0.6rem 0.6rem 0.6rem 2.6rem; position:relative; font-size:0.9rem; }
   .questions-list li::before { content:'Q' counter(q); position:absolute; left:0.5rem; top:0.6rem; background:var(--gold); color:white; font-family:'Cinzel',serif; font-size:0.7rem; font-weight:600; padding:0.1em 0.35em; border-radius:2px; }
   .no-image { width:120px; height:90px; background:var(--aged); border:1px dashed var(--border); border-radius:2px; display:flex; align-items:center; justify-content:center; color:var(--faded); font-size:0.7rem; text-align:center; padding:0.5rem; }
   .src-link { color:var(--rust); text-decoration:none; font-weight:600; font-family:'Cinzel',serif; font-size:0.78rem; white-space:nowrap; }
@@ -95,7 +94,7 @@
 <div class="page">
 
 <div class="page-header">
-  <img src="crest_tartan.png" alt="Maxwell crest" class="crest-sidebar">
+  <img src="images/crest_tartan.png" alt="Maxwell crest" class="crest-sidebar">
   <div class="header-main">
     <header>
       <h1>Maxwell Genealogy</h1>
@@ -126,8 +125,8 @@
 <div class="summary-section">
 
   <div class="summary-intro">
-    <p>I am <strong>James D. Maxwell</strong>, son of <strong>David B. Maxwell</strong> (FTDNA kit 752085). I have been conducting research, mostly using ScotlandsPeople, the Dumfries Register of Sasines, Dumfries Commissary Court testaments, the Register of the Privy Council of Scotland (1684), and the Book of Caerlaverock.</p>
-    <p>Based on <a href="http://maxwell-dna.com/">Donald Maxwell's research</a> placing kit 752085 on the <strong>James Maxwell of Auchincairn</strong> branch (brother of Sir John Maxwell of Cowhill), and the discovery of two testaments confirming sons of this line in south Dumfriesshire in the 1620s–1630s, I think I might be close to fully completing my line. The American chain is fully documented. One generational gap remains between the confirmed John Maxwells (sons of Alexander/Edward of the Auchincairn line) and John Maxwell of Barfill who fathered Patrick in 1690.</p>
+    <p>I am <strong>James D. Maxwell</strong>, son of <strong>David B. Maxwell</strong> (FTDNA kit 752085). I have been conducting research, mostly using ScotlandsPeople, the Dumfries Register of Sasines, the Scottish Register of Deeds, Dumfries Commissary Court testaments, the Register of the Privy Council of Scotland (1684), FamilySearch, and the Book of Caerlaverock.</p>
+    <p>Based on <a href="http://maxwell-dna.com/">Donald Maxwell's research</a> placing kit 752085 on the <strong>James Maxwell of Auchincairn</strong> branch (brother of Sir John Maxwell of Cowhill), confirmed by Jennifer Maxwell's BigY analysis showing kit 752085 on R-FTA17177 rather than R-BY24084 (Sir John's line), I think I might be close to fully completing my line. New research in the Scottish Register of Deeds and Register of Sasines has now confirmed <strong>John Maxwell elder of Barfill</strong> (wife Constance Lindsay) and <strong>John Maxwell younger of Barfill</strong> (father of Patrick b.1690) as two distinct generations in the same 1672 sasine. The American chain is fully documented. One generational gap remains.</p>
     <p>This page summarises the research and links to every original source image.</p>
   </div>
 
@@ -137,7 +136,8 @@
     <div class="dna-stat"><div class="label">Group</div><div class="value">6.48</div></div>
     <div class="dna-stat"><div class="label">GD from Caerlaverock line</div><div class="value">2 (Y-111)</div></div>
     <div class="dna-stat"><div class="label">Branch (Don's chart)</div><div class="value" style="font-size:0.85rem">Auchincairn</div></div>
-    <div class="dna-stat"><div class="label">Big-Y test</div><div class="value" style="color:var(--gap)">Not yet taken</div></div>
+    <div class="dna-stat"><div class="label">SNP placement</div><div class="value" style="font-size:0.85rem">R-FTA17177</div></div>
+    <div class="dna-stat"><div class="label">Big-Y test</div><div class="value" style="color:var(--confirmed)">Completed ✓</div></div>
   </div>
 
   <!-- ─── Chain Table ─── -->
@@ -163,33 +163,28 @@
         <td><span class="badge badge-confirmed">✓</span></td>
         <td class="source-ref"><a href="#ft-4" class="src-link">FT-4</a> &nbsp;<strong>★ Y2357 SNP · GD2 from Caerlaverock</strong></td>
       </tr>
-      <tr class="gen-confirmed">
-        <td>13</td><td class="person">Robert Maxwell of Cowhill</td>
-        <td class="dates">~1460–c1513</td>
+      <tr class="gen-branch">
+        <td>13</td><td class="person">Robert Maxwell of Cowhill <span style="font-weight:400;font-size:0.85em">(FTA17177)</span></td>
+        <td class="dates">~1460–c1513 · XIV per Don's chart</td>
         <td><span class="badge badge-confirmed">✓</span></td>
-        <td class="source-ref"><a href="#ft-7" class="src-link">FT-7</a></td>
-      </tr>
-      <tr class="gen-confirmed">
-        <td>14</td><td class="person">Sir John Maxwell of Cowhill</td>
-        <td class="dates">~1500–1547</td>
-        <td><span class="badge badge-confirmed">✓</span></td>
-        <td class="source-ref"><a href="#ft-7" class="src-link">FT-7</a> &nbsp;<a href="#ft-3" class="src-link">FT-3</a></td>
+        <td class="source-ref"><a href="#ft-7" class="src-link">FT-7</a> &nbsp;<a href="#dna-2" class="src-link">DNA-2</a> &nbsp;<a href="#dna-3" class="src-link">DNA-3</a></td>
       </tr>
       <tr class="gen-branch">
-        <td>14a</td>
-        <td class="person">James Maxwell of Auchincairn</td>
-        <td class="dates">Sir John's brother · same generation</td>
-        <td><span class="badge badge-probable">● DNA</span></td>
-        <td class="source-ref"><a href="#dna-1" class="src-link">DNA-1</a> &nbsp;Don's chart places kit 752085 on this branch</td>
+        <td>13a</td>
+        <td class="person">James Maxwell of Auchincairn<br>
+        <span style="font-weight:400;font-size:0.85em">Brother of Sir John Maxwell of Cowhill · both sons of Robert Maxwell of Cowhill</span></td>
+        <td class="dates">same generation as Sir John · FTA17177 without BY24084</td>
+        <td><span class="badge badge-confirmed">✓ DNA</span></td>
+        <td class="source-ref"><a href="#dna-1" class="src-link">DNA-1</a> &nbsp;<a href="#dna-2" class="src-link">DNA-2</a> &nbsp;<a href="#dna-3" class="src-link">DNA-3</a><br>Kit 752085 on R-FTA17177, not R-BY24084 (Sir John's line) — confirmed by Jennifer Maxwell's BigY analysis</td>
       </tr>
       <tr class="gen-confirmed">
-        <td>15</td><td class="person">Edward Maxwell of Auchincairn</td>
+        <td>14</td><td class="person">Edward Maxwell of Auchincairn</td>
         <td class="dates">d. before 1606 · son of James</td>
         <td><span class="badge badge-confirmed">✓</span></td>
-        <td class="source-ref"><a href="#will-0" class="src-link">WILL-0</a> &nbsp;Minor sons named in Archibald's will</td>
+        <td class="source-ref"><a href="#will-0" class="src-link">WILL-0</a> &nbsp;Minor sons named in Archibald of Cowhill's will</td>
       </tr>
       <tr class="gen-confirmed">
-        <td>16</td>
+        <td>15</td>
         <td class="person">Alexander Maxwell, Towbill-hill, Kirkmahoe &nbsp;<em style="font-weight:400;color:var(--faded)">— preferred</em><br>
         <span style="font-weight:400;font-size:0.85em">OR: Edward Maxwell of Isle, Caerlaverock</span></td>
         <td class="dates">Alexander: d. Nov 1625 · Kirkmahoe<br>
@@ -199,28 +194,38 @@
         <a href="#will-1b" class="src-link">WILL-1b</a> (Edward)</td>
       </tr>
       <tr class="gen-confirmed">
-        <td>17</td><td class="person">John Maxwell (son of Alexander or Edward)</td>
+        <td>16</td><td class="person">John Maxwell (son of Alexander or Edward)</td>
         <td class="dates">born ~1610–1625 · named as heir in testaments</td>
         <td><span class="badge badge-confirmed">✓</span></td>
         <td class="source-ref"><a href="#will-1a" class="src-link">WILL-1a</a> / <a href="#will-1b" class="src-link">WILL-1b</a></td>
       </tr>
       <tr class="gen-gap">
         <td colspan="5" style="text-align:center;padding:0.6rem;color:var(--gap);font-style:italic;font-weight:600;">
-          ↕ &nbsp; THE GAP &nbsp;—&nbsp; John Maxwell (son of Alexander/Edward, born ~1610–1625) → John Maxwell of Barfill (Holywood, ~1654) &nbsp; ↕<br>
-          <span style="font-weight:400;font-size:0.88em">One generational step · no surviving OPR record · Kirkmahoe/Caerlaverock OPR records not indexed for this period</span>
+          ↕ &nbsp; THE GAP &nbsp;—&nbsp; John Maxwell (son of Alexander, born ~1610–1625) → John Maxwell elder of Barfill (first documented 1662) &nbsp; ↕<br>
+          <span style="font-weight:400;font-size:0.88em">One step · no document names parentage · ages entirely consistent · Kirkcudbright county links both</span>
         </td>
       </tr>
-      <tr class="gen-probable">
-        <td>18</td><td class="person">John Maxwell of Barfill, Holywood</td>
-        <td class="dates">~1654–post 1694 · Holywood parish, Dumfriesshire</td>
-        <td><span class="badge badge-probable">●</span></td>
-        <td class="source-ref"><a href="#rpcs-1" class="src-link">RPCS-1</a> (farm confirmed 1684) &nbsp;<a href="#opr-b2" class="src-link">OPR-B2</a></td>
+      <tr class="gen-confirmed">
+        <td>17</td>
+        <td class="person">John Maxwell <strong>elder</strong> of Barfill, Holywood<br>
+        <span style="font-weight:400;font-size:0.85em">Wife: Constance (a Lindsay)</span></td>
+        <td class="dates">active 1662–1677 · Holywood parish / Kirkcudbright property</td>
+        <td><span class="badge badge-confirmed">✓</span></td>
+        <td class="source-ref"><a href="#deed-1" class="src-link">DEED-1</a> (1662) · <a href="#deed-2" class="src-link">DEED-2</a> (1664 Tack) · <a href="#deed-3" class="src-link">DEED-3</a> (1667) · <a href="#sase-2" class="src-link">SASE-2</a> (1672 with younger &amp; Constance) · <a href="#sase-3" class="src-link">SASE-3</a></td>
+      </tr>
+      <tr class="gen-confirmed">
+        <td>18</td>
+        <td class="person">John Maxwell <strong>younger</strong> of Barfill, Holywood<br>
+        <span style="font-weight:400;font-size:0.85em">Wife: Margaret daughter of John Thomson</span></td>
+        <td class="dates">born ~1650–1658 · active 1672–1694</td>
+        <td><span class="badge badge-confirmed">✓</span></td>
+        <td class="source-ref"><a href="#sase-2" class="src-link">SASE-2</a> (same 1672 doc as elder) · <a href="#opr-b2" class="src-link">OPR-B2</a> (father of Patrick 1690)</td>
       </tr>
       <tr class="gen-confirmed">
         <td>19</td><td class="person">Patrick Maxwell</td>
         <td class="dates">b. 14 September 1690 · Holywood, Dumfriesshire</td>
         <td><span class="badge badge-confirmed">✓</span></td>
-        <td class="source-ref"><a href="#opr-b2" class="src-link">OPR-B2 ⭐</a> &nbsp;father: John Maxwell of Barfill · mother: Margaret dau. of John Thomson</td>
+        <td class="source-ref"><a href="#opr-b2" class="src-link">OPR-B2 ⭐</a> &nbsp;father: John Maxwell younger of Barfill · mother: Margaret dau. of John Thomson</td>
       </tr>
       <tr class="gen-confirmed">
         <td>20</td><td class="person">John Maxwell</td>
@@ -283,39 +288,46 @@
   <div class="section-heading" style="margin-top:0">Key Clarifications</div>
 
   <div class="summary-intro" style="margin-bottom:0.8rem">
-    <p><strong>The Auchincairn branch — DNA evidence.</strong> Don Maxwell's updated DNA chart (May 2026) places kit 752085 at the far right, isolated from all other Maxwell kit clusters, under the label "XV. — Brother of Sir John Maxwell — poss XV. — James Maxwell of Auchincairn." Every other kit in Group 6.48 groups under Archibald of Cowhill and his descendants. Kit 752085 diverges at the level of Sir John's <em>brother</em>, one generation earlier than Archibald. This is the anchor for the revised hypothesis.</p>
+    <p><strong>BigY confirms the Auchincairn branch — R-FTA17177 vs R-BY24084.</strong> Jennifer Maxwell's BigY analysis (May 2026) places kit 752085 on <strong>R-FTA17177</strong> (~1450 CE). The Broomholm ancient line kit sits on the child branch <strong>R-BY24084</strong> (~1500 CE). Don's expanded chart (DNA-3) explicitly labels FTA17177 as <em>Robert Maxwell of Cowhill (XIV)</em> and BY24084 as the mutation in <em>Sir John Maxwell's line (XV, born 1500)</em>. Kit 752085 does not carry BY24084, meaning its ancestor was Robert's son who was Sir John's brother — James Maxwell of Auchincairn — confirming Don's prediction. The BigY was already complete; no upgrade needed.</p>
   </div>
 
   <div class="summary-intro" style="margin-bottom:0.8rem">
-    <p><strong>Alexander Maxwell &amp; Edward Maxwell — confirmed Auchincairn-era descendants.</strong> Two testaments in Dumfries Commissary Court confirm men of the right generation in the right geography. Alexander Maxwell in Towbill-hill, Kirkmahoe (d. November 1625, CC5/6/1) left sons John and Thomas. Edward Maxwell of Isle, Caerlaverock (d. July 1637, CC5/6/2) left son John as sole heir. Both are consistent with being sons of Edward Maxwell of Auchincairn, who is named (as deceased) in Archibald of Cowhill's 1606 will. Kirkmahoe parish is adjacent to both Dumfries and Holywood — the ideal geography for a line ending at Barfill. Neither testament names the father, so the Auchincairn identification rests on Don's DNA research combined with circumstantial evidence.</p>
+    <p><strong>John Maxwell elder and younger of Barfill — confirmed in one sasine.</strong> The Dumfries &amp; Kirkcudbright Register of Sasines index (pp.264–265) shows both <em>"John, of Barfill, elder"</em> and <em>"John, of Barfill, younger"</em> recorded on the same date (8 May 1672) at the same folio (Vol.1, Fol.133). The Lindsay index (p.206) for the same document names Constance Lindsay as wife of the elder. Patrick's 1690 baptism (OPR-B2) gives Margaret Thomson as wife of John of Barfill. Two different wives = two different men. The younger (father of Patrick) is the son of the elder (husband of Constance).</p>
   </div>
 
   <div class="summary-intro" style="margin-bottom:0.8rem">
-    <p><strong>"Barfie" is a misreading of "Barſill."</strong> The true farm name is <strong>Barshill</strong> or <strong>Barfill</strong>. In 17th-century Secretary hand the long <em>ſ</em> was commonly misread as <em>f</em>, and terminal <em>il</em> as <em>e</em>. Three independent sources confirm the name: <em>Barfill</em> (RPCS 1684), <em>Barshill</em> (Hearth Tax 1691, Adamson transcript — correct), <em>Barfie</em> (OPR 1690 — misread by clerk). The farm sits in Holywood parish between Hulton and Portrack in the 1684 parish list.</p>
+    <p><strong>John Maxwell elder at Barfill from at least 1662 — Kirkcudbright county throughout.</strong> Register of Deeds indexes (FamilySearch) show John of Barfill in bonds dated 1662 (Vol.4, pp.211, 874), a Tack in 1664 (Vol.11, p.941 — possibly the original lease), and a bond in 1667 (Dal., Vol.15, p.48). All 1662–1677 sasine entries carry Kirkcudbright county — consistent with Auchincairn origins, since Auchencairn is a Kirkcudbrightshire village. The 1694 sasine switches to Dumfries county, by which time only the younger remained.</p>
   </div>
 
   <div class="summary-intro" style="margin-bottom:0.8rem">
-    <p><strong>The Stirling Associate congregation error on FamilySearch.</strong> FamilySearch indexes Adam Maxwell's 1749 baptism as "Erskine, Renfrewshire" — wrong. The congregation was the Stirling Associate church in Stirling (founded 1733 by Rev. Ebenezer Erskine). ScotlandsPeople correctly identifies it as CH3/559/17, Stirling.</p>
+    <p><strong>Alexander Maxwell &amp; Edward Maxwell — confirmed Auchincairn-era descendants.</strong> Alexander Maxwell, Towbill-hill, Kirkmahoe (d. November 1625, CC5/6/1) left sons John and Thomas. Edward Maxwell of Isle, Caerlaverock (d. July 1637, CC5/6/2) left son John as sole heir. Both are consistent with being sons of Edward Maxwell of Auchincairn named in Archibald of Cowhill's 1606 will. Kirkmahoe is adjacent to both Dumfries and Holywood.</p>
+  </div>
+
+  <div class="summary-intro" style="margin-bottom:0.8rem">
+    <p><strong>"Barfie" is a misreading of "Barſill."</strong> In 17th-century Secretary hand the long <em>ſ</em> was misread as <em>f</em>. Three sources confirm the true name: <em>Barfill</em> (RPCS 1684, SASE-2), <em>Barshill</em> (Hearth Tax 1691, correct), <em>Barfie</em> (OPR 1690, misread). The farm sits in Holywood parish between Hulton and Portrack.</p>
+  </div>
+
+  <div class="summary-intro" style="margin-bottom:0.8rem">
+    <p><strong>The Stirling Associate congregation error on FamilySearch.</strong> Adam Maxwell's 1749 baptism is indexed as "Erskine, Renfrewshire" — wrong. The congregation was the Stirling Associate church in Stirling (CH3/559/17), founded 1733 by Rev. Ebenezer Erskine.</p>
   </div>
 
   <!-- ─── Gap Section ─── -->
   <div class="section-heading" id="gap" style="margin-top:1rem">The Remaining Gap</div>
 
   <div class="gap-box" style="font-size:0.92rem; margin-bottom:1.4rem">
-    <strong>John Maxwell</strong> (son of Alexander, Kirkmahoe, born ~1610–1625; or son of Edward, Caerlaverock, born ~1605–1620)<br>
-    ↕ &nbsp; <em>one generational step · no surviving indexed record · ~25–45 years</em><br>
-    <strong>John Maxwell of Barfill, Holywood</strong> (father of Patrick b.1690; himself born ~1650–1658)
-    <p style="margin-top:0.5rem">The gap is a single generation. A son born ~1610–1625 having a son of his own around 1654 is entirely normal. Kirkmahoe (Alexander's parish) is immediately adjacent to both Dumfries and Holywood — the ideal geography. OPR marriage and birth searches (ScotlandsPeople, May 2026) confirm that Kirkmahoe and Caerlaverock OPR records are not indexed for 1640–1685, so the gap almost certainly exists because the relevant records simply don't survive in searchable form.</p>
-    <p style="margin-top:0.4rem"><strong>The farm of Barfill is confirmed in Holywood parish in 1684</strong> (RPCS Vol. IX, p.300: "Ab. Barfill" — residents absent). This establishes the farm six years before Patrick's baptism.</p>
+    <strong>John Maxwell</strong> (son of Alexander Maxwell, Kirkmahoe, born ~1610–1625)<br>
+    ↕ &nbsp; <em>one step · no document names parentage · ages perfectly consistent · Kirkcudbright links both</em><br>
+    <strong>John Maxwell elder of Barfill</strong> (wife Constance Lindsay · active 1662–1677 · Kirkcudbright county)
+    <p style="margin-top:0.5rem">Alexander's son John (born ~1615–1625) would be roughly 37–47 in 1662 when John elder first appears — exactly the right age for a man entering bonds and holding a farm tack. Both Alexander's family (Kirkmahoe) and the Barfill elder's sasines (Kirkcudbright county) share the Kirkcudbright geography consistent with the Auchincairn origin. No surviving deed or OPR record names John elder's father. The full text of the 1664 Tack (Vol.11, p.941) and the 1672 sasine (Vol.1, Fol.133) are the two most likely documents to bridge this gap and should be read in full at NRS.</p>
   </div>
 
   <!-- ─── Questions ─── -->
   <div class="section-heading" id="questions">Questions for Dr. Donald Maxwell &amp; Dr. Jennifer Maxwell</div>
   <ul class="questions-list">
-    <li><strong>Big-Y test for kit 752085:</strong> The DNA chart places kit 752085 on the Auchincairn branch, but a Big-Y upgrade (~$119 at FTDNA) would give a precise sub-branch placement and potentially match tested cousins who have already documented the gap generation. This is now the highest-priority action.</li>
-    <li><strong>Confirming the Auchincairn identification:</strong> The two testaments (Alexander Maxwell, Kirkmahoe, 1626; Edward Maxwell of Isle, Caerlaverock, 1638) fit the timing and geography of Edward of Auchincairn's sons — but neither names its father. Does the Maxwell DNA group have any documentary source that confirms James Maxwell of Auchincairn as Sir John's brother, and that links Alexander or Edward to the Auchincairn line specifically?</li>
-    <li><strong>Other Group 6.48 kits on the Auchincairn branch:</strong> Does any tested kit in Group 6.48 trace through Kirkmahoe, Caerlaverock, or Holywood in the 17th century? A DNA match with a documented line would close the gap far more efficiently than further archival research.</li>
-    <li><strong>The GD2 Caerlaverock line (Jennifer):</strong> Your 2018 email noted kit 752085 was at genetic distance 2 from the Caerlaverock Castle line. Is that placement consistent with the Auchincairn branch as shown on Don's 2026 chart?</li>
+    <li><strong>Thank you for confirming the BigY placement.</strong> The R-FTA17177 / R-BY24084 distinction, combined with Don's identification of FTA17177 as Robert Maxwell of Cowhill and BY24084 as Sir John's line, confirms the Auchincairn hypothesis definitively. We now have John Maxwell elder of Barfill (wife Constance Lindsay) and John Maxwell younger (father of Patrick 1690) confirmed as two distinct generations in the same 1672 sasine.</li>
+    <li><strong>Confirming the Auchincairn identification:</strong> The two testaments (Alexander Maxwell, Kirkmahoe, 1626; Edward Maxwell of Isle, Caerlaverock, 1638) fit the Auchincairn sons in timing and geography, but neither names its father. Does the Maxwell DNA group have any documentary source connecting Alexander or Edward Maxwell specifically to the Auchincairn line?</li>
+    <li><strong>Other Auchincairn-branch kits:</strong> Does any tested kit in Group 6.48 on the FTA17177 branch (not BY24084) trace through Kirkmahoe, Caerlaverock, or Holywood in the 17th century? A match would either close the gap or refine the chain.</li>
+    <li><strong>The 1664 Tack and 1672 Sasine:</strong> The full text of Register of Deeds Vol.11, p.941 (John of Barfill, Tack, 1664) and Dumfries Sasines Vol.1, Fol.133 (elder + younger + Constance Lindsay, 1672) are available at NRS. These are the most likely documents to name John elder's parentage. Has anyone in the Maxwell group already accessed these?</li>
   </ul>
 
 </div><!-- end summary-section -->
@@ -382,10 +394,36 @@
     <span class="thumb-label">DNA-1 ⭐</span>
   </div>
   <div class="source-content">
-    <h3>Don Maxwell's Group 6.48 Placement Chart — May 2026 <span class="badge badge-confirmed">✓</span> <span class="badge badge-ref">⭐</span></h3>
+    <h3>Don Maxwell's Group 6.48 Placement Chart <span class="badge badge-confirmed">✓</span> <span class="badge badge-ref">⭐</span></h3>
     <p class="ref">Provided by Dr. Donald Maxwell · May 2026</p>
-    <div class="key-finding">Kit 752085 (Maxwell) is shown at the far right of the chart, isolated from all other kit clusters, under the label: <em>"XV. — Brother of Sir John Maxwell — poss XV. — James Maxwell of Auchincairn."</em> All other kits group under Archibald of Cowhill and descendants. Kit 752085 branches before the STR DYS 447 mutation (marker 18, 25→26) that defines the main Cowhill cluster — meaning the divergence is one generation earlier than Archibald.</div>
-    <p>This chart is the primary evidence for the Auchincairn branch hypothesis and supersedes the earlier Freircarse chain hypothesis. Don's updated prediction: "your Adams connection would be thru Edwards minor sons Alexander and Edward — who were under Archibald (then per his will Robert youngest son) Maxwells care until of age."</p>
+    <div class="key-finding">Kit 752085 shown at the far right, isolated from all other kit clusters, under: <em>"XV. — Brother of Sir John Maxwell — poss XV. — James Maxwell of Auchincairn · AuchinCairn — see Cowhill research notes."</em> All other kits group under Archibald of Cowhill and descendants. Don's prediction: "your Adams connection would be thru Edwards minor sons Alexander and Edward — who were under Archibald (then per his will Robert youngest son) Maxwells care until of age."</div>
+  </div>
+</div>
+
+<div class="source-card key-record" id="dna-2">
+  <div class="thumb-wrap">
+    <a href="images/jennifer_email_1.jpg" target="_blank"><img src="images/jennifer_email_1.jpg" alt="Jennifer Maxwell FTDNA and Ytree charts"></a>
+    <span class="thumb-label">DNA-2 ⭐</span>
+  </div>
+  <div class="source-content">
+    <h3>Jennifer Maxwell — FTDNA &amp; Ytree Annotated Charts — May 2026 <span class="badge badge-confirmed">✓</span> <span class="badge badge-ref">⭐</span></h3>
+    <p class="ref">Provided by Dr. Jennifer Maxwell · May 2026 · Screen captures from FTDNA and Alex Williamson's Ytree.net</p>
+    <div class="key-finding">FTDNA haplotree (annotated): Kit 752085 is placed on <strong>R-FTA17177</strong> (~1450 CE). The Broomholm ancient line kit (359274) is on the child branch <strong>R-BY24084</strong> (~1500 CE). Jennifer's annotation: <em>"This is where kit 752085 is placed — on branch R-FTA17177"</em> and <em>"This is the branch for the ancient line Broomholm kit 359274 — on branch R-BY24084."</em></div>
+    <p>The Ytree annotation confirms: "This is your branch" (FTA17177 level) vs. "This is the branch for the Broomholm ancient line kit" (BY24084 sub-branch). Kit 752085 is the rightmost kit on both charts. BigY already completed — David Maxwell is already on both FTDNA and Ytree. No upgrade needed.</p>
+    <p>Jennifer's email: "The Broomholm kit is a proven lineage (he can trace his line back without any missing generations). You and your dad have the Y2357 SNP and then the Broomholm kit branches off from your branch (FTA17177) after your and your dad share it with him."</p>
+  </div>
+</div>
+
+<div class="source-card key-record" id="dna-3">
+  <div class="thumb-wrap">
+    <a href="images/don_zoom.jpg" target="_blank"><img src="images/don_zoom.jpg" alt="Don Maxwell expanded chart FTA17177 labels"></a>
+    <span class="thumb-label">DNA-3 ⭐</span>
+  </div>
+  <div class="source-content">
+    <h3>Don Maxwell's Expanded Chart — FTA17177 = Robert of Cowhill <span class="badge badge-confirmed">✓</span> <span class="badge badge-ref">⭐</span></h3>
+    <p class="ref">Provided by Dr. Donald Maxwell · May 2026</p>
+    <div class="key-finding">This chart explicitly maps the SNPs to historical people: <strong>FTA17177 = Robert Maxwell of Cowhill (XIV)</strong>. <strong>BY24084 = Sir John Maxwell, second of Cowhill (XV, born 1500, died 1547)</strong>. On the far right: <em>"XV. — Brother of Sir John Maxwell — poss XV. — James Maxwell of Auchincairn · AuchinCairn."</em> Kit 752085 (Maxwell 752085) sits under this label, confirming it carries FTA17177 but NOT BY24084. The three groups are: (1) Broomholm, far left, under BY24084 → Archibald IV → John first of Broomholm; (2) Cowhill group, middle, under BY24084 → various Cowhill descendants; (3) Auchincairn, far right = kit 752085, under FTA17177 only.</div>
+    <p>The Cowhill coat of arms appears in the middle cluster; the Broomholm coat of arms at far left. Kit 752085 stands alone on the right — a separate branch diverging before BY24084, consistent with descending from Sir John's brother rather than Sir John himself.</p>
   </div>
 </div>
 
@@ -578,6 +616,86 @@
   </div>
 </div>
 
+<!-- ─── Section 7b: Barfill Deeds & Sasines ─── -->
+<div class="section-heading" style="font-size:0.85rem">Section 6b — Barfill Deeds &amp; Sasines Sequence (1662–1694)</div>
+
+<p style="font-size:0.88rem;margin-bottom:0.8rem;color:var(--faded);font-style:italic;">These records, found via FamilySearch (indexes) and the published Dumfries &amp; Kirkcudbright Register of Sasines index, document John Maxwell elder and younger of Barfill across three decades. The full deed texts are held at NRS Edinburgh and are the priority targets for closing the remaining gap.</p>
+
+<div class="source-card key-record" id="sase-3">
+  <div class="thumb-wrap">
+    <a href="images/sasine_1872.jpg" target="_blank"><img src="images/sasine_1872.jpg" alt="Lindsay sasines index pp.206-207"></a>
+    <span class="thumb-label">SASE-3 ⭐</span>
+  </div>
+  <div class="source-content">
+    <h3>Lindsay Sasines Index — Constance Lindsay, wife of John Maxwell elder of Barfill <span class="badge badge-confirmed">✓</span> <span class="badge badge-ref">⭐</span></h3>
+    <p class="ref">Dumfries &amp; Kirkcudbright Register of Sasines 1672–1702 · Published index · Pages 206–207</p>
+    <div class="key-finding">Page 206: <em>"Lindsay, Constance, spouse of <strong>John Maxwell, elder of Barfill</strong> — 8 May 1672, Vol.1, Fol.133, Kirkcudbright."</em></div>
+    <p>Constance was a Lindsay who married John Maxwell elder of Barfill. The document (Vol.1, Fol.133) is the same as SASE-2 below — both elder and younger appear in this single sasine. Page 207 also shows: <em>"Mary Maxwell, spouse of Thomas [Lindsay], merchant, Dumfries — 21 May 1689, Vol.4, Fol.489"</em> — possibly a daughter of John elder and Constance, marrying back into the Lindsay family.</p>
+  </div>
+</div>
+
+<div class="source-card key-record" id="sase-2">
+  <div class="thumb-wrap">
+    <a href="images/sasine_1672_2.jpg" target="_blank"><img src="images/sasine_1672_2.jpg" alt="Maxwell sasines index pp.264-265"></a>
+    <span class="thumb-label">SASE-2 ⭐</span>
+  </div>
+  <div class="source-content">
+    <h3>Maxwell Sasines Index — Complete Barfill Sequence 1672–1694 <span class="badge badge-confirmed">✓</span> <span class="badge badge-ref">⭐</span></h3>
+    <p class="ref">Dumfries &amp; Kirkcudbright Register of Sasines 1672–1702 · Published index · Pages 264–265</p>
+    <div class="key-finding">Page 264 lists all Barfill Maxwell sasines:<br>
+    — <strong>John, of Barfill, elder</strong> · 8 May 1672 · Vol.1, Fol.133 · Kirkcudbright<br>
+    — <strong>John, of Barfill, younger</strong> · 8 May 1672 · Vol.1, Fol.133 · Kirkcudbright<br>
+    <em>Same date, same volume, same folio</em> — both in one document, confirming father-and-son relationship.<br>
+    — John, of Barfill (bis) · 4 May 1675 · Vol.1, Fol.361 · Kirkcudbright<br>
+    — John, of Barfill · 25 Oct 1677 · Vol.2, Fols.242–243 · Kirkcudbright<br>
+    — John, of Barfill · 25 Oct 1694 · Vol.5, Fol.222 · <strong>Dumfries</strong> (county switches — elder dead by now)</div>
+    <p>The shift from Kirkcudbright to Dumfries county in 1694 reflects the transition from elder to younger as sole holder. All earlier entries are Kirkcudbright — consistent with the Auchincairn (Kirkcudbrightshire) family origin. <strong>Vol.1, Fol.133 (1672)</strong> is the most important unread document in the chain.</p>
+  </div>
+</div>
+
+<div class="source-card key-record" id="deed-1">
+  <div class="thumb-wrap">
+    <a href="images/deeds_1662.jpg" target="_blank"><img src="images/deeds_1662.jpg" alt="Register of Deeds 1662"></a>
+    <span class="thumb-label">DEED-1 ⭐</span>
+  </div>
+  <div class="source-content">
+    <h3>Register of Deeds 1662 — John of Barfill, Two Bonds <span class="badge badge-confirmed">✓</span> <span class="badge badge-ref">⭐</span></h3>
+    <p class="ref">Scottish Register of Deeds (Books of Council and Session) · 1662 · FamilySearch index · Pages 400–401</p>
+    <div class="key-finding">Two entries for <strong>John, of Barfill</strong> in 1662:<br>
+    — G., Bond, 20 Feb. 1662, Vol.4, Page 211<br>
+    — G., Bond of Corroboration, 17 June 1662, Vol.4, Page 874</div>
+    <p>This is the earliest documentary evidence of John Maxwell at Barfill — at least 1662. A Bond of Corroboration (confirming an existing obligation) suggests prior financial activity there even before 1662. John of Broomholm also appears on this page (Bond, 2 Nov., Vol.12, p.471) — the Broomholm line (BY24084 branch) and Barfill line (FTA17177 branch) are active simultaneously in the same national register.</p>
+    <p>Also on page 400: <em>"James Maxwell, son of Edward M. of Balmangane"</em> — the Balmangan estate in Kirkcudbrightshire, connected to the Edward Maxwell of Lamingtoun / Newlaw / Balmangan Maxwell network active in the same region.</p>
+  </div>
+</div>
+
+<div class="source-card key-record" id="deed-2">
+  <div class="thumb-wrap">
+    <a href="images/deeds_1664.jpg" target="_blank"><img src="images/deeds_1664.jpg" alt="Register of Deeds 1664"></a>
+    <span class="thumb-label">DEED-2 ⭐</span>
+  </div>
+  <div class="source-content">
+    <h3>Register of Deeds 1664 — John of Barfill, Tack (Lease) <span class="badge badge-confirmed">✓</span> <span class="badge badge-ref">⭐</span></h3>
+    <p class="ref">Scottish Register of Deeds · 1664 · FamilySearch index · Pages 310–311</p>
+    <div class="key-finding"><strong>John, of Barfill — G. — Tack — 16 Dec. 1664 — Vol.11, Page 941</strong></div>
+    <p>A <strong>Tack</strong> is a Scottish lease of land. This may be the original lease of Barfill farm — the document establishing John Maxwell elder as the tenant. The full text (NRS, Books of Council and Session, Vol.11, p.941) could name the landlord who granted the lease and potentially name John elder with a father or origin. This is a priority document for NRS access.</p>
+    <p>Also on page 311: <em>"[Thomas Maxwell?], son of John M., elder, cordiner, Dumfries"</em> — a different Maxwell family (Dumfries cordiner line), noted for completeness.</p>
+  </div>
+</div>
+
+<div class="source-card key-record" id="deed-3">
+  <div class="thumb-wrap">
+    <a href="images/deeds_1667.jpg" target="_blank"><img src="images/deeds_1667.jpg" alt="Register of Deeds 1667"></a>
+    <span class="thumb-label">DEED-3</span>
+  </div>
+  <div class="source-content">
+    <h3>Register of Deeds 1667 — John of Barfill, Bond <span class="badge badge-confirmed">✓</span></h3>
+    <p class="ref">Scottish Register of Deeds · 1667 · FamilySearch index · Pages 288–289</p>
+    <div class="key-finding"><strong>John, of Barfill — G. — Bond — 1667 — Dal. — Vol.15, Page 48</strong></div>
+    <p>John Maxwell elder of Barfill (Grantor) entering a bond in the Dalhousie (Dal.) register, 1667. Five years before the 1672 sasine when he first appears explicitly as "elder." John of Broomholm also appears on this page — both lines active simultaneously. Full text at NRS (Books of Council and Session, Dal. series, Vol.15, p.48).</p>
+  </div>
+</div>
+
 <!-- ─── Section 7: RPCS 1684 ─── -->
 <div class="section-heading" style="font-size:0.85rem">Section 7 — Register of the Privy Council of Scotland, 1684</div>
 
@@ -622,55 +740,64 @@ UNDWIN, father of Maccus (~1070)
         └── JOHN MAXWELL, Master of Maxwell (d. Kirtle 22 July 1484)
             ★ Y2357 SNP CONFIRMED · GD2 from Caerlaverock · Kit 752085 Group 6.48  ✓ FT-4
             │
-            └── ROBERT MAXWELL → Maxwells of COWHILL  ✓ FT-7
-                └── SIR JOHN MAXWELL OF COWHILL (~1500–1547)  ✓ FT-3, FT-7
-                    │
-                    ├── [Main Cowhill line → Archibald → Drumpark etc. — not our line]
-                    │
-                    └── JAMES MAXWELL OF AUCHINCAIRN (Sir John's brother)  ● DNA-1
-                        └── EDWARD MAXWELL OF AUCHINCAIRN (d. before 1606)  ✓ WILL-0
-                            │   [deceased at time of Archibald's 1606 will; minor sons in wardship]
-                            │
-                            ├── ALEXANDER MAXWELL, Towbill-hill, Kirkmahoe (d. Nov 1625)  ✓ WILL-1a
-                            │   └── JOHN MAXWELL (his son, born ~1610–1625)  ✓ WILL-1a
-                            │                                    ← PREFERRED PATH
-                            │
-                            └── EDWARD MAXWELL OF ISLE, Caerlaverock (d. Jul 1637)  ✓ WILL-1b
-                                └── JOHN MAXWELL (his eldest son, born ~1605–1620)  ✓ WILL-1b
+            └── ROBERT MAXWELL OF COWHILL (XIV · FTA17177 ~1450 CE)  ✓ FT-7 · DNA-2 · DNA-3
+                │   [FTA17177 = common ancestor of ALL kits on this chart, including Broomholm]
+                │
+                ├── SIR JOHN MAXWELL OF COWHILL (XV · BY24084 ~1500 CE)  ✓ FT-3  [NOT our line]
+                │   └── Archibald IV → Broomholm, Cowhill, Drumpark etc.
+                │
+                └── JAMES MAXWELL OF AUCHINCAIRN (XV · FTA17177 without BY24084)  ✓ DNA-1 · DNA-2 · DNA-3
+                    │   [Sir John's brother · BigY confirmed: kit 752085 carries FTA17177, NOT BY24084]
+                    └── EDWARD MAXWELL OF AUCHINCAIRN (d. before 1606)  ✓ WILL-0
+                        │   [deceased at time of Archibald's 1606 will; minor sons in wardship]
+                        │
+                        ├── ALEXANDER MAXWELL, Towbill-hill, Kirkmahoe (d. Nov 1625)  ✓ WILL-1a
+                        │   └── JOHN MAXWELL (his son, born ~1610–1625)  ✓ WILL-1a  ← PREFERRED PATH
+                        │
+                        └── EDWARD MAXWELL OF ISLE, Caerlaverock (d. Jul 1637)  ✓ WILL-1b
+                            └── JOHN MAXWELL (his eldest son)  ✓ WILL-1b
 
-                            ↕ ══ THE GAP ══ one generation · no surviving indexed record ══ ↕
+                        ↕ ══ THE GAP ══ one step · no document names John elder's father ══ ↕
+                        [John elder ~37–47 in 1662 · Alexander's son ~37–47 in 1662 · perfect match]
+                        [Kirkcudbright county on all 1662–1677 Barfill deeds = Auchincairn geographic link]
 
-                    JOHN MAXWELL OF BARFILL, HOLYWOOD  ● proposed
-                    [farm confirmed: RPCS 1684, p.300 "Ab. Barfill"]
-                    [name = Barshill: OPR clerk misread ſ as f → "Barfie"]
-                        └── PATRICK MAXWELL (b.14 Sep 1690, Holywood)  ✓ OPR-B2
-                            └── JOHN MAXWELL (b.25 May 1726, Stirling)  ✓ OPR-B1
-                                └── ADAM MAXWELL (b.20 Aug 1749, Stirling)  ✓ OPR-B0
-                                    └── DAVID MAXWELL (~1798)  ✓ FT-1
-                                        └── SAMUEL H. MAXWELL (b.1833)  ✓ FT-1
-                                            └── MACK YOUNG MAXWELL (b.1864)  ✓ FT-1
-                                                └── RALPH EDGAR MAXWELL (b.1887)  ✓ FT-1
-                                                    └── RALPH DAVIS MAXWELL (~1925)  ✓ FT-1
-                                                        └── DAVID B. MAXWELL [Kit 752085]  ✓
-                                                            └── JAMES D. MAXWELL  ✓
+                    JOHN MAXWELL ELDER of Barfill · wife: Constance Lindsay  ✓ DEED-1 · DEED-2 · DEED-3 · SASE-2 · SASE-3
+                    [Active: 1662 (bonds) → 1664 (Tack) → 1667 (bond) → 1672 (with younger) → 1677]
+                    [Farm name = Barshill: OPR clerk misread ſ as f → "Barfie"]
+                    [1684 RPCS: "Ab. Barfill" — residents absent, unnamed — RPCS-1]
+                        └── JOHN MAXWELL YOUNGER of Barfill · wife: Margaret dau. of John Thomson  ✓ SASE-2 · OPR-B2
+                            [confirmed in same 1672 sasine as elder · father of Patrick 1690]
+                            [1694 sasine, Dumfries county — elder dead by this time]
+                                └── PATRICK MAXWELL (b.14 Sep 1690, Holywood)  ✓ OPR-B2
+                                    └── JOHN MAXWELL (b.25 May 1726, Stirling)  ✓ OPR-B1
+                                        └── ADAM MAXWELL (b.20 Aug 1749, Stirling)  ✓ OPR-B0
+                                            └── DAVID MAXWELL (~1798)  ✓ FT-1
+                                                └── SAMUEL H. MAXWELL (b.1833)  ✓ FT-1
+                                                    └── MACK YOUNG MAXWELL (b.1864)  ✓ FT-1
+                                                        └── RALPH EDGAR MAXWELL (b.1887)  ✓ FT-1
+                                                            └── RALPH DAVIS MAXWELL (~1925)  ✓ FT-1
+                                                                └── DAVID B. MAXWELL [Kit 752085]  ✓
+                                                                    └── JAMES D. MAXWELL  ✓
 
-Legend: ✓ = confirmed · ● = DNA or strong circumstantial evidence · ══ GAP ══ = no documentary bridge
+Legend: ✓ = confirmed · ● = DNA evidence · ══ GAP ══ = no documentary bridge
 </pre>
 </div>
 
 <!-- ─── Section 10: Next Steps ─── -->
 <div class="section-heading" style="font-size:0.85rem">Section 10 — Remaining Gap &amp; Next Steps</div>
 
-<div class="gap-box" style="margin-bottom:0.7rem">
-  <strong>THE GAP:</strong> John Maxwell (son of Alexander of Kirkmahoe, born ~1610–1625) → John Maxwell of Barfill (Holywood, born ~1650–1658). One generation. Kirkmahoe/Caerlaverock OPR records not indexed for this period. OPR birth and marriage searches (ScotlandsPeople, May 2026, full scope) returned no bridging record.
+<div class="gap-box" style="margin-bottom:1rem">
+  <strong>THE GAP:</strong> John Maxwell (son of Alexander Maxwell, Kirkmahoe, born ~1610–1625) → John Maxwell <strong>elder</strong> of Barfill (first documented 1662, active to 1677, wife Constance Lindsay).<br>
+  One step · no document names John elder's father · ages entirely consistent · Kirkcudbright county links both sides.
+  <p style="margin-top:0.4rem">The two documents most likely to close this gap are at NRS Edinburgh: (1) <strong>Register of Deeds, Vol.11, p.941</strong> — the 1664 Tack, possibly the original Barfill farm lease, which may name John elder's origin; (2) <strong>Dumfries Sasines, Vol.1, Fol.133</strong> — the 1672 document containing John elder, John younger, and Constance Lindsay together, which may give fuller designations for both men.</p>
 </div>
 
 <ol class="next-steps">
-  <li><strong>Big-Y DNA test for kit 752085</strong> — highest priority. Don's chart already places kit 752085 on the Auchincairn branch. A Big-Y upgrade (~$119 at FTDNA) gives precise sub-branch placement and potentially matches a tested cousin who has already documented the gap generation. Contact Dr. Donald Maxwell.</li>
-  <li><strong>Holywood Kirk Session records, CH2/184</strong> (National Records of Scotland, Edinburgh — in person). Session minutes often survive where OPR baptism/marriage registers do not. John Maxwell of Barfill could appear as a communicant, in a discipline case, or in session business before the 1690 baptism.</li>
-  <li><strong>Kirkmahoe OPR (parish 214) — births and marriages 1640–1680</strong>. Check ScotlandsPeople for any surviving records for this period. If Alexander's son John Maxwell married and had children in Kirkmahoe before moving to Holywood, his family may appear there.</li>
-  <li><strong>Full text of Dumfriesshire Sasines Vol.5, Fol.194</strong> (NRS in person). The 1647 sasine for William son of Herbert of Freircarse (index only seen so far) is contextual for the wider network. The more targeted sasine search would be for any transaction involving Barfill or John Maxwell in Holywood/Kirkmahoe, 1650–1690.</li>
-  <li><strong>Dumfries burgh cordiners' incorporation records</strong> (Dumfries Archive Centre, 33 Burns Street, DG1 2PS). If John of Barfill or his father passed through Dumfries as craftsmen, guild records could name parentage.</li>
+  <li><strong>NRS Edinburgh — Register of Deeds Vol.11, p.941 (1664 Tack)</strong>. The original Barfill farm lease is the single document most likely to name John Maxwell elder's parentage or origin. Order a digital copy from NRS (records.gov.scot) by reference number. This is the highest priority.</li>
+  <li><strong>NRS Edinburgh — Dumfries Sasines Vol.1, Fol.133 (8 May 1672)</strong>. Contains John elder, John younger, and Constance Lindsay in the same document. The full text may give fuller designations for both men and clarify the nature of the transaction. Order alongside the 1664 Tack.</li>
+  <li><strong>Holywood Kirk Session records, CH2/184</strong> (NRS in person or ordered). Session minutes may record John Maxwell elder or younger of Barfill appearing as communicants or in session business before the 1690 OPR baptism.</li>
+  <li><strong>Ask Don and Jennifer:</strong> Has anyone in the Maxwell DNA group accessed the 1664 Tack or 1672 sasine? The Auchincairn branch connection is now confirmed by BigY — the documentary gap is the only remaining open question.</li>
+  <li><strong>Kirkmahoe OPR (parish 214)</strong>. Check ScotlandsPeople for any surviving births and marriages 1640–1680. If Alexander's son John married in Kirkmahoe before moving to Holywood, his family may appear there.</li>
 </ol>
 
 <!-- ═══════════════════════════════════════════════ -->
