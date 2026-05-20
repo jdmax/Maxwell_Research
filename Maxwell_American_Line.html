@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Maxwell Genealogy — American Line · Research Summary &amp; Source Inventory</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400&family=Cinzel:wght@400;600&display=swap');
+  :root {
+    --ink: #1a1208; --parchment: #f7f0e3; --aged: #e8dcc8; --rust: #8b3a1a;
+    --gold: #b8860b; --faded: #7a6e5e; --confirmed: #2d5a1b; --probable: #7a4f00;
+    --conjecture: #5a2d82; --gap: #8b1a1a; --border: #c4a96b; --deadend: #3a3a3a;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family:'EB Garamond',Georgia,serif; font-size:15px; line-height:1.6; background:var(--parchment); color:var(--ink); padding:2rem 1rem; }
+  .page { max-width:960px; margin:0 auto; }
+  header { text-align:center; border-top:3px double var(--border); border-bottom:3px double var(--border); padding:1.5rem 1rem; margin-bottom:0.5rem; background:var(--aged); }
+  header h1 { font-family:'Cinzel',serif; font-size:1.9rem; font-weight:600; letter-spacing:0.04em; color:var(--rust); margin-bottom:0.4rem; }
+  header p { color:var(--faded); font-style:italic; font-size:0.95rem; }
+  .legend { display:flex; flex-wrap:wrap; gap:1rem; margin-bottom:2rem; padding:0.8rem 1.2rem; background:var(--aged); border:1px solid var(--border); border-radius:3px; font-size:0.88rem; }
+  .legend-item { display:flex; align-items:center; gap:0.4rem; }
+  .badge { display:inline-block; padding:0.15em 0.55em; border-radius:3px; font-size:0.78rem; font-weight:600; font-family:'Cinzel',serif; letter-spacing:0.03em; }
+  .badge-confirmed  { background:#d4edda; color:var(--confirmed);  border:1px solid var(--confirmed); }
+  .badge-probable   { background:#fff3cd; color:var(--probable);   border:1px solid var(--probable); }
+  .badge-gap        { background:#f8d7da; color:var(--gap);        border:1px solid var(--gap); }
+  .badge-ref        { background:#e8eaf0; color:#2c3a6e;           border:1px solid #8090c0; }
+  .badge-deadend    { background:#e8e8e8; color:var(--deadend);    border:1px solid #888; }
+  .section-heading { font-family:'Cinzel',serif; font-size:1rem; font-weight:600; color:var(--rust); letter-spacing:0.06em; text-transform:uppercase; border-bottom:1px solid var(--border); padding-bottom:0.3rem; margin:2rem 0 1rem; }
+  .section-heading.deadend-heading { color:var(--deadend); border-bottom-color:#999; }
+  .section-heading.exploration-heading { color:#4a3a6e; border-bottom-color:#9080c0; }
+  .source-card { display:grid; grid-template-columns:120px 1fr; gap:1rem; border:1px solid var(--border); border-radius:4px; padding:1rem; margin-bottom:1rem; background:#fdfaf4; transition:box-shadow 0.15s; }
+  .source-card:hover { box-shadow:0 2px 8px rgba(0,0,0,0.12); }
+  .source-card.key-record { border-left:4px solid var(--gold); background:#fefcf5; }
+  .source-card.deadend-card { background:#f5f5f5; border-color:#bbb; opacity:0.85; }
+  .thumb-wrap { display:flex; flex-direction:column; gap:0.4rem; }
+  .thumb-wrap a { display:block; border:1px solid var(--border); border-radius:2px; overflow:hidden; line-height:0; }
+  .thumb-wrap a img { width:120px; height:90px; object-fit:cover; object-position:top; display:block; transition:opacity 0.15s; }
+  .thumb-wrap a:hover img { opacity:0.85; }
+  .thumb-label { font-size:0.72rem; color:var(--faded); text-align:center; font-style:italic; }
+  .multi-thumb { display:flex; flex-wrap:wrap; gap:4px; }
+  .multi-thumb a img { width:56px; height:42px; }
+  .source-content h3 { font-family:'Cinzel',serif; font-size:0.92rem; font-weight:600; color:var(--ink); margin-bottom:0.4rem; display:flex; align-items:center; flex-wrap:wrap; gap:0.4rem; }
+  .source-content .ref { font-family:'EB Garamond',serif; font-size:0.82rem; color:var(--faded); font-style:italic; font-weight:400; }
+  .source-content p { font-size:0.9rem; margin-bottom:0.35rem; }
+  .source-content .key-finding { background:#fffbec; border-left:3px solid var(--gold); padding:0.4rem 0.7rem; margin:0.4rem 0; font-size:0.88rem; }
+  .chain { background:var(--aged); border:1px solid var(--border); border-radius:4px; padding:1.2rem 1.4rem; margin:1.5rem 0; overflow-x:auto; }
+  .chain pre { font-family:'EB Garamond',Georgia,serif; font-size:0.82rem; line-height:1.7; white-space:pre; color:var(--ink); }
+  .gap-box { background:#fdf3f3; border:1px solid #e0a0a0; border-left:4px solid var(--gap); padding:0.8rem 1rem; margin:1rem 0; border-radius:3px; font-size:0.9rem; }
+  .next-steps { counter-reset:steps; list-style:none; padding:0; }
+  .next-steps li { counter-increment:steps; padding:0.5rem 0.5rem 0.5rem 2.5rem; position:relative; border-bottom:1px dotted var(--border); font-size:0.9rem; }
+  .next-steps li::before { content:counter(steps); position:absolute; left:0.5rem; top:0.5rem; width:1.4rem; height:1.4rem; background:var(--rust); color:white; border-radius:50%; display:flex; align-items:center; justify-content:center; font-family:'Cinzel',serif; font-size:0.75rem; font-weight:600; }
+  .site-nav { display:flex; flex-wrap:wrap; gap:0.5rem 1.2rem; margin-bottom:0; padding:0.6rem 1rem; background:var(--aged); border:1px solid var(--border); border-radius:3px; font-size:0.83rem; }
+  .site-nav a { color:var(--rust); text-decoration:none; }
+  .site-nav a:hover { text-decoration:underline; }
+  .page-header { display:flex; align-items:stretch; gap:1.4rem; margin-bottom:2rem; }
+  .page-header .crest-sidebar { height:212px; width:auto; flex-shrink:0; display:block; }
+  .header-main { flex:1; min-width:0; }
+  .summary-section { margin-bottom:2.5rem; }
+  .summary-intro { background:var(--aged); border:1px solid var(--border); padding:1.2rem 1.4rem; margin-bottom:1.4rem; border-radius:4px; font-size:0.93rem; }
+  .summary-intro p { margin-bottom:0.5rem; }
+  .summary-intro p:last-child { margin-bottom:0; }
+  .dna-box { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:0.8rem; margin-bottom:1.4rem; }
+  .dna-stat { background:#fdfaf4; border:1px solid var(--border); border-radius:4px; padding:0.7rem 0.9rem; text-align:center; }
+  .dna-stat .label { font-size:0.72rem; text-transform:uppercase; letter-spacing:0.08em; color:var(--faded); font-family:'Cinzel',serif; margin-bottom:0.2rem; }
+  .dna-stat .value { font-size:1.05rem; font-weight:600; color:var(--rust); }
+  .chain-table { width:100%; border-collapse:collapse; font-size:0.86rem; margin-bottom:1.4rem; }
+  .chain-table th { background:var(--rust); color:white; font-family:'Cinzel',serif; font-weight:600; font-size:0.78rem; letter-spacing:0.05em; padding:0.45rem 0.7rem; text-align:left; }
+  .chain-table td { padding:0.35rem 0.7rem; border-bottom:1px solid var(--aged); vertical-align:top; }
+  .chain-table tr:hover td { background:var(--aged); }
+  .chain-table .gen-confirmed td { background:#f2faf2; }
+  .chain-table .gen-probable td { background:#fffcf0; }
+  .chain-table .gen-gap td { background:#fff5f5; }
+  .chain-table .gen-branch td { background:#f0f0ff; }
+  .chain-table .person { font-weight:600; }
+  .chain-table .dates { color:var(--faded); font-style:italic; font-size:0.83rem; }
+  .chain-table .source-ref { font-size:0.78rem; color:#3a5a8a; }
+  .questions-list { list-style:none; padding:0; counter-reset:q; }
+  .questions-list li { counter-increment:q; padding:0.6rem 0.6rem 0.6rem 2.6rem; position:relative; border-bottom:1px dotted var(--border); font-size:0.9rem; }
+  .questions-list li:last-child { border-bottom:none; }
+  .questions-list li::before { content:'Q' counter(q); position:absolute; left:0.5rem; top:0.6rem; background:var(--gold); color:white; font-family:'Cinzel',serif; font-size:0.7rem; font-weight:600; padding:0.1em 0.35em; border-radius:2px; }
+  .no-image { width:120px; height:90px; background:var(--aged); border:1px dashed var(--border); border-radius:2px; display:flex; align-items:center; justify-content:center; color:var(--faded); font-size:0.7rem; text-align:center; padding:0.5rem; }
+  .src-link { color:var(--rust); text-decoration:none; font-weight:600; font-family:'Cinzel',serif; font-size:0.78rem; white-space:nowrap; }
+  .src-link:hover { text-decoration:underline; }
+  .deadend-box { background:#f2f2f2; border:1px solid #bbb; border-left:4px solid var(--deadend); padding:0.8rem 1rem; margin:1rem 0; border-radius:3px; font-size:0.9rem; color:var(--deadend); }
+  @media print { body { background:white; padding:0; } .source-card:hover { box-shadow:none; } }
+  @media (max-width:600px) {
+    .page-header { flex-direction:column; align-items:center; gap:0.8rem; }
+    .page-header .crest-sidebar { height:200px; }
+    header h1 { font-size:1.4rem; }
+    .source-card { grid-template-columns:1fr; }
+    .thumb-wrap a img { width:100%; height:120px; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+<div class="page-header">
+  <img src="images/crest_tartan.png" alt="Maxwell crest" class="crest-sidebar">
+  <div class="header-main">
+    <header>
+      <h1>Maxwell Genealogy &mdash; American Line</h1>
+      <p>Research Summary &amp; Source Document Inventory &nbsp;·&nbsp; May 2026</p>
+      <p style="margin-top:0.3rem">FTDNA Kit 752085 &nbsp;·&nbsp; David B. Maxwell &amp; James D. Maxwell</p>
+    </header>
+    <nav class="site-nav">
+      <a href="#summary">Research Summary</a>
+      <a href="#chain">Ancestry Chain</a>
+      <a href="#findings">Key Findings</a>
+      <a href="#sources">Source Documents</a>
+      <a href="#questions">Open Questions &amp; Next Steps</a>
+      <a href="Maxwell_Source_Inventory.html">↗ Scottish Line</a>
+    </nav>
+  </div>
+</div>
+
+<div class="legend">
+  <div class="legend-item"><span class="badge badge-confirmed">✓ Confirmed</span> Primary source proof</div>
+  <div class="legend-item"><span class="badge badge-probable">● Probable</span> Strong evidence, not yet proven</div>
+  <div class="legend-item"><span class="badge badge-gap">? Gap</span> Missing link</div>
+  <div class="legend-item"><span class="badge badge-ref">⭐ Key</span> Most important records</div>
+  <div class="legend-item"><span class="badge badge-deadend">✗ Dead End</span> Hypothesis superseded</div>
+</div>
+
+<section id="summary" class="summary-section">
+  <h2 class="section-heading">Research Summary</h2>
+  <div class="summary-intro">
+    <p>This page documents the American Maxwell line from <strong>Adam Maxwell</strong> (baptized 1749 in Stirling, Scotland) — the immigrant ancestor who settled in Buffalo Township, Armstrong County, Pennsylvania — down through seven generations to the present. The goal: confirm each father-to-son link with primary records rather than relying on the existing printed family chart (FT-1 of the Scottish inventory), which on examination contained at least one significant error.</p>
+    <p>The chain is anchored at the top by Adam Maxwell's <strong>1820 will</strong> in Armstrong County, which names his five sons by name, and at the bottom by federal census records, Ohio death certificates, and Ohio county vital records — several of which were generated by Maxwell family members acting as informants on their own relatives' documents, providing internal cross-confirmation across generations.</p>
+    <p>The principal finding is that the printed family chart was wrong about generation 22: <strong>Samuel H. Maxwell's father was William Maxwell, not David Maxwell.</strong> Adam Maxwell had sons named both William and David; the chart selected the wrong brother. One related hypothesis — that William's elder brother James later married William's widow Margaret — remains well-supported but not yet sealed by a marriage record. The 1850 census is the next priority document.</p>
+  </div>
+  <div class="dna-box">
+    <div class="dna-stat"><div class="label">Generations</div><div class="value">8</div></div>
+    <div class="dna-stat"><div class="label">Primary Documents</div><div class="value">7</div></div>
+    <div class="dna-stat"><div class="label">Documented Span</div><div class="value">1820 – 1942</div></div>
+    <div class="dna-stat"><div class="label">Migration Path</div><div class="value">PA → OH</div></div>
+    <div class="dna-stat"><div class="label">Chart Corrections</div><div class="value">Gen 22 rebuilt</div></div>
+    <div class="dna-stat"><div class="label">Brother Hypothesis</div><div class="value">● Probable</div></div>
+  </div>
+</section>
+
+<h2 class="section-heading" id="chain">Proposed Ancestry Chain</h2>
+<table class="chain-table">
+  <thead>
+    <tr><th>#</th><th>Person</th><th>Dates &amp; Place</th><th>Status</th><th>Source</th></tr>
+  </thead>
+  <tbody>
+    <tr class="gen-confirmed">
+      <td>21</td>
+      <td class="person">Adam Maxwell</td>
+      <td class="dates">b. 20 Aug 1749, Stirling, Scotland · d. ~1837, Buffalo Twp., Armstrong Co., PA · m. Elizabeth</td>
+      <td><span class="badge badge-confirmed">✓</span></td>
+      <td class="source-ref"><a href="#will-a1" class="src-link">WILL-A1</a> ⭐</td>
+    </tr>
+    <tr class="gen-confirmed">
+      <td>22</td>
+      <td class="person">William Maxwell<br><span style="font-weight:400;color:var(--faded);font-size:0.78rem;font-style:italic;">[corrected from FT-1 "David Maxwell"]</span></td>
+      <td class="dates">b. ~1795–1800, PA · adult by 1820 (executor of Adam's will) · m. Margaret [Histone / Heistand?] · d. between ~1852 and 1860</td>
+      <td><span class="badge badge-confirmed">✓</span></td>
+      <td class="source-ref"><a href="#will-a1" class="src-link">WILL-A1</a> · <a href="#death-s1" class="src-link">DEATH-S1</a></td>
+    </tr>
+    <tr class="gen-probable">
+      <td colspan="5" style="font-size:0.85rem;">
+        <strong>↕ Brother-marries-widow link ↕</strong> &nbsp; After William's death (between ~1852 and 1860), his widow Margaret appears to have remarried his elder brother <strong>James Maxwell</strong>, who appears as head of household in the 1860 Pike Co., OH census (age 67, b. ~1793 PA) with Margaret and at least seven children. James and William are confirmed brothers by Adam's 1820 will (<a href="#will-a1" class="src-link">WILL-A1</a>). Samuel's anomalous third-position listing in the 1860 household — out of strict descending age order — supports the step-relationship reading. The hypothesis is well-supported but not yet sealed; the 1850 census, William's death/probate, or the James–Margaret marriage record would close it. &nbsp; <span class="badge badge-probable">● Probable</span>
+      </td>
+    </tr>
+    <tr class="gen-confirmed">
+      <td>23</td>
+      <td class="person">Samuel H. Maxwell</td>
+      <td class="dates">b. 23 Feb 1833, PA · m. Mary E. Dinsmore 27 Aug 1860, Pike Co., OH · d. 25 Aug 1910, Columbus, OH · carpenter · buried Green Lawn Cemetery</td>
+      <td><span class="badge badge-confirmed">✓</span></td>
+      <td class="source-ref"><a href="#death-s1" class="src-link">DEATH-S1</a> ⭐ · <a href="#mar-1" class="src-link">MAR-1</a> · <a href="#cens-1860" class="src-link">CENS-1860</a> · <a href="#cens-1900" class="src-link">CENS-1900</a></td>
+    </tr>
+    <tr class="gen-confirmed">
+      <td>24</td>
+      <td class="person">Mack Young Maxwell</td>
+      <td class="dates">b. 15 Jul 1864, Pike Co., OH · m. Lena Brohard · d. 8 Jun 1942, Marble Cliff, Franklin Co., OH · retired contractor</td>
+      <td><span class="badge badge-confirmed">✓</span></td>
+      <td class="source-ref"><a href="#death-m1" class="src-link">DEATH-M1</a> ⭐ · <a href="#cens-1900" class="src-link">CENS-1900</a> · <a href="#cens-1940" class="src-link">CENS-1940</a></td>
+    </tr>
+    <tr class="gen-confirmed">
+      <td>25</td>
+      <td class="person">Ralph Edgar Maxwell</td>
+      <td class="dates">b. 7 Jan 1887, Jackson Co., OH (Jun 1887 per 1900 census) · m. Jessie E. · d. 23 Jan 1942 · accountant (photo mounts industry)</td>
+      <td><span class="badge badge-confirmed">✓</span></td>
+      <td class="source-ref"><a href="#cens-1900" class="src-link">CENS-1900</a> · <a href="#cens-1940" class="src-link">CENS-1940</a></td>
+    </tr>
+    <tr class="gen-confirmed">
+      <td>26</td>
+      <td class="person">Ralph Davis Maxwell</td>
+      <td class="dates">b. ~1922–1923, OH (age 17 in April 1940 census; FT-1 said ~1925) · informant on grandfather Mack's 1942 death certificate</td>
+      <td><span class="badge badge-confirmed">✓</span></td>
+      <td class="source-ref"><a href="#cens-1940" class="src-link">CENS-1940</a> · <a href="#death-m1" class="src-link">DEATH-M1</a></td>
+    </tr>
+    <tr class="gen-confirmed">
+      <td>27</td>
+      <td class="person">David B. Maxwell</td>
+      <td class="dates">FTDNA Kit 752085</td>
+      <td><span class="badge badge-confirmed">✓</span></td>
+      <td class="source-ref">FTDNA</td>
+    </tr>
+    <tr class="gen-confirmed">
+      <td>28</td>
+      <td class="person">James D. Maxwell</td>
+      <td class="dates">Son of David B. Maxwell</td>
+      <td><span class="badge badge-confirmed">✓</span></td>
+      <td class="source-ref">—</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 class="section-heading" id="findings">Key Findings &amp; Clarifications</h2>
+
+<div class="source-card key-record">
+  <div class="thumb-wrap">
+    <a href="images/samuel_death.jpg"><img src="images/samuel_death.jpg" alt="Samuel death certificate"></a>
+    <div class="thumb-label">DEATH-S1</div>
+  </div>
+  <div class="source-content">
+    <h3>The "David Maxwell" error — corrected May 2026 <span class="ref">FT-1 generation 22 was wrong</span></h3>
+    <p>The printed family chart (FT-1) named generation 22 as <em>David Maxwell, b. ~1798, d. 1830, Armstrong Co., PA</em>. Samuel H. Maxwell's 1910 Ohio death certificate, with his son Mack as informant, instead names his father as <strong>William Maxwell</strong>. Adam Maxwell's 1820 will (<a href="#will-a1" class="src-link">WILL-A1</a>) confirms that both William and David were sons of Adam — so FT-1 identified the correct family but the wrong brother.</p>
+    <p>The chart's stated 1830 death year was also numerically incompatible with Samuel's 1833 birth (Samuel could not have been fathered by a man already three years dead); this discrepancy was the first warning that something was off. The corrected line runs through William, the executor brother of Adam's will, not through David.</p>
+    <div class="key-finding"><strong>Net effect:</strong> Generation 22 fully rebuilt. William Maxwell replaces David. All downstream generations remain unchanged.</div>
+  </div>
+</div>
+
+<div class="source-card key-record">
+  <div class="thumb-wrap">
+    <a href="images/census_1860.jpg"><img src="images/census_1860.jpg" alt="1860 census"></a>
+    <div class="thumb-label">CENS-1860</div>
+  </div>
+  <div class="source-content">
+    <h3>The brother-marries-widow scenario <span class="ref">William → James, ~1852–1860</span></h3>
+    <p>The 1860 census shows the household under the headship of <strong>James H. Maxwell</strong> (age 67, b. ~1793 PA), not William. Adam's 1820 will confirms James and William as brothers, with James listed first among the sons and receiving the largest land share — consistent with his being the eldest.</p>
+    <p>The reconstructed sequence: William Maxwell (Samuel's biological father) married Margaret [Histone] in Pennsylvania in the early 1830s and had at least Samuel (b. 1833) and probably most or all of the other PA-born children later visible in 1860; William died between ~1852 (when his youngest child Addison was born in PA) and 1860; his elder brother James then married widow Margaret and the combined household relocated to Pike County, Ohio.</p>
+    <p>Samuel's anomalous third-place listing in the 1860 household — between James (age 20) and Harlow (17), breaking strict descending age order — is best explained by his status as a step-son added to the enumeration after James H.'s biological or already-known children. The naming of an 11-year-old William Maxwell among the children is further suggestive: naming a later son after a deceased father was common 19th-century practice.</p>
+    <div class="key-finding"><strong>To confirm:</strong> 1850 census, William's death/probate, or a James–Margaret marriage record would seal this hypothesis.</div>
+  </div>
+</div>
+
+<div class="source-card">
+  <div class="thumb-wrap">
+    <div class="no-image">Pennsylvania → Pike Co., OH</div>
+    <div class="thumb-label">~1852–1860</div>
+  </div>
+  <div class="source-content">
+    <h3>Pennsylvania → Ohio migration <span class="ref">window: ~1852 to September 1860</span></h3>
+    <p>Every Maxwell child in the 1860 household is listed as Pennsylvania-born, with the youngest (Addison) approximately eight years old. The family was therefore still in Pennsylvania around 1852 and arrived in Pike County, Ohio before September 1860.</p>
+    <p>Samuel's marriage to Mary E. Dinsmore — also Pennsylvania-born — on 27 August 1860 in Pike County, just eight days before the census enumeration, suggests the Maxwell and Dinsmore families had either migrated together or independently to the same Ohio county at about the same time. The migration window aligns with the death of William and the remarriage of Margaret to James, plausibly motivating the move itself.</p>
+  </div>
+</div>
+
+<h2 class="section-heading" id="sources">Source Documents</h2>
+
+<h3 class="section-heading">Section 1 — 20th-Century Ohio: Federal Census &amp; Death Certificates</h3>
+
+<div class="source-card key-record" id="cens-1940">
+  <div class="thumb-wrap">
+    <a href="images/census_1940.jpg"><img src="images/census_1940.jpg" alt="1940 census thumbnail"></a>
+    <div class="thumb-label">CENS-1940 ⭐</div>
+  </div>
+  <div class="source-content">
+    <h3>1940 Federal Census — Marble Cliff, Franklin Co., Ohio <span class="ref">✓ Confirmed · ⭐ Key</span></h3>
+    <p><em>16th Census of the United States · Sheet 2A, ED 25-15 · Enumerated 3 April 1940 by Laura E. McCoy · West Fifth Avenue</em></p>
+    <p>Lines 10–13 record the Maxwell household at one address: <strong>Ralph E. Maxwell</strong> (head, age 52, accounting in photo mounts industry); <strong>Jessie E.</strong> (wife, age 55); <strong>Ralph D.</strong> (son, age 17); <strong>Mack Y.</strong> (father, age 75, widowed). All born in Ohio.</p>
+    <div class="key-finding">A single census line collapses three generations of the chart into one document, with Mack Y. explicitly listed in the "Relation" column as Ralph E.'s father, and Ralph D. as Ralph E.'s son. The 1935 residence column shows Ralph E.'s family in Columbus in 1935 (Franklin County) and Mack at the same Marble Cliff address ("Same Place"), suggesting the younger family joined Mack between 1935 and 1940 — likely around the death of Mack's wife Lena. Ralph D. age 17 in April 1940 puts his birth ~1922–1923, slightly earlier than FT-1's "~1925."</div>
+  </div>
+</div>
+
+<div class="source-card key-record" id="death-m1">
+  <div class="thumb-wrap">
+    <a href="images/mack_y_death.jpg"><img src="images/mack_y_death.jpg" alt="Mack Y. Maxwell death certificate"></a>
+    <div class="thumb-label">DEATH-M1 ⭐</div>
+  </div>
+  <div class="source-content">
+    <h3>Mack Young Maxwell — Ohio Death Certificate, 8 June 1942 <span class="ref">✓ Confirmed · ⭐ Key</span></h3>
+    <p><em>State of Ohio Department of Health · Certificate of Death · File No. 35901 · Registered No. 2158 · Registration District 2416 · Franklin Co. · Marble Cliff · 1567 Cambridge Blvd</em></p>
+    <p>Full name: Mack Y. Maxwell. Born 15 July 1864, Pike Co., Ohio (age 77y 10m 23d). Died 8 June 1942. Retired contractor. Widower of Lena Brohard Maxwell. Father: <strong>Sam H. Maxwell</strong>, b. Pennsylvania. Mother: <strong>Mary E. Dinsmore</strong>, b. Pennsylvania. Burial: Union Cemetery, 11 June 1942.</p>
+    <p>Informant: <strong>Ralph D. Maxwell</strong>, 1562 Cambridge Blvd — the deceased's grandson (generation 26).</p>
+    <div class="key-finding">Confirms Mack's parentage (Samuel H. + Mary E. Dinsmore) and places both Samuel and Mary as Pennsylvania-born. The informant — Ralph D. Maxwell — is the chain's generation 26, at age 18 or 19 stepping in as next-of-kin five months after his own father Ralph E. had died (23 January 1942). The certificate is signed in his hand, making him the documentary bridge between three generations of the line at a single moment.</div>
+  </div>
+</div>
+
+<div class="source-card" id="cens-1900">
+  <div class="thumb-wrap">
+    <a href="images/census_1900.jpg"><img src="images/census_1900.jpg" alt="1900 census"></a>
+    <div class="thumb-label">CENS-1900</div>
+  </div>
+  <div class="source-content">
+    <h3>1900 Federal Census — Columbus, Franklin Co., Ohio <span class="ref">✓ Confirmed</span></h3>
+    <p><em>12th Census of the United States · Schedule No. 1 · Ward 18, Precinct D, ED 126, SD 11 · Sheet 5B · Enumerated 5 June 1900 by Wm. S. Hassfield</em></p>
+    <p>Lines 80–82 (household 109): <strong>Maxwell, Mack Y.</strong> (head, b. July 1864, age 35, contractor &amp; cooper, home owner; b. Ohio, parents b. Pennsylvania); <strong>Lena S.</strong> (wife, b. Sept 1867, age 32, m. 15 yrs, 1 child / 1 living; b. Ohio, parents b. Virginia); <strong>Ralph E.</strong> (son, b. June 1887, age 12; b. Ohio; at school).</p>
+    <div class="key-finding">Pulls the line back forty years from the 1940 record. Independently corroborates Mack's birth date and his parents' Pennsylvania origin — both consistent with the 1942 death certificate. Ralph E. is shown at age 12 with his birth month listed as June 1887; FT-1's 7 January 1887 is probably more accurate (1900 birth-month answers were notoriously imprecise) but the year matches. The fifteen-year marriage duration places Mack &amp; Lena's marriage at ~1885.</div>
+  </div>
+</div>
+
+<h3 class="section-heading">Section 2 — 19th-Century Ohio: The Pike County Records</h3>
+
+<div class="source-card key-record" id="death-s1">
+  <div class="thumb-wrap">
+    <a href="images/samuel_death.jpg"><img src="images/samuel_death.jpg" alt="Samuel H. Maxwell death certificate"></a>
+    <div class="thumb-label">DEATH-S1 ⭐</div>
+  </div>
+  <div class="source-content">
+    <h3>Samuel H. Maxwell — Ohio Death Certificate, 25 August 1910 <span class="ref">✓ Confirmed · ⭐ Key</span></h3>
+    <p><em>State of Ohio Bureau of Vital Statistics · Certificate of Death · File No. 43351 · Registered No. 2184 · Franklin Co. · Columbus · 1111 Neil Avenue</em></p>
+    <p>Full name: Samuel H. Maxwell. Born 23 February 1833, Pennsylvania (age 77y 6m 2d). Died 25 August 1910. Carpenter. Widower. Cause of death: senility (1 year); contributory: carcinoma of jaw. Father: <strong>William Maxwell</strong>, b. U.S. Mother's maiden name: <strong>Margaret Histone</strong>, b. U.S. Burial: Green Lawn Cemetery, 27 August 1910.</p>
+    <p>Informant: Mack Y. Maxwell, 1111 Neil Ave (son of the deceased).</p>
+    <div class="key-finding">The keystone document for the corrected line. Samuel's son Mack — age 46, knowledgeable adult informant living in the same household — names <em>William Maxwell</em> as Samuel's father, decisively contradicting FT-1's "David Maxwell." The mother's maiden name <em>Histone</em> is likely an Anglicized variant of the Pennsylvania-German surname Heistand or Hiestand, opening a new research thread. Both parents are listed as "U.S." born; given Samuel's PA birth and the family's later PA records, both were almost certainly Pennsylvanians themselves.</div>
+  </div>
+</div>
+
+<div class="source-card" id="mar-1">
+  <div class="thumb-wrap">
+    <a href="images/samuel_marriage.jpg"><img src="images/samuel_marriage.jpg" alt="Samuel Maxwell marriage record"></a>
+    <div class="thumb-label">MAR-1</div>
+  </div>
+  <div class="source-content">
+    <h3>Samuel H. Maxwell &amp; Mary E. Dinsmore — Marriage, 27 August 1860 <span class="ref">✓ Confirmed</span></h3>
+    <p><em>Pike County, Ohio Marriage Records · p.155, entry No. 80 · Solemnized 27 August 1860</em></p>
+    <p>Record No. 80: <em>"Samuel H. Maxwell to Mary E. Dinsmore · Aug. 27<sup>th</sup> 1860."</em></p>
+    <div class="key-finding">Independent confirmation of Samuel + Mary E. Dinsmore as a couple, in Pike County, exactly eight days before the 1860 federal census (<a href="#cens-1860" class="src-link">CENS-1860</a>) enumerated Samuel still listed in his parents' household. The 1860 census records each person's usual residence as of 1 June 1860, so a young man marrying in late August would still appear in his parents' household on the September enumeration without his new wife — exactly the pattern seen here.</div>
+  </div>
+</div>
+
+<div class="source-card key-record" id="cens-1860">
+  <div class="thumb-wrap">
+    <a href="images/census_1860.jpg"><img src="images/census_1860.jpg" alt="1860 census, Pike County"></a>
+    <div class="thumb-label">CENS-1860 ⭐</div>
+  </div>
+  <div class="source-content">
+    <h3>1860 Federal Census — Camp Creek Twp., Pike Co., Ohio <span class="ref">✓ Confirmed · ⭐ Key</span></h3>
+    <p><em>Schedule 1, Free Inhabitants · Page 270 · Post Office: Jasper · Enumerated 4 September 1860 by Jacob Calley, Asst. Marshal</em></p>
+    <p>The Maxwell household, lines 15–23 (dwelling 1893, family 1864): <strong>James H. Maxwell</strong> (67, m, Farmer, $1,500 real / $1,100 personal, b. Penn.); <strong>Margaret H.</strong> (50, f, b. Penn.); James (20); Harlow (17); <strong>Samuel</strong> (25); Pauline (15); Robert (13); William (11); Addison (8). All children b. Penn.</p>
+    <div class="key-finding">Catches Samuel still in his parents' household one week after his marriage. Confirms Pennsylvania origin for the entire family and brackets the PA → OH migration to between Addison's birth (~1852) and the 1860 enumeration. James H. as head of household is not Samuel's biological father — Samuel's 1910 death certificate (<a href="#death-s1" class="src-link">DEATH-S1</a>) names William, and Adam's 1820 will (<a href="#will-a1" class="src-link">WILL-A1</a>) confirms James and William were brothers — making the most plausible reading that James, William's brother, married widow Margaret after William's death and brought the combined family to Ohio. The unusual third-position listing of Samuel (the oldest child at 25) between James (20) and Harlow (17), breaking strict descending age order, is consistent with his step-son status.</div>
+    <div class="gap-box"><strong>Note on the head-of-household reading.</strong> The first name on line 15 is in difficult mid-19th-century clerical hand. The current reading is "James H." — if a future re-examination reads it as "Wm. H." instead, the brother-marries-widow hypothesis collapses into a simpler scenario in which William was still alive in 1860. Worth a careful re-check against any other Pike County records that might independently name him.</div>
+  </div>
+</div>
+
+<h3 class="section-heading">Section 3 — 18th–19th Century Pennsylvania: Adam's Will</h3>
+
+<div class="source-card key-record" id="will-a1">
+  <div class="thumb-wrap">
+    <a href="images/adam_will.jpg"><img src="images/adam_will.jpg" alt="Adam Maxwell will"></a>
+    <div class="thumb-label">WILL-A1 ⭐</div>
+  </div>
+  <div class="source-content">
+    <h3>Adam Maxwell — Last Will and Testament · Buffalo Twp., Armstrong Co., PA <span class="ref">✓ Confirmed · ⭐ Key</span></h3>
+    <p><em>Signed 11 November 1820 · Probated ~1837 · Armstrong County Will Book, p.185 · Recorded immediately after John Eakman's 1837 will (p.184), placing Adam's death and probate in 1836 or 1837</em></p>
+    <p>Opening: <em>"In the name of God Amen. I Adam Maxwell of the Township of Buffalo, Armstrong County, a citizen of the State of Pennsylvania, being of sound disposing mind and memory, do make and ordain this to be my last will and Testament."</em></p>
+    <p>The family in 1820: <strong>Wife</strong> Elizabeth (one-third of personal estate in lieu of dower); <strong>Sons</strong> James, William, David, Adam, John (James receives one-third of the real estate on which Adam lives, the others share the remaining two-thirds; James also assessed one-third of the legacies); <strong>Daughters</strong> Elizabeth (unmarried; $100 and a horse and saddle when she leaves the family), Sarah (wife of Benjamin White), Margaret (wife of William White); <strong>Grandson</strong> Adam, son of William White and Margaret. <strong>Executors:</strong> wife Elizabeth, and sons James, William, and David. <strong>Witnesses:</strong> Saml. S. Harrison, Jos. Brown.</p>
+    <div class="key-finding">The single most important document in the American chain. It (1) confirms Adam Maxwell's residence and death in Buffalo Township, Armstrong County — matching FT-1's geographic claim; (2) names all five sons together — James, William, David, Adam, John — confirming James and William as brothers, foundational for the brother-marries-widow hypothesis at generation 22; (3) demonstrates that William was an adult by 1820 (an executor of his father's will), placing his birth before ~1799; (4) explains how FT-1 went wrong — Adam genuinely had a son David, but the chart-maker chose the wrong brother as Samuel's father. Adam's listing of James first among the sons, and as the only son receiving a full one-third land share, strongly suggests James was the eldest, consistent with his being 67 in the 1860 Pike County census (b. ~1793) while William, a younger executor brother, would have been born somewhat later.</div>
+  </div>
+</div>
+
+<h2 class="section-heading" id="questions">Open Questions &amp; Next Steps</h2>
+
+<p style="margin-bottom:1rem;font-size:0.93rem;">The corrected line is well-supported document-to-document, but several questions remain open. The single most efficient next move is the 1850 federal census, which alone can confirm or falsify the brother-marries-widow hypothesis.</p>
+
+<ol class="next-steps">
+  <li><strong>1850 Federal Census.</strong> If William Maxwell appears as head of household in 1850 (likely Armstrong Co., PA; possibly already in Ohio) with Margaret and the older children, the brother-marries-widow hypothesis is confirmed. If James H. is already head of household in 1850, the hypothesis fails and an alternative explanation is needed. Search Pennsylvania first, since the youngest PA-born child Addison was born ~1852.</li>
+  <li><strong>William Maxwell's death and probate record.</strong> William died between ~1852 and 1860. If he died in Pennsylvania with property — which he likely had, having inherited a share of Adam's tract per WILL-A1 — the Armstrong County orphans' court or probate file would name his wife Margaret and minor children, irrefutably confirming his paternity.</li>
+  <li><strong>Margaret's maiden name.</strong> DEATH-S1 gives "Margaret Histone" — a non-standard spelling. Likely candidates: <em>Heistand, Hiestand, Histand, Heiston</em>, all Pennsylvania-German surnames concentrated in western PA (Armstrong, Westmoreland, Cumberland counties). PA marriage records ~1825–1832 for an Anglo-German Maxwell–Heistand union would settle this.</li>
+  <li><strong>Marriage of James Maxwell and Margaret (Maxwell, widowed).</strong> If found, this would be the single document that seals the brother-marries-widow hypothesis. Probably 1853–1859, location uncertain (PA or transitional western Ohio). Bride would appear as "Margaret Maxwell" — her widowed name — marrying her brother-in-law.</li>
+  <li><strong>Pre-1860 head-of-household tracking</strong> for both William and James through the 1810, 1820, 1830, and 1840 Pennsylvania censuses in Armstrong County.</li>
+  <li><strong>Adam Maxwell's wife Elizabeth.</strong> Her maiden name is not in the will. Armstrong County records after Adam's 1837 probate might trace her — including her own death, distribution proceedings, or remarriage.</li>
+  <li><strong>The Mary E. Dinsmore line.</strong> The Dinsmore family's origin (probably PA) and their migration to Pike County, OH parallel to the Maxwells is worth tracking. DEATH-M1 names Mary E. Dinsmore's birthplace as Pennsylvania.</li>
+  <li><strong>Find a Grave coverage</strong> for Green Lawn Cemetery (Columbus — Samuel), Union Cemetery (Marble Cliff — Mack), and Pike County cemeteries for the elder Maxwell generation.</li>
+</ol>
+
+<h2 class="section-heading exploration-heading" id="scottish">Connection to the Scottish Line</h2>
+
+<p style="font-size:0.93rem;">This American line connects to <a href="Maxwell_Source_Inventory.html" class="src-link">the full Maxwell genealogy from Caerlaverock</a> via Adam Maxwell (generation 21). Adam's baptism on 20 August 1749 in the Stirling Associate Congregation (OPR-B0 / CH3/559/17) names his father as John Maxwell and his mother as Mary Finlayson, linking the Pennsylvania line through Stirling and Holywood parish back to the documented Auchincairn / Cowhill branch of the Y2357+ Maxwells confirmed by FTDNA Kit 752085 on the R-FTA17177 haplogroup.</p>
+
+<footer style="margin-top:3rem;padding:1.5rem 0;border-top:3px double var(--border);text-align:center;color:var(--faded);font-size:0.85rem;font-style:italic;">
+  <p>Maxwell Genealogy Research · American Line · May 2026 · James D. Maxwell (FTDNA Kit 752085)</p>
+  <p style="margin-top:0.3rem;">← <a href="Maxwell_Source_Inventory.html" class="src-link" style="font-style:normal;">Return to Scottish ancestry research</a></p>
+  <p style="margin-top:0.6rem;font-size:0.78rem;">Document images: U.S. National Archives federal census records · Ohio Department of Health / Bureau of Vital Statistics death certificates · Pike County Probate Court marriage records · Armstrong County Register of Wills</p>
+</footer>
+
+</div>
+</body>
+</html>
