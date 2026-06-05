@@ -91,6 +91,29 @@
     .thumb-wrap a img { width:100%; height:120px; }
   }
 </style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<style>
+  #life-map-adam{margin:0 0 1rem;background:#fefcf5;border:1px solid #c4a96b;border-left:4px solid #b8860b;border-radius:4px;overflow:hidden;color:#1a1208;font-family:'EB Garamond',Georgia,serif;display:block;transition:box-shadow 0.15s;}
+  #life-map-adam:hover{box-shadow:0 2px 8px rgba(0,0,0,0.12);}
+  #life-map-adam .lm-head{padding:1rem 1rem 0.6rem;border-bottom:1px solid #c4a96b;}
+  #life-map-adam .lm-label{display:inline-block;font-family:'Cinzel',serif;font-size:.78rem;font-weight:600;letter-spacing:.03em;color:#8b3a1a;background:#e8dcc8;border:1px solid #c4a96b;padding:.15em .55em;border-radius:3px;margin-bottom:.4rem;}
+  #life-map-adam h3{font-family:'Cinzel',serif;font-weight:600;font-size:0.95rem;line-height:1.3;margin:.1rem 0 .2rem;color:#1a1208;}
+  #life-map-adam .lm-badge{display:inline-block;font-size:.78rem;background:#d4edda;color:#2d5a1b;border:1px solid #2d5a1b;border-radius:3px;padding:.1em .45em;vertical-align:middle;}
+  #life-map-adam .lm-ref{font-size:0.82rem;color:#7a6e5e;font-style:italic;margin:.2rem 0 0;line-height:1.5;}
+  #life-map-adam .lm-map{width:100%;height:460px;background:#e8dcc8;}
+  #life-map-adam .lm-legend{padding:1rem;}
+  #life-map-adam .lm-legend h4{font-family:'Cinzel',serif;font-weight:600;font-size:.85rem;letter-spacing:.04em;text-transform:uppercase;margin:0 0 .6rem;color:#8b3a1a;border-bottom:1px solid #c4a96b;padding-bottom:.25rem;}
+  #life-map-adam .lm-stop{display:flex;gap:12px;align-items:flex-start;padding:6px 0;border-bottom:1px dotted #c4a96b;}
+  #life-map-adam .lm-stop:last-of-type{border-bottom:none;}
+  #life-map-adam .lm-dot{flex:0 0 auto;width:13px;height:13px;border-radius:50%;margin-top:4px;border:2px solid rgba(26,18,8,.25);}
+  #life-map-adam .lm-yr{flex:0 0 auto;min-width:100px;font-family:'Cinzel',serif;font-size:.78rem;color:#8b3a1a;padding-top:1px;}
+  #life-map-adam .lm-desc{font-size:0.9rem;line-height:1.6;}
+  #life-map-adam .lm-place{font-weight:600;}
+  #life-map-adam .lm-note{font-size:0.88rem;color:#7a6e5e;font-style:italic;margin:.7rem 0 0;line-height:1.5;}
+  #life-map-adam .leaflet-container{font-family:'EB Garamond',serif;}
+  #life-map-adam .leaflet-popup-content{font-size:.97rem;line-height:1.4;color:#1a1208;}
+  #life-map-adam .leaflet-popup-content b{font-family:'Cinzel',serif;font-weight:600;}
+</style>
 </head>
 <body>
 <div class="page">
@@ -455,6 +478,39 @@
 <h3 class="section-heading">Section 5 — Adam Maxwell: Life Records (1776–1837)</h3>
 
 <p style="margin-bottom:1rem;font-size:0.93rem;">Adam Maxwell (b. 1752, Cumberland Co., PA, per his sworn 1832 pension; d. 17 May 1837, Buffalo Township, Armstrong County, PA) is the best-documented individual in the chain. The records below span from his pre-migration origins in <strong>Toboyne Township, Cumberland County</strong> (the 1776 and 1779 tax lists — his probable home community before moving west), through his Revolutionary War service, four consecutive federal censuses, his 1820 will, and his pension declaration and roll entry — together covering nearly six decades of his life in Pennsylvania.</p>
+
+<div id="life-map-adam">
+  <div class="lm-head">
+    <span class="lm-label">Life Map</span>
+    <h3>Adam Maxwell — Life Movements, 1752–1837 <span class="lm-badge">&#10003;</span></h3>
+    <p class="lm-ref">Compiled from his 1832 pension declaration (which names his ranging posts on the Conemaugh and Loyalhanna), the 1779 Toboyne tax list, the 1783 Westmoreland transcript and 1790 census, and his 1820 will and 1837 death in Armstrong County.</p>
+  </div>
+  <div id="lm-map-adam" class="lm-map"></div>
+  <div class="lm-legend">
+    <h4>The journey, in order</h4>
+    <div class="lm-stop">
+      <span class="lm-dot" style="background:#4a7a3a"></span>
+      <span class="lm-yr">b. 1752 &middot; 1779</span>
+      <span class="lm-desc"><span class="lm-place">Toboyne Twp, Cumberland (now Perry) Co.</span> — born in the Sherman's Valley c. 1752; listed as a single freeman on the 1779 tax list.</span>
+    </div>
+    <div class="lm-stop">
+      <span class="lm-dot" style="background:#c08a2c"></span>
+      <span class="lm-yr">1776–77</span>
+      <span class="lm-desc"><span class="lm-place">Westmoreland frontier — war service</span> — Revolutionary militia service per his pension, ranging from <em>Blacklick, on the Conemaugh</em> and <em>William Watson's, on the Loyalhanna</em>; a temporary move west, after which he returned home to Toboyne.</span>
+    </div>
+    <div class="lm-stop">
+      <span class="lm-dot" style="background:#2f8a73"></span>
+      <span class="lm-yr">c. 1780–1790</span>
+      <span class="lm-desc"><span class="lm-place">Derry Twp, Westmoreland Co.</span> — the permanent move across the Alleghenies; held 200 acres by 1783 and was enumerated here in the 1790 census.</span>
+    </div>
+    <div class="lm-stop">
+      <span class="lm-dot" style="background:#b23b2e"></span>
+      <span class="lm-yr">c. 1800–1837</span>
+      <span class="lm-desc"><span class="lm-place">Buffalo Twp, Armstrong Co.</span> — settled by c. 1800; wrote his will (1820), gave his pension declaration (1832), and died here 17 May 1837.</span>
+    </div>
+    <p class="lm-note">Markers are approximate; Blacklick sits at the mouth of Blacklick Creek on the Conemaugh near Blairsville, and William Watson's is placed on the Loyalhanna near Derry (its exact site is unidentified). His wartime ranging ground between the Conemaugh and the Loyalhanna is the very country he would later settle — Derry lies between the two. Solid line = permanent westward migration; dashed line = the temporary 1776–77 war-service excursion.</p>
+  </div>
+</div>
 
 <div class="source-card" id="tax-toboyne-1776">
   <div class="thumb-wrap">
@@ -884,5 +940,26 @@
 </footer>
 
 </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+(function(){
+  var el = document.getElementById('lm-map-adam');
+  if(!el) return;
+  var toboyne=[40.30,-77.62], blacklick=[40.45,-79.30], watsons=[40.28,-79.33], derry=[40.33,-79.30], buffalo=[40.71,-79.64];
+  var map = L.map('lm-map-adam', { scrollWheelZoom:false });
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom:18, attribution:'&copy; OpenStreetMap contributors' }).addTo(map);
+  L.polyline([toboyne, derry, buffalo],     { color:'#6b4f2a', weight:3, opacity:.9 }).addTo(map);
+  L.polyline([toboyne, blacklick, watsons], { color:'#c08a2c', weight:2.5, opacity:.85, dashArray:'7 7' }).addTo(map);
+  function stop(ll, c, t, b){
+    L.circleMarker(ll, { radius:9, color:'#3a2e1f', weight:1.5, fillColor:c, fillOpacity:.95 }).addTo(map).bindPopup('<b>'+t+'</b><br>'+b);
+  }
+  stop(toboyne,   '#4a7a3a', 'Toboyne Twp, Cumberland Co.',          'Born c. 1752; a single freeman on the 1779 tax list.');
+  stop(blacklick, '#c08a2c', 'Blacklick, on the Conemaugh',          'Frontier ranging post, militia service 1776–77 (per his 1832 pension).');
+  stop(watsons,   '#c08a2c', "William Watson's, on the Loyalhanna",  'Frontier ranging post, militia service 1776–77 (per his pension; exact site unidentified).');
+  stop(derry,     '#2f8a73', 'Derry Twp, Westmoreland Co.',          'Settled c. 1780–83; 200 acres by 1783; enumerated in the 1790 census.');
+  stop(buffalo,   '#b23b2e', 'Buffalo Twp, Armstrong Co.',           'Settled by c. 1800; will 1820; pension 1832; died 17 May 1837.');
+  map.fitBounds(L.latLngBounds([toboyne, blacklick, watsons, derry, buffalo]).pad(0.28));
+})();
+</script>
 </body>
 </html>
