@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cp \"images/adam/survey_1789.png\" \"images/adam/survey_1789.jpg\")",
+      "Bash(cp \"images/adam/survey_1803_1.png\" \"images/adam/survey_1804.jpg\")",
+      "Bash(rm \"images/adam/survey_1789.jpg\" \"images/adam/survey_1804.jpg\")"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\jmaxwell\\VSCode_Projects\\Maxwell_Research\\images\\adam"
+    ]
+  }
+}
