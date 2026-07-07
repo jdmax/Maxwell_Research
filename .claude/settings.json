@@ -3,10 +3,19 @@
     "allow": [
       "Bash(cp \"images/adam/survey_1789.png\" \"images/adam/survey_1789.jpg\")",
       "Bash(cp \"images/adam/survey_1803_1.png\" \"images/adam/survey_1804.jpg\")",
-      "Bash(rm \"images/adam/survey_1789.jpg\" \"images/adam/survey_1804.jpg\")"
+      "Bash(rm \"images/adam/survey_1789.jpg\" \"images/adam/survey_1804.jpg\")",
+      "Bash(cd \"c:/Users/jmaxwell/VSCode_Projects/Maxwell_Research\" && cp \"Maxwell_Source_Inventory.html\" \"Maxwell_Source_Inventory.BACKUP-2026-07-07.html\" && ls -la Maxwell_Source_Inventory* && echo \"---diff check---\" && diff \"Maxwell_Source_Inventory.html\" \"Maxwell_Source_Inventory.BACKUP-2026-07-07.html\" && echo \"BACKUP IS BYTE IDENTICAL\")",
+      "Read(//tmp/**)",
+      "Bash(echo \"=== exit code $? ===\")",
+      "Bash(echo \"diff exit: $?\")",
+      "Bash(rm -f /tmp/old_ids.txt /tmp/new_ids.txt /tmp/old_imgs.txt /tmp/new_imgs.txt /tmp/hrefs.txt /tmp/ids.txt)",
+      "Bash(awk '$1>1')",
+      "Bash(sed -n '/Key Clarifications<\\\\/div>/,/end summary-section/p' Maxwell_Source_Inventory.html)"
     ],
     "additionalDirectories": [
-      "C:\\Users\\jmaxwell\\VSCode_Projects\\Maxwell_Research\\images\\adam"
+      "C:\\Users\\jmaxwell\\VSCode_Projects\\Maxwell_Research\\images\\adam",
+      "c:\\Users\\jmaxwell\\VSCode_Projects\\Maxwell_Research",
+      "\\tmp"
     ]
   }
 }
