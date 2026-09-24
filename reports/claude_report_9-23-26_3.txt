@@ -1,0 +1,96 @@
+## Session report 3: FamilySearch sweep (tax lists 1762–67, 1800/1810 census, church/history), 24 Sep 2026
+
+This report replaces the interim file Maxwell_sweep3_progress_notes.md. Everything here was read from the images unless an entry is marked "OCR only". [?] marks an uncertain reading. ARKs are https://www.familysearch.org/ark:/61903/… .
+Tax volume: "Cumberland, Taxpayer Lists 1762–1770, 1750–1753", Film/DGS 007856871 (598 images).
+1800 census: NARA M32, "Second Census … Pennsylvania" image group (335 images).
+1810 census: NARA M252 roll 48 (146 images).
+
+### Findings
+
+**1. Sarah Maxwel in Upper Tyrone, 1763: the earliest Maxwell found in the Toboyne country**
+- Record: Tax volume, image 86 (left page, "Upper Tyrone Continued"; the facing page is headed "Lower Tyrone Township for 1763"; image 85 is headed "Tyrone Township 1763 / Upper").
+- Verbatim, with the columns in order (Warr[anted] | unw[arranted] acres | Patt[ented] | Rate £ s):
+  > Maxwel Sarah | — | 150 | — | 2 [?]
+  - The line below it reads "M'Clintock" and is struck through.
+  - Her neighbours on the list: …Morrah John, Morrah Jam[e]s, Morrah Alex[ande]r Waggoner, Morrah Alex[ande]r, M'Neare Alex[ande]r, Morrison Jam[e]s, Morrison Anthony, Morrah Rob[er]t, M'Lintock Joseph, Morrah Jam[e]s Little, Moor W[illia]m, **Maxwel Sarah**, M'Clellan W[illia]m, Neilson Rob[er]t, Neeper Joseph…
+- What it shows: In 1763 **a woman, Sarah Maxwel, was assessed on 150 unwarranted acres in Upper Tyrone**. Her neighbours (McClintock, Morrow, Morrison, McNair, Moor, Nielson, Neeper) are the same ones James has on the Toboyne lists of 1767–1774. A woman taxed as head of a landholding household almost always means a **widow**. **No James, Adam or Andrew Maxwell appears on the Upper or Lower Tyrone lists for 1763** (images 85–87, read from the images).
+- Which Maxwell: nothing names her husband. **Possible** that she is the widow of Adam's and James's father, and **probable** that she is connected to James, because it is the same place and the same neighbours four years before he appears. This is the most important new lead from the session.
+
+**2. James Maxwell's first appearance: Toboyne 1767**
+- Record: Tax volume, image 251. The pages are headed "Toboyne Rates 1767" and "Toboyne township Rates 1767"; the list starts on image 250 ("Adams James…").
+- Verbatim:
+  > 100 | Maxwell James / 10 / 1 ho[rse] 1 Cow 3 Sh[eep] | ..10.. | ..6.. | 1..3.. | 1..9.. | 2 [?]
+- Neighbours on the same page: Murray Alex[ande]r, Morrison Anthony, M'Clintin Joseph, Murray James, Miller Rob[er]t, M'Aneare Alex[ande]r, M'Nare John, [**Maxwell James**], Moore John, M'Cleland Will[ia]m, Morrow Widow…, Neeper Joseph, Neilson Rob[er]t.
+- Class: **householder**. He is on the main list with land (100 acres, 10 of them cleared) and stock, not on a freemen's list. **There is no Sarah Maxwel on the 1767 Toboyne pages.**
+- The 1768–1774 entries (session 2) continue the same pattern: 100–120 acres, 10–15 cleared.
+- **1764–1766 not found.** I checked the page headers in this volume: 1764 (images ~110–131), 1765 (~132–169) and 1766 (~170–215). I found Allen, Antrim, Carlisle, E. and W. Pennsborough, Guilford, Hamilton, Hopewell, Letterkenny, Lurgan, Middleton, Milford and Peters, but **no Tyrone or Toboyne list for 1764, 1765 or 1766**. Those lists appear not to survive, or not to be filmed here. A few images in each run were not individually checked (for example 136–139, 150–155, 165–167, 188–193 and 216–230; 222 and 226 are blank).
+- Conclusion: James first appears **between 1764 and 1767**, already a householder. Sarah is the Maxwell there in 1763. The obvious reading is that James took over Sarah's holding, as a son succeeding a widowed mother. The records don't prove it.
+
+**3. Other Maxwells on the 1762–1767 lists (Hopewell, Newton, Rye; any Andrew)**
+- **Middleton 1765** (image 135, right page): "Maxfield Jam[e]s" with a rate of 1 and no land or stock. This is a single man taxed at the minimum in **Middleton Twp** in 1765. **Possible** that he is James before he moved to Toboyne. That is not proved; he could also be the later Guilford freeman "Jas Maxfield" (1770).
+- **Carlisle area, 1764** (image 114, right page, "Continued"): "Maxwell James", "Maxwell Patrick", "Maxwell Wm" appear together with "free" notes. This is the James Esq./Patrick/William group (Peters line). Excluded.
+- These were reported by OCR only and not checked on the images: Maxwell Henry, Thomas and William (images 42, 53, 62, 78, 116, 277), townships unidentified.
+- **No Andrew Maxwell/Maxfield on any list 1762–1770** (OCR scan of images 36–300, plus image reading of the Tyrone/Toboyne/Rye/Middleton pages I opened). **Andrew's residence is still unknown.**
+
+**4. 1800 census: the Toboyne household of James Maxwell (task b)**
+- Record: M32, Toboyne Twp, image 58 (the first Toboyne page; Toboyne runs through images 52–58). The family-search index **misses** this entry.
+- Verbatim, columns in the census order (free white males <10 | 10–16 | 16–26 | 26–45 | 45+ || free white females <10 | 10–16 | 16–26 | 26–45 | 45+ || other free | slaves):
+  > Ja[me]s Maxwell | – | – | 1 | – | 1 || 1 | – | – | 1 | – || – | –
+- His neighbours are John Shivers, Jos. Eaton, Jno. Fusselman, Wm White, Abm Stall and Jas Johnston. Joseph Eaton was later Col. John's administrator and, according to the county history, "a relative of the Maxwells".
+- **No John Maxwell is listed as a head of household in Toboyne in 1800.** I read all seven pages; the faded names on image 55 are Patrick Duke … Neal McLaughlin, Mich[ae]l Kern, Rich[ar]d Smith, Jas Anderson, Wm Campbell, Jon[athan] Martin, David Kindle, Geo Boughman.
+
+**5. 1810 census: James and John Maxwell next to each other in Toboyne (task b)**
+- Record: M252 roll 48, "Toboyne Township", image 112 (page 104-1 [?]). ARKs 1:1:XH2K-YFC (James) and 1:1:XH2K-YF1 (John). The two households are listed one after the other.
+- Verbatim, same column order:
+  > John Maxwell | – | 1 | 2 | 2 | – || 4 | – | – | 1 | – || – | –
+  > James Maxwell | – | 1 | – | – | 1 || – | – | – | – | 1 || – | –
+- I read these at moderate resolution; the viewer's zoom would not work on this film. The John line's "2, 2" in males 16–26 and 26–45 should be checked on a better image.
+
+**6. What the censuses show about John's age and the two boys of 1790**
+- In **1800**, James's household has one male aged 16–26 (born 1774–1784). John is not listed as a head anywhere in Toboyne that year.
+- In **1810**, John heads his own household next to James. Two males aged 26–45 are in it, so John was born 1765–1784.
+- Putting the two together, John was probably the young man at home in 1800, which would place his birth **about 1774–1784**. This is an inference, but it fits his minor children in 1825 and the ejectment settlement of 1815.
+- **The two boys under 16 in 1790 were in James's household.** No separate John household existed in 1790, 1800 or before 1810. At least one of the boys is very probably John. **I can't prove that both were James's sons.** The other could be a grandson, nephew or hired boy.
+- **1810 James household**: James 45+, a woman 45+ (probably his wife Nancy) and a boy 10–16 (born 1794–1800). That boy is too young to be a child of a man born before 1747, unless Nancy was much younger or he is a grandson.
+- **Hopewell 1800 "Jno Maxwell"** (image 143): – | – | – | 1 | – || 4 | – | – | 1 | 1. A **different John**, because a John Maxwell is still in Hopewell in 1810 while Col. John is in Toboyne.
+- **1810 index extras**: John Maxwell (Hopewell), John Maxwell (Allen), James Maxwell (Rye), Henry Maxwell (Tyrone), **Andrew Maxwell (Newton)**. I didn't open these. Andrew of Newton is probably Albert's son (see the 1794–96 Southampton deeds).
+
+**7. Centre Presbyterian and the county history on James and Col. John (task c)**
+- No online church register for Centre Presbyterian turned up in FamilySearch full text for Maxwell. What did turn up is the published county history (secondary source): *History of that Part of the Susquehanna and Juniata Valleys … Perry County* (1886), p. 1025, Madison Twp early settlers. FamilySearch image 563, ARK 3:1:3QSQ-G9DF-TPMH.
+- Verbatim (the OCR interleaves two columns; I have put the sentences back in order):
+  > "…was warranted on the 7th of May, 1787, by James Maxwell. The warrant called for two hundred acres, including an improvement, bounded on the northwest by lands of John Byers, on the south by lands of the heirs of David Brown, and on the east by land of William Hunter. Colonel John Maxwell, one of the commissioners of the county in 1824, and a son of James Maxwell, owned this property in 1820, as the assessment shows, and there was then erected upon it a 'fulling-mill' and 'power mill.' James Maxwell was yet living in 1814, as he is assessed for a 'fulling-mill' that year. Joseph Eaton, a relative of the Maxwells, purchased the property from John and owned it for many years, and, in 1835, is assessed for a fulling-mill and carding-machine and a still."
+- What it shows: This independently states that Col. John was **"a son of James Maxwell"**, which agrees with the 1815 agreement. It calls **Joseph Eaton "a relative of the Maxwells"**. It names **"the heirs of David Brown"** as adjoining owners in 1787, which may connect to James's wife, Nancy née Brown. It doesn't mention Adam, Sarah or Andrew.
+- Weight: a secondary source; the 1815 agreement is the primary proof of the father–son link.
+
+**8. Cumberland County Archives request (task 1)**: drafted and not sent. See Cumberland_Archives_request_Andrew_Maxwell_1772.txt.
+
+### Search log
+| where | range / images | query or action | result |
+|---|---|---|---|
+| Tax vol. 007856871 | imgs 36–300 | automatic OCR scan for Max/Albert/Andrew and Toboyne neighbour names | hits listed in Findings 1 and 3; no Andrew |
+| Tax vol. | imgs 85–87 | read Upper/Lower Tyrone 1763 on the image | Sarah Maxwel; no James |
+| Tax vol. | imgs 110–215 (sampled every 3–4) | page-header survey | no Tyrone/Toboyne 1764–66 |
+| Tax vol. | img 114 | image | Carlisle-area 1764 James/Patrick/Wm (Peters group) |
+| Tax vol. | img 135 | image | Middleton 1765 "Maxfield Jams" |
+| Tax vol. | imgs 250–251 | image | Toboyne 1767 James |
+| FS Full Text, Cumberland | 1764–66 | Neeper OR Neiper OR Nieper | Antrim Neipers only (imgs 168, 194) |
+| 1800 census M32 | imgs 48–58, 143 | browsed Tyrone/Toboyne; Hopewell John | Findings 4 and 6 |
+| FS Records 1810 | Maxwell, Cumberland | index | James and John in Toboyne; plus Rye, Tyrone, Hopewell, Allen, Newton |
+| 1810 census M252 | img 112 | image | Finding 5 |
+| FS Full Text, Perry | all years | "John Maxwell" Centre church | 1886 county history p. 1025 (Finding 7) |
+| Find a Grave, Perry Co. | — | (session 2) | negative |
+
+### Leads for follow-up
+1. **Sarah Maxwel, Upper Tyrone 1763.** Look for:
+   - a Sarah Maxwell estate, administration or will in the Cumberland Register, 1763–1767;
+   - an Upper Tyrone list for **1762** in this volume, which could show a man (her husband) on the same 150 acres;
+   - the Land Office warrant/application registers for a Maxwell application in Tyrone, 1762–1766, that may have passed to James. His 1768 entry already shows 120 acres **warranted**, well before the 1787 warrant.
+2. **"Maxfield Jams", Middleton 1765.** Look at Middleton 1764 and 1766 to see whether he is a young freeman who then moves to Toboyne.
+3. **Re-read the 1810 image at higher resolution** (download the image) to confirm John's column counts.
+4. **Toboyne 1790**: re-read the full row (session 2 reading: 2 | 2 | 2 | – | –).
+5. **Centre Presbyterian session records**: check the Presbyterian Historical Society (Philadelphia) catalogue for Centre (Madison Twp, Perry Co.) records.
+6. **Heirs of David Brown** (adjoining in 1787): Cumberland estate or O.C. records, as a possible link to Nancy Brown.
+
+### Questions for me
+1. Should the next session go after Sarah Maxwel? That means Cumberland Register entries 1763–67 and an Upper Tyrone 1762 list, if one exists.
+2. Should I also pull the 1810 Newton Township "Andrew Maxwell" household, to settle whether he is Albert's son?

@@ -1,0 +1,99 @@
+## Session report 2: FamilySearch sweep (tasks A–D), 23 Sep 2026
+
+Correction accepted. The 1815 agreement proves only James → son John, and says nothing about James's age. I have removed "James too young to be Adam's father" from my working conclusions. New tax-list evidence (Finding 4) sets only a *latest* possible birth year for James: he was a taxed householder by 1768, so he was born in 1747 or earlier.
+
+Unless an entry is marked "OCR only", I read it from the image. [?] marks an uncertain reading. All ARKs are https://www.familysearch.org/ark:/61903/… .
+
+### Findings
+
+**1. Andrew Maxwell estate: entry in the Register's docket index (Task A)**
+- Proposed ID: Andrew Maxwell, died before June 1772, administrator Albert Maxwell.
+- Record: Cumberland Co. Probate Indexes 1750–1937 (Register's docket index, letter M), image 117 of 496. ARK 3:1:3QS7-L99B-JG3F.
+- Verbatim (one row; the columns are Name, Residence, Time of Death, Date of Letters, Character of Letters, Name of Executor/Administrator, Admin. Bond Book/Page, Sureties, Register's Docket Book/Page, and so on):
+  > [Max]well Andrew | [blank] | [blank] | June [1]7 [?] 1772 | A | Albert Maxwell | [blank] | [blank] | A 88 | … | 1773 | 72 [?]
+- What it shows: The **residence and date of death are blank** in the index. The administration is at Register's Docket A, p. 88. A later column holds "1773" and "72" [?]. I could not read that column's heading at this resolution; it may be an inventory or account filed in 1773. The day is written "June 7" or "June 17"; the Administration Book says 17 June.
+- Which Maxwell: this is the same estate as the one recorded in the Administration Book in session 1. **Confirmed.**
+
+**2. Search for the Orphans' Court record of Andrew's estate, 1771–1776 (Task A): nothing found**
+- Record: Cumberland O.C. Dockets 1751–1804 (the "Court Dockets 1751–1804" film), images 214–228, covering Dec 1771 to June 1776 (starting ARK 3:1:3QS7-L99B-P4DB). I scanned every page's machine text for "Max", "Adam", "Albert", and "Andrew".
+- Result: the only Maxwell is **James Maxwell Esq. as a sitting justice** (26 May 1772, image 217; 15 June 1776, image 226). I found no guardianship of a Maxwell minor, no account, and no partition for Andrew. **OCR only.** I did not read these pages line by line on the images, so this is a strong negative but not a conclusive one.
+
+**3. An Andrew Maxwell land application, 3 April 1769 (lead only)**
+- Record: New Purchase Applications 1769, application no. 2313, image 150 of 235. ARK 3:1:3QHV-V381-S9TL-P.
+- Verbatim: "April | 3 | 2313 | Andrew Maxwell | 300 | On the Warriors Run where an improv't is made about 4 miles from the River Susquehanna."
+- What it shows: An Andrew Maxwell applied for land on Warrior Run, in the West Branch country (later Northumberland Co.), on the opening day of the New Purchase. **Possible** that he is the Andrew who died by 1772. Nothing on the entry ties him to Cumberland.
+
+**4. James Max(f)ield/Maxwell of Toboyne in the tax lists, 1768–1774 (Tasks B and D)**
+- Records:
+  - Cumberland Taxpayer Lists 1762–1770: Toboyne 1768, p. 171, image 389 (ARK 3:1:3Q9M-CS79-1S84-6); Toboyne 1769, p. 361, image 486 (ARK 3:1:3Q9M-CS79-1S8M-F); Toboyne 1770, p. 552, image 587 (ARK 3:1:3Q9M-CS79-1SZL-K).
+  - Cumberland Taxpayer Lists 1771–1775, 1778: Toboyne 1774, p. 323, image 369 (ARK 3:1:3Q9M-CS7S-952F, image 369).
+- Verbatim, with the columns in order (acres patented | warranted | cleared | name and stock | rent | rate | province rate | county rate):
+  - 1768 "Toboyne rates": `| 120 | 10 | Maxfield James — 1 ho. 2 Cows 3 Sheep | 5 | 3 | 1.9.0 | 1.12.0 | free`
+  - 1769 "Toboyne Township 1769": `100 | 10 | Maxfield James — 1 Horse 1 Cow | 5 | 3 | 1 | 1.3 | 4`
+  - 1770 "Toboyne 1770": `100 | 15 | Maxfield James — 1 horse 1 Cow 2 Sheep | 5 | 3 | …`
+  - 1774 "Toboyne Rates 1774": `100 | 15 | Maxwell James — 1 horse 2 Cows 2 Sheep | 5 | 3 | 1.8.8 | 1.11.3 | 6`
+- What it shows: The same man appears every year, as a taxed **householder with 100–120 acres, not a freeman**. His neighbours on the lists (McClintock, McNair, Moor, Morrow, Mitchel Ross) stay the same from year to year. So James was of age and farming in Toboyne by **1768**, which puts his birth in **1747 or earlier**. A freeman "Jas Maxfield" in Guilford Twp in 1770 is a different man (see Finding 6).
+- The word "free" in the 1768 county-rate column also appears against other taxpayers on the Tyrone 1768 pages, so it is some tax notation. It does not mean "freeman."
+- Which Maxwell: James of Toboyne. **Probable.** The spelling differs, but the place, the acreage, and the position among the same neighbours all match.
+
+**5. James Maxwell of Toboyne in the 1790 census (Task B)**
+- Record: US Census 1790, Cumberland Co., the district "Hopewell, Newton, Tyborn, and Westpensboro", p. 3. Indexed as "James Maswell". ARK 1:1:XHKJ-2RQ (image 522 of 931 in the NARA M637 group).
+- Verbatim (line, columns: free white males 16+ incl. head | free white males under 16 | free white females | all other free persons | slaves):
+  > James Maxwell | 2 | 2 | 2 | – | –
+- The entries next to his are Enoch Anderson, Wm McLene [?], Wm Neeper, John Neeper, Wm Hunter, [James Maxwell], Hugh Gibson, John McGill. Enoch Anderson and the Neepers are named as James's adjoiners in the 1800–04 deed and the 1799 O.C. petition, so this is the Toboyne household. **Confirmed.**
+- What it shows: 6 people. Two males aged 16 or over (James plus one other, possibly John), two boys under 16, and two females.
+
+**6. Other Maxwells found in the Albert/Andrew circle (Task D)**
+- **Albert: Rye 1774.** Taxpayer Lists 1771–1775, "Rye Rates 1774", p. 344, image 380 (ARK 3:1:3Q9M-CS7S-952F, image 380). Reads: `100 | 6 | Maxfiel Halburt — 1 horse 1 Cow | 5 | 3 | 1 | 1.3 | 3`. Read from the image. This is Albert Maxwell. **Probable.**
+- **Rye 1768 and Tyrone 1768** (Taxpayer Lists 1762–1770, images 383–387): I read the M section of each page from the image. There is **no Maxwell, Albert, or Andrew** in Rye 1768 or Tyrone 1768.
+- **Guilford 1770, Freemen:** "Jas Maxfield | 15 | 9" (image 549). This is a single freeman James in Guilford Twp in 1770, a **different man** from the Toboyne householder. He could be a young relative. He is a same-name risk to keep separate.
+- **Peters 1778:** "Maxfield James … Negroes … horses 2 Cows" (image 90). This is James Esq. of Peters. Skipped per your rules.
+- The 1768 Carlisle lot list has a "Maxwell James" (OCR only; not read). Unassigned.
+
+**7. The 11 Feb 1791 Wallace release, re-opened (Task C)**
+- ARK: **3:1:3Q9M-CSF1-PSX** is the complete ARK. I tested it directly and it resolves to Franklin Co. "Deeds, 1784–1883", **Film/DGS 008067880, image 298 of 338**.
+- Residence clause: there is **none for the grantors**. The deed says only "Between James Wallace of Franklin County Fannet Township of the one part and Catharine Corran Francis and Joanna Elliot, James and Isabella Hill, Adam and Elizabeth Maxwell, William and Anne Cartey, of the other part". No county or township is given for Adam and Elizabeth.
+- Acknowledgment: the deed was **not acknowledged. It was proved by a witness 24 years later.** Verbatim:
+  > Franklin County ss. Before me the subscriber one of the Justices of the peace in and for said County appeared Thomas L. Dunn who being duly sworn according to Law doth say, that the name Thomas L. Dunn set as a witness to the within is of his own hand writing, that the deponent was present at the execution of said Indenture and did see Catharine Corran, Francis & Joanna Elliott, James & Isabella Hill, Adam Maxwell therein named sign seal and deliver the same as their act and Deed, and that this deponent did at the same time write his name thereto as a witness and did also see Elizabeth Dunn [?] and William Carney the other subscribing Witness sign their names thereto as such — and that the name of William & Ann Cartney was at the same time signed for and with the consent of said William & Ann who were then present. Sworn & subscribed before me the eighteenth day of May A.D. 1815 Archd. L. McCune [?] / Thomas L. Dunn / A true Copy taken from the original the 27th of November 1815. John Findlay Recorder
+- What it shows: The witness names **Adam** signing but not Elizabeth. The deed went unrecorded until 1815 and was proved by a witness, which fits grantors who had died or moved away. The document still gives no location for this Adam. It stays **Possible**.
+
+**8. Col. John Maxwell's birth year (Task B): not found**
+- Find a Grave, Perry Co. PA, surname Maxwell: 46 memorials. The earliest birth is 1835 and none died before 1848. Col. John has no memorial there. A search for John Maxwell dying 1824–1826 in Perry Co. brought back only out-of-county men.
+- I did not search church records or obituaries (see Leads).
+
+**9. Other census entries (for completeness)**
+- **1800, Rye Twp** (NARA M32, p. 50, image 33 of 335, ARK 1:1:XHRD-2RF): "James Maxwell". My reading of the columns is **[?]**: one male 16–26, one female under 10, one female 16–26. If that is right, he is a young man (born 1774–84). He cannot be James of Toboyne, and he is probably not Albert's son James either, who was adult by 1788.
+- **1800, Hopewell Twp:** "Jno Maxwell" (image 143). Not read; probably not Col. John.
+- **James of Toboyne does not appear in the 1800 index under Maxwell/Max\*** for Cumberland Co. Toboyne 1800 was not examined image by image.
+
+### Search log
+| where | range | query / action | hits | result |
+|---|---|---|---|---|
+| FS Full Text, Cumberland | 1760–1790 | "Andrew Maxwell" | 17 | Albert's will. Andrew & Eliz. Maxwell deeds 1794–96 (Albert's son). Index abstracts. Deed indexes. No estate papers. |
+| FS Full Text, PA | 1765–1778 | "Andrew Maxwell" | 33 | New Purchase application 1769 (Finding 3). Rev. War pension of a Philadelphia Andrew (not relevant). |
+| FS Full Text, Cumberland | 1771–1776 | Maxwell | 777 | Top 20: tax lists, Albert in O.C. (Watt estate 1782–83), James Esq. |
+| FS Full Text, Cumberland | 1772–1780 | Maxwell Orphan Court | 15,165 | ORed; top 20. Led to O.C. docket images 214–228 (Finding 2). |
+| O.C. Dockets 1751–1804 | imgs 214–228 | page-by-page OCR scan | — | Negative (Finding 2) |
+| FS Full Text, Cumberland | 1755–1790 | "Albert Maxwell" | 17 | Probate index (Finding 1). Albert's 1775 warrant application in Rye. Rye patent caveat 1774–76 (Galbraith, Craig & Albert Maxwell). 1792/97 heirs' deeds. |
+| Probate Indexes 1750–1937 | img 117 | read on image | — | Finding 1 |
+| FS Full Text, Cumberland | 1755–1776 | Maxfield OR Maxfiel OR Maxel OR Maxwel | 59 | **Toboyne 1768/69/70 James Maxfield**, Guilford 1770 freeman, Rye 1774 "Maxel Halburt", Peters 1778 |
+| Taxpayer Lists 1762–1770 | imgs 383–392 | Rye/Tyrone/Toboyne 1768, image-read on M sections | — | Findings 4 and 6 |
+| Taxpayer Lists 1771–1775 | imgs 360–382 | page-by-page OCR scan plus image-read of Toboyne and Rye 1774 | — | Findings 4 and 6. Peters 1774/76 = James Esq./Patrick. |
+| FS Full Text, Cumberland | 1750–1770 | Maxwell Cows | 2,014 | Peters (James Esq., Patrick). Carlisle 1768 lot "Maxwell James" (not read). |
+| FS Full Text, Cumberland | 1750–1775 | Halbert OR Albert OR Andw … | 15,878 | Too broad. Abandoned. |
+| FS Records, 1790 census | Cumberland | surname Maxwell | 3 | James (Toboyne district, Finding 5), Wm, Robt (Newton) |
+| FS Records, 1800 census | Cumberland | surname Maxwell / Max* | 5 | Finding 9 |
+| Find a Grave | Perry Co. | John Maxwell d. 1825 ±1; Maxwell all | 10 / 46 | Negative (Finding 8) |
+| FS image | Franklin DGS 008067880 img 298 | re-read proof clause | — | Finding 7 |
+
+### Leads for follow-up (exact references)
+1. **Andrew's estate file.** Register's Docket A, p. 88 (Cumberland Register of Wills, Carlisle). The loose administration file for Andrew Maxwell (1772), with its inventory and any account, should be in the Cumberland Co. Register of Wills estate files. FamilySearch doesn't seem to have filmed the Cumberland estate files for 1772. Ask the Cumberland County Archives (Carlisle) about the file under the name and the date of letters, June 1772.
+2. **Where did Andrew live?** Check the Tyrone, Rye, Hopewell, and Newton tax lists **1762–1767** (Taxpayer Lists 1762–1770, before image 383) for an Andrew Maxwell or Maxfield. I only reached 1768–1774.
+3. **When did James start holding land in Toboyne?** James was taxed on 120 acres warranted in 1768, well before his 1787 warrant. Look for an earlier application or location in the PA Archives Land Office warrant register for Cumberland, Toboyne, 1762–1768.
+4. **Toboyne 1762–1767 lists** (same volume): the first year James appears there. That gives a firmer age bound than 1768.
+5. **Col. John's birth year.** Check the Perry Co. church records for Toboyne and Madison (Centre Presbyterian, Blain Lutheran/Reformed) and Cumberland Presbytery records. Also look for Toboyne in the 1800 and 1810 census by browsing the images, since the index may have missed James and John. John's age bracket there would bound his birth.
+6. **Guilford 1770 freeman "Jas Maxfield"**: check the Guilford lists 1771–1775 to see where he went.
+
+### Questions for me
+1. The Andrew estate file is probably not online. Do you want me to draft the exact request to the Cumberland County Archives? I would not send it, only give you the text.
+2. Should I keep going through the 1762–1767 tax lists by image next (Leads 2 and 4)? That is the most direct way left online to find where Andrew lived and when James arrived in Toboyne.
