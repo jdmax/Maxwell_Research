@@ -1,0 +1,78 @@
+## Session report 5: Henry Maxwell, the docket-index blocks, and the Rye widow — 25 Sep 2026
+
+[?] marks an uncertain reading. Tax volume = DGS 007856871 ("Taxpayer Lists 1762–1770, 1750–1753"). ARKs are https://www.familysearch.org/ark:/61903/… .
+
+### Headline
+Henry Maxwell is a Lurgan/Letterkenny man. He is alive and taxed in Letterkenny from 1763 through 1768. **He does not drop off before 1763**, so he cannot be Sarah's dead husband. He is never on a Tyrone, Toboyne, Hopewell or Rye list, and never next to the McClintock/Morrow group of Sherman's Valley. He drops off Letterkenny between 1768 and 1769.
+
+### Findings
+
+**1. Henry Maxwell timeline, 1753–1770 (task a).** Each entry is read on the image unless marked otherwise.
+
+| Year | Township | Image | Entry as written | Class and holdings | Neighbours |
+|---|---|---|---|---|---|
+| 1753 | Lurgan (list headed "Taxables in Lurgan in 1753", p. 65; Henry on p. 67) | 41–42 | "Maxwell Henry" | name only; this list gives no class or acreage | Minor Thomas, McKnight John, Machan Archibald, McCright David, Murray Widow |
+| 1762 (27 Sept) | Letterkenny | Court Dockets 1751–1804, images 140/145 (two copies) and 75 | "Nathaniel Wilson, John Finly, John Stevenson, Henry Maxwell and John Machan" | appointed to the inquest valuing John Kirkpatrick's 450 acres in Lurgan/Letterkenny (O.C., 25 Aug 1762) | — |
+| 1763 | "Letterkenny Continued 1763" | 78 | "Maxwell Henery — 50 [unwarranted] … 3 [?]" | householder, 50 acres unwarranted | McCain John, Machan John, Mitchel Gawen, M'Cormick [?] Alexr, Nielson John |
+| 1764 | Letterkenny 1764 | 116 | "Maxwel Henry — 40 … 1" | householder, 40 acres | Mitchel Wm, McJennet Charles, Martin Isaac |
+| 1767 | Letterkenny 1767 | 277 | "Maxwell Henry — 50 [unwarr.] … 1 / 12 / 12 [rates] … Unit[?]" | householder, 50 acres, no stock listed | McConnel Alexr, Nielson John, Nixon Wm |
+| about 1768 | Letterkenny (land application, "Applications for warrants 1768", image 197, ARK 3:1:3QHV-J38R-QD71) | 197 | "I Robert Reed Cordwinder makes application … for two hundred acres of Land Henry Maxwell on the South … Cumberland County Letterkenny Township … Henry Maxwell [,] James Scott" | adjoiner and certifier (OCR, confirmed faintly on the image) | James Scott |
+| 1768 | Letterkenny 1768 | 359 | "Maxfield Henry — 70 [unwarr.] 10 [cleared] … 1 / 12 / 12" | householder, 70 acres with 10 cleared, no stock | McMullan John, McKee David, Martin Isaac, Mitchel Wm |
+| 1769 | Letterkenny 1769 | 462–463 | **not listed** | — | McMullan John → McKee David, with no Henry between them |
+| 1770 | Letterkenny 1770 | 564–565 | **not listed** | — | — |
+
+- **Image 53 (flagged in session 3)** is Peters 1753 and has "Maxwell William", not Henry. **Image 62** is Guilford/Peters 1762 and has "Maxwell William" (a 100-acre line). **Henry isn't on either.**
+- **Never in** Tyrone, Toboyne, Hopewell or Rye. The pages checked: Tyrone 1763, 1768; Toboyne 1767–1770; Rye 1768; the Hopewell lists of the 1750s.
+- **Full text, Cumberland 1750–1800** ("Henry Maxwell" and the Maxwell/Maxfield/Maxwel/Henery variants): 58 hits.
+  - Before 1790, only the items above.
+  - "Willm Maxwell & Henry Cowen" in the 1781 dockets is William, not Henry.
+  - The later Henry Maxwells are different men: Newton 1800–03 deeds, a Tyrone wheelwright who bought land in 1808, and Henry in Tyrone in the 1810 census.
+- **Probate index H block** (image 153, read on the image in session 4): **no Henry Maxwell estate.**
+- **Assessment:** Henry is a separate Maxwell household in Lurgan and Letterkenny, 1753–1768, holding 40–70 unwarranted acres and gone by 1769. He is not Sarah's husband. It's **Possible** that he is related to Adam's family, since he was in the Cumberland Valley proper in 1753, about when Adam was born. Nothing links him.
+
+**2. Docket-index given-name blocks (task b)**
+- Record: Cumberland Probate Indexes, ARK 3:1:3QS7-L99B-JG3F. I read the first (1750s–1790s) page of each block on the image:
+  - A (116–117)
+  - B (127)
+  - C (129, 131)
+  - D (135)
+  - E (140)
+  - F (147)
+  - G (149)
+  - I (158)
+  - M (189–190)
+  - N (200)
+  - P (203)
+- **No Maxwell estate from 1750–1790 in any of these blocks.** In the whole index, the only Maxwell estates before 1790 are still Andrew (1772, administrator Albert) and William of Peters (1778).
+- Blocks still not read: K, L, O, Q, U, V and Z. They are thin for this period.
+- Noted in passing: George Morrow (M block, letters Sep 1790 [?], to Alexander Morrow); Mary Stair, Toboyne, 1790; Noble Morrison, Toboyne, 1806.
+
+**3. The Rye "Maxwell Widow" (task c)**
+- **Rye 1776** (Taxpayer Lists 1771–1775, 1778, image 380): "Maxel Halburt — 100 [?] … 1 horse 1 Cow".
+  - Correction: in session 2 I read this page's header as "Rye Rates 1774". The machine-read text gives "Rates 1776", and I haven't settled which is right.
+  - Either way there is **no widow on this list**, only Albert.
+- **Rye 1779 and 1780** (from session 4): "Maxwell Widow" beside Albert in 1779, and alone in 1780.
+- **Rye 1781–1785:** a full-text search of all Cumberland tax lists 1776–1786 for Maxwell/Maxwel/Maxfield/Maxel found Maxwells only in Peters and Montgomery (James and Patrick). **No Maxwell in Rye 1781–85.** This is machine-read text only; I didn't read those pages on the images.
+- **The widow appears only in 1779–80.** She can't be Albert's widow, because Albert was still alive in 1788. She may be Andrew's widow (Andrew died by 1772). Albert is missing from the 1780 list, so she might also be taxed on land Albert held. **Unresolved.**
+- **Deed Book 1L, p. 703** (Deeds 1791–1796, image 722, ARK 3:1:3Q9M-CS7S-MS8G-Y). Read on the image:
+  > "This Indenture made this sixteenth day of March in the year of our Lord one thousand seven hundred and ninety six Between Andrew Maxwell of Rye Township Cumberland County and State of Pennsylvania of the one part and William Maxwell of Turbot Township Northumberland County & State aforesaid of the other part Witnesseth that whereas my father Albert Maxwell by his last will and Testament dated the twentieth day of December 1788 did devise to me the one fourth part of an undivided Tract of Land in Rye Township aforesaid containing three hundred acres be the same more or less bounded by Lands of Frederick Watts Junr John Woodburn and Mahany [?] hill being the same tract of Land formerly occupied by James Watts … for … twenty five pounds Specie …" Witnesses Wm Wilson and David Aikins [?]; acknowledged 16 March 1796; entered 30 April 1796.
+  - **There is no recital of a widow or of any owner before Albert.** It confirms that Andrew (Rye) and William (by then of Turbot Twp, Northumberland) are Albert's sons.
+
+### Search log
+| where | scope | action | result |
+|---|---|---|---|
+| Tax vol. | images 41–42, 53, 61–62, 78, 116, 277, 359, 462–463, 564–565 | read on the images | Finding 1 |
+| FS Full Text, PA 1750–1800 | "Henry Maxwell" plus variants | 625 hits (statewide) | none relevant to Cumberland before 1790 |
+| FS Full Text, Cumberland 1750–1800 | same | 58 hits | 1762 O.C. inquest; 1768 Reed application; later men |
+| FS Full Text, Cumberland, all years | "Maxwell Henry" plus variants | ~30 hits | 1768 Letterkenny list; the rest after 1800 |
+| Probate index | first page of blocks A–I, M, N, P | read on the images | Finding 2 |
+| FS Full Text, Cumberland 1776–86 | Maxwell variants, tax lists | 11 tax hits | Peters/Montgomery only; Rye 1776, 1779, 1780 |
+| Deeds 1791–96 | image 722 | read on the image | Finding 3 |
+
+### Leads for follow-up
+1. **Where Henry went after 1768:** look at the Letterkenny 1771–1775 lists, and check whether he appears in Franklin County after 1784. Also look for a Henry Maxwell in the 1769 New Purchase applications and in Westmoreland/Bedford.
+2. **The Rye widow:** read the Rye 1778 list (if it's in the 1771–75/1778 volume) and the Rye 1781 list on the images, to settle when she appears and when she leaves.
+3. **The unread index blocks** (K, L, O, Q, U, V, Z), for completeness.
+
+### Questions for me
+1. Henry doesn't fit as Sarah's husband. Should I keep tracing Henry as a possible brother or uncle (Lead 1), or go back to Sarah, for example with Tyrone/Toboyne Presbyterian or Associate church records, or Land Office applications of 1766–69 under the East/West Side rules?

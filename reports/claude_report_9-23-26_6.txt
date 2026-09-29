@@ -1,0 +1,194 @@
+## Session report 6: the Kinkead link, Adam's Derry land, and William Maxwell of Unity — 28 Sep 2026
+
+[?] marks an uncertain reading and [illeg.] marks illegible text. ARKs are https://www.familysearch.org/ark:/61903/… . "Read on the image" means I checked the words on the page image and did not rely only on the machine-read (OCR) text.
+
+### Headline
+1. **William Maxwell of Unity's will (dated 8 July 1815) was witnessed by George Kincaid and John Kincaid.** They are two sons of Andrew Kinkead of Derry and his wife Elizabeth, whose maiden name was Maxwell. So Adam's household (he sold Andrew land) and William's household (Kincaid sons witnessed his will) are both tied to the Kinkead family.
+   - The will also names sons **James and Adam** among William's children.
+   - I read this on the image.
+2. **No Kinkead record names a Maxwell as kin.** This covers:
+   - Andrew Kincaid's will (1820);
+   - the wills of his children Elizabeth Jr. (1821) and John (1822);
+   - the 1825 release from Adam to George Kinkade.
+3. **Adam's Derry land in the 1780s was an "improvement" (a settlement right), not a warrant in his own name.**
+   - Neighbours' warrants of 1784–1788 describe him as an adjoiner on Conemaugh and on Crooked Run.
+   - He got formal title only by buying Mary Beaty's 1769 application right on 27 Dec 1808. The warrant of acceptance followed on 8 Mar 1810.
+4. **William of Unity acquired his Unity tract in 1786,** by an "Instrument in writing" from William Moore's right. Moore's application was entered in August 1769. The date fits a move from Mount Pleasant (1783, 1786) to Unity (1790).
+
+---
+
+### Findings
+
+**1. Release from Adam Maxwell to George Kinkade, 11 May 1825 (task a)**
+- Proposed ID: Adam Maxwell (b. 1752), then of Armstrong Co.
+- Record: Westmoreland, Deed Books 1824–1825, Deed Book 16 p. 225 (grantor index gives 16/225; the page header reads p. 223 [?]). DGS 008036640, image 234. ARK 3:1:3Q9M-CSX1-8W3N-L.
+- Date / place: made 11 May 1825, acknowledged the same day, recorded 10 Nov 1825. Land in Derry Twp.
+- Verbatim transcription (from the OCR, checked on the image where marked):
+  > "This Indenture made the eleventh day of May in the year of our Lord one thousand eight hundred & twenty five between Adam Maxwell of Armstrong County & State of Pennsylvania of the one part and George Kinkade son and one of the lawful heirs of Andrew Kinkade deceased of Westmoreland County & State of Pennsylvania of the other part, Witnesseth that whereas the aforesaid Adam [image; OCR 'Andrew'] Maxwell did bargain with & sell unto the aforesaid Andrew Kinkead in his life time a piece of land situate on Loyalhanna [?] in Derry Township County and State aforesaid containing about nine acres (for a valuable consideration) it being a part of a larger tract of land which the said Adam Maxwell afterwards sold to John Lewis which is now owned by Robert H. Dunlap the aforesaid piece of land is bounded as follows that is beginning at an iron wood on the [run?] of said Kinkeads old place from thence down the said run by land of Samuel Pool (then Dorases [?]) to a white oak from thence across said run to a sugartree from thence up the said run to a whiteoak at the line of said Kinkeads land from thence along said line to the place of beginning containing about nine acres, Now this Indenture witnesseth that the said Adam Maxwell for and in consideration of the sum of one dollar … doth grant bargain & sell unto the aforesaid George Kinkade his heirs or assigns a certain piece of land containing about nine acres situate in Derry Township … adjoining lands of Samuel Pool [?] Robert H. Dunlap and the heirs of the aforesaid Andrew Kinkade deceased … In testimony whereof I have hereunto set my hand & seal … Robert Rainey, Ephm A. Robison [witnesses] — Adam Maxwell (seal). … acknowledged … the eleventh day of May A.D. 1825 … Recorded the 10 November 1825."
+- What it shows:
+  - Adam had earlier sold Andrew Kinkead about 9 acres next to Kinkead's "old place," as part of a larger tract. He later sold the rest of that tract to John Lewis, and Robert H. Dunlap owned it by 1825.
+  - This deed only confirms title to George. **There are no kinship words** (no heir, brother, sister or in-law) between Adam and the Kinkeads.
+  - "Dorases" may be a misreading of "Vorhises": Ralph Vorhis held the adjoining 1785 warrant (Finding 5c). This is a suggestion only.
+- Which Maxwell and confidence: **Confirmed** as our Adam. He is "of Armstrong County," sells Derry land, and his witness Robert Rainey had bought part of the Beaty tract from him in 1816.
+
+**2. Andrew Kincaid's will, 1820 (task b)**
+- Proposed ID: Andrew Kinkead/Kincaid Sr., Esq., of Derry, husband of Elizabeth. By my hypothesis she is the Elizabeth Maxwell who married him on 4 Nov 1779.
+- Record: Westmoreland, Wills 1819–1839 (Will Book 2, p. 36 per the 1830–32 recital), will no. 712. DGS 005547050 item 2, image 21. ARK 3:1:3QSQ-G9SM-CXS4.
+- Date: dated 6 Sept 1820; proved and recorded March 1821. Witnesses John Anderson and Joseph Turner.
+- Verbatim transcription (from the OCR, partly checked on the image; the page is torn and faint):
+  > "In the Name of God Amen I Andrew Kincaid of Derry Township Westmoreland County & State of Pennsylvania Farmer … Item I give & Bequeath to my wife Elizabeth Kincade during her natural life two thirds of the rent of profit arising from the farm I now live on … also I give to her … the half of all the grain … two cows four sheep … one half of the household & Kitchen furniture … bed stead bed & furniture [her] Saddle, bridle Spening Wheel … Item I give & bequeath my large Bible to my son George reserving the use of it to his Mother during her life … my movable property … & my land in Armstrong County [image] be sold … divided … [to] Joe [? — probably 'Geo'] & Robert one part … to Andrew one part … to John three parts [and] my silver watch … to my daughters Sally & Elizabeth each of them one of said parts or shares [image] … John Harrell [?] & James George Executors …"
+- What it shows:
+  - It names his wife Elizabeth and six children: George, Robert, Andrew, John, Sally and Elizabeth.
+  - He owned land in Armstrong County, which is Adam's county after about 1810.
+  - **No Maxwell is named, and no Maxwell is a witness or executor.**
+- Which Maxwell and confidence: none named. The will is **Confirmed** as Andrew Sr. of Derry, the husband of the Elizabeth who married him in 1779.
+- Note: the OCR "Joe & Robert" is probably "Geo[rge] & Robert." His daughter's 1821 will names exactly four brothers (George, Robert, Andrew, John), with no Joseph.
+
+**3. Elizabeth Kincaid Jr.'s will, 1821 (task b; the "Elizabeth Kinkead" search)**
+- Record: Westmoreland, Wills 1819–1839, will no. 738. DGS 005547050 item 2, image 30. ARK 3:1:3QS7-89SM-CX66.
+- Date: dated 28 Nov 1821. Witnesses Joseph Turner and James Turner. Recorded Jan 1822.
+- Verbatim transcription (from the OCR; the opening lines and the mother's name were checked on the image):
+  > "In the Name of God Amen I Elizabeth Kincaid Junior of the County of Westmoreland & State of Pennsylvania being sick & very weak in Body … I Give & bequeath unto my dear Mother Elizabeth Kincaid [image; OCR 'Hines'] my bedstead & flannel bed quilt also all my part of what she purchased at my Fathers vandue I give & bequeath to George Kincaid & Robert Kincaid to each of them twenty Dollars more than an equal Share with my two Brothers Andrew Kincaid & John Kincaid to George Kincaid['s] wife Jane Kincaid I give my blue coat to Robert Kincaids wife Polly Kincaid I give my Black Silk frock & bonnet & to Robert Kincaid['s] Daughter [illeg.] Kincaid I Give one feather bed … to Andrew Kincaid['s] Daughter Liza Kincaid I give my Saddle & Spinning wheel … to John … my umberella to Sally Russell [image] I give my green coat … the remaining part of my share in my Fathers Estate … divided equally between my Brother[s] George Kincaid Robert Kincaid Andrew Kincaid & John Kincaid & lastly … appoint George Kincaid to be the Executor …"
+- What it shows:
+  - Andrew's widow Elizabeth was alive in Nov 1821.
+  - It gives the sons' wives (Jane and Polly) and a married sister, Sally Russell.
+  - **No Maxwell is named.**
+- Confidence: **Confirmed** as a daughter of Andrew Sr. and Elizabeth.
+
+**4. John Kincaid's will, recorded 1822 (task b)**
+- Record: Westmoreland, Wills 1819–1839, images 32–34. ARKs 3:1:3QS7-L9SM-CX85 and 3:1:3QSQ-G9SM-CXM6.
+- Verbatim (OCR only):
+  > "I John Kincaid of the township of Derry County of Westmoreland … farmer … unto My dear Mother my Bed & bedstead … my silver watch … to George Kincaid I Give my Cow … to my brothers George Robert & Andrew Kincaid … one equal third of the Land left to me by my Father … to Andrew Russel my Sister Sally Russel Deceased Son if he lives to be twenty one years old I Give & bequeath the share of land left to me by my Sister Elizabeth Kincaid Junr …"
+- What it shows: Sally Russell had died by early 1822, leaving a son, Andrew Russel. **No Maxwell is named in the part I read.**
+- I could not open the end of the will (executors and date). The viewer would not move past image 34.
+
+**5. How Adam acquired his Derry land, and who adjoined it (task c)**
+
+*a. Warrant of acceptance to Adam Maxwell, 8 March 1810*
+- Record: Westmoreland, Warrants 1957 (loose warrants). The warrant is image 278, ARK 3:1:3Q9M-CSYH-7SLC-6. The docket back is image 277, ARK 3:1:3Q9M-CSYH-7SJL-M.
+- Read on the image:
+  > "Whereas, by Virtue and in Pursuance of an Order on Application, No. 1719 entered the third day of April [1769] by Mary Beaty … hath been surveyed a certain Tract of Land, containing two hundred thirty eight acres thirty four perches in Derry township County of Westmoreland And Whereas, the said Mary Beaty by her Deed dated 27th of December 1808 conveyed the said tract of land to Adam Maxwell And the said Adam Maxwell hath paid the purchase-money … These are, therefore, to authorise and require you to accept the said Survey … for confirmation, by patent, to the said Adam Maxwell … John Cochran Esq Secretary of the Land Office … the eighth day of March A.D. 1810. To Andrew Porter Esq Surveyor General."
+  - Docket back: "1810 March 8th Westmoreland 238a 34p Adam Maxwell … No. 645 … Returned 14 Mar. 1810."
+- Patent: a later deed recites a patent to Adam Maxwell dated "the nine[teenth?] day of March 1810." It also says Adam conveyed part of the tract to **Robert Rainey on 6 March 1816**, and Rainey sold it to Thomas Anderson Jr. in 1816. Source: Deed Books 1825–1827, image 256, ARK 3:1:3Q9M-CSX1-8WSS-5 (OCR only).
+
+*b. Adam as an adjoiner, 1784–1788 (neighbours' warrants, read on the images)*
+- **William Tindel warrant, 1 Dec 1784** (image 167, ARK 3:1:3Q9M-CSY4-JW39-8):
+  > "William Tindel … One hundred & eighty Acres of Land, On the waters of Conemaugh joining Adam Maxwel's Improvement in Derry Township"
+- **Ralph Vorhis warrant, 30 Aug 1785** (image 479, ARK 3:1:3Q9M-CSY4-JWSX-W). The OCR reads "Vokes"; the image reads "Vorhis":
+  > "Four hundred Acres of Land, including an Improvement adjoining Paul Clark, Adam Maxwell, George Smith and others in Derry Township"
+- **Samuel Craig warrant, 15 March 178[8?]** (image 973, ARK 3:1:3Q9M-CSYH-HQN1-D). It is signed by Peter Muhlenberg as Vice-President, so the year must fall between 1785 and 1788.
+  > "Two hundred Acres of Land, adjoining lands of Michael Bintley [Bentley] Adam Maxwell and others situate on a run called Crooked run emptying into the North side of Loyalhanna in Derry Township"
+- **Other adjoiner mentions (deeds, OCR only):**
+  - Robert McConnell release of 5 Feb [1790?], south side of the Conemaugh, "adjoining lands Adam Maxwell, Ralph Ours [Vorhis]" (Deed Books 1788–92, image 249).
+  - Joseph Mann to James Coulter, about 1790, Derry, "adjoining land of James McIntyre Adam Maxwell" (image 267).
+  - The Craig tract resold in 1794–1800: "thence by land of Adam Maxwell." Deed Books 1794–96 image 69; 1796–97 image 48; 1799–1800 image 92.
+  - George Smith / Garret Patterson tract, 1805–1812: "thence by land of Adam Maxwell." Deed Books 1805–07 image 66; 1812–13 image 169.
+  - James Brison / Huffnagle tract on the Conemaugh: "adjoining lands of Adam Maxwell Ralph Vorhis … William Brown James Perry" (1824–25, images 137 and 164).
+- **Adam as a witness:**
+  - Charles Mitchell to Andrew Allison, Derry, 18 Sept 1786 (recorded 1852; Deed Books 1852 image 14).
+  - Joseph Henderson to James McCutchen, 1798 (Deed Books 1798–1800 image 33).
+  - John & Ann Kerr to John McQuistin, about 1799–1800 (Deed Books 1799–1800 image 45).
+  - William Green to William McGlaughlin, about 1805–07 (Deed Books 1805–07 image 37). Compare the 1818 Armstrong O.C. record in which Adam became guardian of William McLaughlin's minors.
+- **The Kinkead "old place"** adjoined Adam's tract (Finding 1).
+
+*c. Adam's recorded sales*
+- The Westmoreland grantor index (Grantor Deed Indexes 1773–1897, "Maxwell / A" page, image 7, ARK 3:1:3Q9M-CSHM-MVJL, read on the image) lists, before the 1860s, only two deeds by Adam:
+  - to **Isaac Peirce**: Vol. 13 p. 199, 9 Nov 1818, Derry Twp.;
+  - to **Geo[rge] Kinkade**: Vol. 16 p. 225, 10 Nov 1825, Derry Twp.
+- **The Robert Rainey sale (6 Mar 1816), the Andrew Kinkead sale and the John Lewis sale are not indexed.** They were probably never recorded.
+- The grantee index page I reached (ARK 3:1:3Q9M-CS4X-K31V-Z) begins in the 1860s. I did not find the entry for Beaty's 1808 deed to Adam.
+
+*d. The 1818 deed to Isaac Peirce*
+- Record: Deed Book 13 pp. 198–199, DGS 007903060, image 141, ARK 3:1:3Q9M-CSHM-M3W7-8.
+- I did not reopen it this session. The recital as read on the image in session 1:
+  > "…a certain tract of land called Springdale situate in Derry Township Westmoreland County … containing one hundred acres and ninety one perches … being a part of a larger tract which was surveyed in pursuance of an application No 1719 dated the 3d April 1769 entered by Mary Beaty who by deed dated 27th December 1808 conveyed the said tract to the said Adam Maxwell …"
+  - Grantors: Adam Maxwell and Elizabeth his wife, "of Armstrong County." Witnesses Samuel Mathews and Alex Craig. Acknowledged 28 Sept 1818.
+
+*What it all shows*
+- In 1784–88 Adam held an **improvement** in Derry, on the Conemaugh and Crooked Run / Loyalhanna side. Samuel Craig, Ralph Vorhis, William Tindel and later the Kinkeads were his neighbours.
+- Adam never took out a warrant of his own. He bought the Beaty application right in 1808, which had been surveyed at 238a 34p, and gained title in 1810.
+- He then sold it off in pieces: to Rainey (1816), Peirce (1818), Kinkead (before 1820) and Lewis (date unknown).
+- **No title recital names a Maxwell predecessor or any kin.**
+- Confidence: **Confirmed** as our Adam. Derry, the Beaty tract and the Armstrong residence all tie together.
+
+**6. William Maxwell of Unity: his will and land (task d)**
+
+*a. Will, dated 8 July 1815*
+- Record: Westmoreland, Wills 1811–1819 (a recopied will book), will no. 568, pp. 387–389. DGS 005547050 item 4, images 90–91. ARK 3:1:3QS7-L9SM-CXG7.
+- Read on the image, except where marked:
+  > "Will of William Maxwell Deceased 568 — In the name of God Amen I William Maxwell of the Township of Unity County of Westmoreland in the State of Pennsylvania tanner being in my usual health of body and of sound memory & understanding … it is my will that the whole of my Estate … real & personal land & moveables be sold … divided into sixteen equal shares & I do give and bequeath unto my dear wife Jean Maxwell four of said shares being one fourth of my estate … in lieu and instead of her dower … & to my Son William Maxwell I give & bequeath four of the said shares … to my sons Robert Maxwell John L. Maxwell and my Daughters Salley Maxwell & Betsey Maxwell to each of them one of the aforesaid shares & to my sons James Maxwell & Adam Maxwell I give & bequeath to each of them two of the said shares … And I do hereby appoint Jean Maxwell my wife & my Son William & Benjamin Alsworth Executors … In testimony whereof the testator hath signed sealed & pronounce[d] this as his last will & testament in presents of us who at his request have signed as witnesses on July 8th 1815 — George Kincaid, John Kincaid — William Maxwell (seal)."
+  > "Westmoreland County SS. Personally came George & John Kincaid … saw William Maxwell who is now deceased sign seal publish and pronounce … Sworn and subscribed before me this 29th [?] day of December 1815. James Montgomery Register. Recorded December 29th [?] day 1815."
+- The "29th" looks like 29 on the image. You gave 27 Dec; please check against your copy.
+
+*b. His land*
+- Executors' deed to John Mitchel, 29 Oct 1823, Unity (Deed Books 1822–24, image 400, ARK 3:1:3Q9M-CSNP-SSFM-L; OCR):
+  - Executors "Jane Maxwell & William Maxwell of Butler County and Benjamin Alsworth." It sells 112 acres, bounded by "other lands of the heirs of William Maxwell."
+  - Title recited: a patent to the executors, 12 Sept [1823?]. **No earlier owner or origin is recited.**
+- Executors' deed to David Larimore, 1830 (Deed Books 1829–30, image 327, ARK 3:1:3Q9M-CSNP-SSFC-D; OCR):
+  - "Jane & William Maxwell executors of William Maxwell Decd late of Unity township … last will … dated the 8th day of July 1815." It recites a patent to the executors "in trust for the heirs" dated 28 Feb 1827, Patent Book vol. 24 p. 195.
+- Patent of 28 Feb 1827 (Pennsylvania Patent Records 1823–1858, image 518, p. 195, ARK 3:1:3QHV-V3D9-J9TG-G; OCR, date checked on the image as far as the resolution allowed):
+  > "…granted … unto the said Jane Maxwell William Maxwell & Benjamin Alsworth Certain tract of land situate in Unity township Westmoreland County … Containing two hundred [seventy?] Acres fifty five perches … which said tract was Surveyed in pursuance of an Order on application 3710 Entered [ ] August 1769 by William Moore whose right in & to said tract by an Instrument in writing dated the 1st [?] April 1786 became vested in William Maxwell who since died having first made his last will & testament in writing dated the 8 July 1815 whereby he appointed the said Jane Maxwell Executrix & William Maxwell & Benjamin Alsworth Executors …"
+  - Warrant-of-acceptance docket: "1827 Feb. 26 — No. 697 Westmoreland County 270 Acres 5 Pers. Jane Maxwell … William Maxwell Benjamin Alsworth Exors of the Last Will & Testament of William Maxwell." Source: Warrants 1957, image 381, ARK 3:1:3Q9M-CSYH-7SLH-5 (OCR).
+
+*What it shows*
+- William of Unity was a tanner. His wife was Jean or Jane.
+- His children were William (of Butler Co. by 1823), Robert, John L., James, Adam, Sally and Betsey.
+- He bought his Unity land in 1786 from the right of William Moore (application of 1769). That fits the Mount Pleasant listing of 1783/1786 and Unity in 1790.
+- **His will was witnessed by two sons of Andrew and Elizabeth (Maxwell) Kinkead.**
+- Nothing recites where he came from or who his parents were.
+
+*Which Maxwell and confidence*
+- The 1815 will is **Confirmed** as William of Unity, and it is the will you cited (executors Jean and son William).
+- That he is the same man as the **William of Mount Pleasant of 1783/86** is **Probable**. Unity adjoins Mount Pleasant, and his title dates from 1786.
+- That he is a **brother of Elizabeth Kinkead and of Adam** is **Possible**. The evidence:
+  - the Kincaid sons witnessed his will;
+  - he named sons James and Adam, which matches the James (of Toboyne) and Adam of your working model.
+  - This is circumstantial only. No document states the relationship.
+
+**7. The 1765 Bucher marriage (task e)**
+- I searched Full Text statewide for "Maxwell and Mary Leighlin/Leightin/Laughlin/Loughlin/Leighton" and got 0 hits. "James Maxwell and Mary" in Pennsylvania gave 26 hits, all 19th-century deeds.
+- **No second transcription or image of Bucher's register is in FamilySearch Full Text**, as far as these searches reach.
+
+---
+
+### Search log
+| county | range | query | hits | result |
+|---|---|---|---|---|
+| Westmoreland | 1790–1840 | "Elizabeth Kinkead/Kincaid/Kinkade/Kincade" | 12 | 4 Westmoreland wills (Findings 3–4, plus Andrew's will again); a 20th-century O.C. index entry (irrelevant); 7 out-of-area hits |
+| Pennsylvania | 1779–1840 | Maxwell +(Kinkead OR …) | 0 | the syntax isn't supported |
+| Westmoreland | 1779–1840 | Maxwell AND (Kinkead OR …) | ~4,900 (treated as OR) | top Westmoreland deed hits checked: 1820–22 image 254 (Kinkead only); not useful |
+| Westmoreland | 1773–1840 | "Adam Maxwell" / "Adam Maxwel" / "Adam Maxfield" | 75 | opened: 4 warrants (Finding 5a–b); deeds 1788–92 ×2, 1794–96, 1796–97, 1798–1800, 1799–1800 ×2, 1805–07 ×2, 1812–13, 1824–25 ×3, 1825–27, 1832–33, 1852, 1866, 1868; grantor and grantee indexes. The 1860s+ hits are a later Adam (Washington/Bell Twps). Not opened: 1798 tax (3), Militia 1777–90 (1), Patent Records (several), Land Records 1807–11 (2), Military Pension 1838–40, Bounty Records, histories |
+| Westmoreland | all | "Maxwell Adam" / "Adam Rainey" / "Maxwell Robert Rainey" | 9 | William Maxwell's will (Finding 6a); grantee and grantor index pages |
+| Westmoreland | 1805–1850 | "Adam Maxwell" "John Lewis" | ~70 (OR) | no Adam-to-Lewis deed found |
+| Westmoreland | all | "Maxwell Maxwell Maxwell" (index pages) | 14 | grantor index Maxwell/A page (Finding 5c) |
+| Westmoreland | 1783–1835 | "Jean Maxwell" / "Benjamin Alsworth" variants | 61 | 1811–12 image 132 (Turney to Alsworth, not relevant); 1822–24 executors' deed (Finding 6b) |
+| Westmoreland | 1815–1840 | "William Maxwell deceased/late/dec" / "Executors of William Maxwell" | 12 | 1829–30 Larimore deed (Finding 6b) |
+| Pennsylvania | 1815–1830 | "Executors of / heirs of William Maxwell" / "Jane Maxwell William Maxwell" | 16 | 1827 patent and acceptance (Finding 6b) |
+| Pennsylvania | 1764–1766 | "James Maxwell" Bucher OR Leighlin … | 100+ (OR) | top hits were histories and land records; not relevant |
+| (statewide) | all | "Maxwell and Mary Leighlin/Leightin/Laughlin/Loughlin/Leighton" | 0 | — |
+| Pennsylvania | all | "James Maxwell and Mary" | 26 | all 19th-century; not relevant |
+
+### Leads for follow-up (exact references)
+1. **The rest of William of Unity's family.**
+   - Search Westmoreland and Butler for his sons James and Adam (young Adam of Unity, not ours).
+   - Check the Unity 1790 census household.
+   - Look for Jean Maxwell's will or estate after 1827.
+   - Check Unity/Derry church records (Unity Presbyterian) for William's baptisms or burial. His gravestone could give a birth year to compare with Adam (1752).
+2. **The 1786 "Instrument in writing" from William Moore to William Maxwell.**
+   - It might recite William's earlier residence. It was not recorded in the deed books (no index hit).
+   - Where the original might be: Pennsylvania State Archives (PHMC), Land Office, the survey/warrant file for Westmoreland **application No. 3710 (Aug 1769, William Moore)**, patent to William Maxwell's executors, Patent Book H-24 [?] p. 195 (28 Feb 1827).
+   - To obtain it: ask the PHMC Reference staff for copies of the application, survey and any filed transfers. Fees are set by PHMC. Not ordered.
+3. **Andrew Kinkead's "land in Armstrong County."**
+   - Look it up in the Armstrong deeds 1805–1825 (grantee Kinkead). If it adjoins Adam, or came from him, that would be a further link.
+4. **Westmoreland O.C. records, 1821–1830, for Andrew Kinkead's estate:** a partition or valuation, or an account by the executors John Harrell [?] and James George.
+5. **Adam Maxwell in the 1798 Direct Tax and in the Westmoreland militia rolls (1777–1790).** These are hits from the "Adam Maxwell" search that I haven't opened yet:
+   - Tax Records 1798: ARKs 3Q9M-CS1K-D32T-V, 3Q9M-CSPT-MQXJ-J, 3Q9M-CS1K-D3KT-W.
+   - Militia Records 1777–1790: 3Q9M-CSVF-K4H5-B.
+   - Warrants 1784: 3QHV-V38R-M98L-P.
+   - Land Records 1807–1811: 3QHV-V38T-V9QG-M and -V9QL-S.
+6. **The Bucher register (1765).** I believe the original register of Rev. John Conrad Bucher (d. 1780) is held by a Reformed Church archive; the Evangelical and Reformed Historical Society at Lancaster is the likely repository, but please verify. There are also printed abstracts in 19th-century Pennsylvania genealogy serials. I haven't confirmed a holding. Nothing was ordered.
+7. **The end of John Kincaid's will** (image 35 onward, Wills 1819–1839, DGS 005547050 item 2): its executors, date and witnesses. The viewer would not advance past image 34.
+
+### Questions for me
+1. Should I follow **William of Unity's family** next (Leads 1–2: his gravestone and age, his Moore land file, his sons' later records)? Or should I first open the **1798 tax and militia hits for Adam** (Lead 5)? The militia rolls could show whether Adam and William served in the same company.
+2. Your copy of the Centre marriage says "Kinkead." Does your local archive have a Derry/Unity church or burial record for Elizabeth Kinkead (widow, alive in Nov 1821)? Her age at death would test the sister hypothesis against Adam's 1752 birth.

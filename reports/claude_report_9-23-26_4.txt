@@ -1,0 +1,110 @@
+## Session report 4: the search for Sarah Maxwel's husband, 24 Sep 2026
+
+Target: to name the husband of Sarah Maxwel (Upper Tyrone, 1763).
+Result: **he is not named in anything reached this session.**
+
+Entries are read from the images unless marked "OCR only". [?] marks an uncertain reading. ARKs are https://www.familysearch.org/ark:/61903/… .
+
+### Findings
+
+**1. There is no Tyrone list for 1762 in this volume (task b)**
+- Record: Tax volume (DGS 007856871), image 60. A slip is pasted onto the 1762 Rye list.
+- Verbatim, as far as I can read it:
+  > 1762 — Rie ✓ / Guilford ✓ / Hopewell ✓ / Antrim ✓ / West Penns ✓ 1763
+  >
+  > [below] See also 1763 — E. Penn / Peters / Hamilton / Tyrone ✓ / Rye / Antrim / Middleton / Guilford / Letterkenny / Allen
+- What it shows: the compiler's inventory lists **no Tyrone for 1762**. Tyrone first appears in 1763. Sarah's 1763 entry is therefore the earliest Tyrone evidence this volume can give. It can't show whether a male Maxwell sat on her ground before her.
+
+**2. The 1750–1756 lists (task a)**
+- The townships and years present are:
+  - E. Pennsborough 1750 and 1753
+  - W. Pennsborough 1751 and 1753
+  - Middleton 1751, 1753 and 1756
+  - Hopewell 1751 and 1753
+  - Lurgan 1751 and 1753
+  - Antrim 1751, 1754 and 1755
+  - Peters 1751 and 1753
+  - Hamilton 1752 and 1753
+  - Guilford 1755
+  - Carlisle 1753
+  - Allen 1753
+- Tyrone, Toboyne and Rye don't appear, because Sherman's Valley was not yet open. I read these on the images: Middleton 1751 with its freemen (images 16–19), Hopewell 1751 (20), Lurgan 1751 (22–24) and Antrim 1751 (25–26).
+- Maxwells found:
+  - **Peters 1751**: "Maxwell William" (image 28). I checked the image. This is the Peters William, who is excluded.
+  - **Peters 1753**: "Maxwell William" (image 53). OCR only; same man.
+  - **Lurgan, about 1753**: "Maxwell Henry" (image 42). OCR only; the image didn't come through clearly enough to confirm.
+  - No Maxwell, Maxfield, Maxel or Maxwel, and **no Andrew, James, Adam or Sarah**, on the Middleton, Hopewell, Lurgan, Antrim, Hamilton, Carlisle, Allen or Pennsborough lists of 1750–1756.
+- Toboyne-circle neighbours in the 1750s:
+  - **Hopewell 1751** has McClintock Alexander, McClintock Joshua and McFarland James (image 20, read on the image).
+  - **Hopewell 1753** has McClintock John and Morrow Charles (image 40, OCR only).
+  - **Middleton 1753** has McClintock Alexander (image 34, OCR only).
+  - Nielson and Neilson appear in several townships.
+  - So **Hopewell** is where the McClintock and Morrow families were in the early 1750s. That makes it a candidate for where the Maxwells lived before Tyrone, but no Maxwell appears on its surviving lists.
+
+**3. The Register's docket index, letter M: Maxwell rows, 1750–1790 (task c)**
+- Record: Cumberland Probate Indexes 1750–1937, ARK 3:1:3QS7-L99B-JG3F. I read these given-name blocks on the images: A (image 116), H (153), J (159–162), R (206–207), S (211), T (220) and W (225–226).
+- Maxwell rows found:
+
+| Image / page | Name | Residence | Date of letters | Type | Executor / administrator | Book–page |
+|---|---|---|---|---|---|---|
+| 116 / p. 1 [?] | Maxwell Andrew | — | June 7 [?] 1772 | A | Albert Maxwell | — |
+| 225 / p. 129 | Maxwell William | Peters | Feb 11 1778 | T | James Maxwell, Patrick Maxwell | — |
+| 226 / p. 130 | Maxwell William | — | Jan 11 1808 (proven) | — | — | — |
+
+- **There is no Sarah Maxwell at all** in the S block, which runs from 1752 to 1814. There is also no Adam, Hugh, James, John, Joseph, Robert or Thomas Maxwell between 1750 and 1790.
+- **Not read**: the B–G, I, M, N and P blocks, for example a Matthew, George, David or Charles.
+- Toboyne and Tyrone estates found in passing: William McClellan, Toboyne, 12 Sept 1769; Robert Murray, Toboyne, 19 June 1777; Thomas Murray, Tyrone, 1783. So the index does record Toboyne estates of this period, yet no Maxwell one appears among the blocks read.
+
+**4. Full-text searches for Sarah and for a widow (task d)**
+- "Sarah Maxwell" OR "Sarah Maxwel" OR "Maxwell Sarah" OR "Maxwel Sarah" OR "Sarah Maxfield", Cumberland, 1750–1790: 9 hits.
+  - None is the 1763 Sarah. They include Sarah Maxwell of Lurgan's will (1830), Sarah Maxwell the executrix of William Maxwell of Rye (about 1812), and Sarah Maxwell who married Samuel Test in 1796.
+  - The 1763 tax entry itself did not show up in these results.
+- "widow Maxwell" OR "Maxwell widow" OR the Maxfield variants, 1750–1790: 7 hits. Two are new and real:
+  - **Rye 1779** (Taxpayer Lists 1776, 1779–1780, image 289, ARK 3:1:3Q9M-CS7S-SK84). Read on the image, it has two separate Maxwell entries on the same list:
+    > 100 | Maxwell Albert | 2 Horses | 2 Cows | … 144
+    >
+    > 100 | Maxwell Widow | 1 Horse | 1 Cow | … 150
+  - **Rye 1780** (image 494, ARK 3:1:3Q9M-CS7S-S2LN), read on the image:
+    > 200 | Maxwell Widow | … 360 | 360
+    - Albert is not on the 1780 M pages.
+  - What it shows: **a Maxwell widow held land in Rye Twp in 1779–80, separately from Albert.** The obvious candidate is **Andrew's widow** (Albert administered Andrew's estate in 1772). Sarah is also possible, since Rye adjoins Tyrone and Sarah left the Tyrone/Toboyne list after 1763. Nothing names her. **Possible.**
+
+**5. Land Office warrants, 1762 (task e)**
+- Record: Cumberland Warrants (loose warrants, 1957 film).
+  - Image 309, ARK 3:1:3Q9M-CSY3-13HW-F: 8 June 1762. James Maxwell, 100 acres "in the Great Cove adjoining Samuel Brown's Improvement". Read on the image.
+  - Image 307, ARK 3:1:3Q9M-CSY3-13FW-5: 8 June 1762. **Patrick** Maxwell, 150 acres "in the great Cove adjoining the Tract allowed to James Maxwell and Abraham Stack's Improvement".
+  - Image 311, ARK 3:1:3Q9M-CSY3-13F3-J: 8 June 1762. James Maxwell, 150 acres "on Juniata at a place called Turkey Bottom adjoining and below Colonel James Burd's lands". The place wording is partly from OCR.
+- Register: Cumberland warrant register, image 59, entries 171–173 (ARK 3:1:3Q9M-CSPG-M9RX-Q):
+  > 171 Maxwell, Patrick | 150 | In Great Cove
+  >
+  > 172 " James | 100 | [Great Cove] | returned 11 March 1789 | patentee James Maxwell
+  >
+  > 173 " " | 150 | On Juniata R.
+- Which Maxwell: James and Patrick applied together on the same day, and Great Cove lies beside Peters. That makes these **James Esq. and Patrick of the Peters family**, which your rules exclude. **Probable.**
+- **No Maxwell warrant or application in Tyrone or Sherman's Valley, 1755–1766, was found.** James of Toboyne's "warranted" acreage in 1768 still can't be traced to a warrant. It may have been a location or an improvement right under the 1766 "New Purchase" or an East/West Side application. I didn't examine the 1765–69 East/West Side register page by page; the only Maxwell there was a "W. Maxwell" adjoiner in the Aughwick/Conococheague area.
+
+**6. Sarah's remarriage or death (task f)**: nothing found.
+
+### Search log
+| where | scope | query / action | result |
+|---|---|---|---|
+| Tax vol. 007856871 | images 9–84 | OCR scan plus page headers; image reading of 16–26, 28, 60 | Findings 1–2 |
+| Probate Index | blocks A, H, J, R, S, T, W | read on the images | Finding 3 |
+| FS Full Text, Cumberland 1750–90 | — | Sarah Maxwell/Maxwel/Maxfield variants | 9 hits, none relevant |
+| FS Full Text, Cumberland 1750–90 | — | widow Maxwell variants | Rye 1779 and 1780 widow (Finding 4) |
+| FS Full Text, PA 1755–70 | — | Maxwell + Tyrone/Sherman | histories; no Tyrone warrant |
+| FS Full Text, Cumberland 1760–70 | — | Maxwell warrant | 1762 Great Cove/Juniata warrants (Finding 5) |
+| FS Full Text, Cumberland 1749–62 | — | Maxwell OR Maxfield OR Maxwel OR Maxel OR Maxell | nothing new before 1762 |
+
+### Leads for follow-up
+1. **The Rye Maxwell widow, 1779–80.**
+   - Read the Rye lists for 1776, 1778 and 1781–1785 (Taxpayer Lists 1776, 1779–1780 and 1781–1785) to see whether she is named or when she drops off.
+   - Look for a Maxwell deed from Rye before 1790. In the grantor index, Andrew Maxwell of Rye sold to William Maxwell on 16 March 1796 (Deed Book 1L, p. 703).
+   - Check whether Albert's 1792 heirs' deed recites the widow's thirds.
+2. **The docket index blocks not yet read** (B–G, I, M, N, P): look for any other Maxwell estate, 1755–1767.
+3. **Loose papers for Andrew's estate**: the Cumberland County Archives request is already drafted.
+4. **Hopewell Township, 1751–1762**: the McClintock/Morrow home area. Look for a Maxwell in Hopewell deeds, or in the 1762 Hopewell list (image 60 onward).
+5. **Land Office**: the 1766 "New Purchase" and the East/West Side applications for Tyrone and Toboyne 1766–69 under M, and PA Archives location and warrant indexes on PHMC (not on FamilySearch).
+
+### Questions for me
+1. Which comes first next: chasing the Rye widow (Lead 1), or finishing the docket-index blocks (Lead 2)?
