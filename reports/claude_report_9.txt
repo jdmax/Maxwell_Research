@@ -1,0 +1,170 @@
+## Session report — Y-DNA male lines, image verification, and Perry Co. orphans' court for Col. John Maxwell of Toboyne — 4 Oct 2026
+
+Rules applied: trees are leads only. Males only. Nothing on anyone born after 1925. Nothing from records after 1950: a few 1950-or-later index hits appeared in result lists and were not used or recorded. Nobody was contacted. Transcriptions marked [OCR] come from FamilySearch's transcript panel and were not checked word-for-word on the image. Everything else was read on the image, and I say so each time.
+
+### Headline results
+
+1. **Image check, task a:** every link I reported from the index alone is supported by the images, except that the 1910 Lamar page adds two new facts (see 2 and 3 below). Chain: John L. (1850/1860 Butler) → sons Adam, A. Bennet, John Lowery. John Lowery → son David L. (confirmed by a county marriage index entry naming "John L. Maxwell" and "Martha McKee" as David's parents).
+2. **Adam's two sons (Isaac L., Charles) appear to have had no children.** The 1910 Lamar image shows 0 children born and 0 living for both couples after about 12 years of marriage. The 1920 Charles household lists none. The tree shows "Children (0)" for both. Adam's male line therefore looks closed.
+3. **One continuing Butler line found: John L. → John Lowery (b. 1833/4) → David Logan (b. Oct 1870, Iowa; d. 1944 per tree) → John L. (b. 19 Dec 1902, Page Co., Iowa), with later generations not followed (cutoff).**
+4. **Perry Co. records do not name Col. John's children.** They do prove: he died intestate before Dec 1825; his administrators were Joseph Eaton and Thomas Adams; his 184-acre Toboyne plantation was sold subject to a mortgage "executed by said John Maxwell to James Maxwell", recorded in Cumberland County. Andrew (b. 1818) is **not** proven to be his son.
+5. **A conflict in the printed histories:** one Perry history says Col. John "was a son of John Maxwell". Your note from the 1886 county history (p. 1025) says "a son of James Maxwell".
+
+### Findings
+
+#### F1. 1850 North Butler — John L. Maxwell household (image check)
+- Proposed ID: John L. Maxwell (b. c.1790) and sons A. Bennet, Adam, John Lowery.
+- Record: Butler Co., PA, US census 1850, North Butler Twp., image 187 of 761, dwelling 179 / family 179, line 39; ARK 1:1:M44R-LW6. Newton is dwelling 178, same page.
+- Verbatim (read on image, birthplace column is ditto marks under "Pa."): `179 John L. Maxwell 60 M Farmer [RE] 7000 | Agnes 60 F | A. Bennet 24 M Student | Adam 21 M Farmer 4000 | Emily 19 F 1500 | John Lowery [?] 16 M Farmer | Lydia Frar [?] 11 F`. Newton: `178 Newton Maxwell 29 M Farmer 6000 | Priscilla 28 F born Virginia | Leslie 4 M Pa | Catharine 2`.
+- What it shows: confirms the 1850 household as indexed. John Lowery (the "Johnston [?]" in your notes) reads "John Lowery" and is a farmer, aged 16. The images give no relationships in 1850. Newton is a separate household next door.
+- Which Maxwell, and confidence: John L. — Probable as William of Unity's son (name only; no document names his father).
+
+#### F2. 1860 Butler Twp. p. 22 — John L., John/Martha, Adam, Newton (image check)
+- Record: US census 1860, Butler Twp., Butler Co., image 121 of 469; enumerator page 22; "116" stamped top left; ARKs John L. 1:1:MXPD-GGJ, John 1:1:MXPD-GGV, Adam 1:1:MXPD-GG8, Newton 1:1:MXPD-GG7.
+- Verbatim (image, read at zoom): `Newton Maxwell 39 M Farmer 5700 1092 | Priscilla 38 F Virginia | [Leslie D.?] 14 | Catharine 12 | Robert L. 9 | Alexander H. 0`; `Adam Maxwell 31 M Farmer 6000 1177 | Maria 29 | Mary E. 4 | Flora 3`; `Margaret Hamilton 70 F Ireland`; `John L. Maxwell 69 M Farmer 3000 [?] born Penna | John 26 M Farmer 5400 [?] 1050 [?] | Martha 27`.
+- What it shows: John L. (69), his son John Lowery (26) and Martha (27) share one dwelling. Adam and Newton are neighbours on the same sheet. Newton's household is as indexed. The 1860 census has no relationship column.
+- Which Maxwell, and confidence: Confirmed that these are the 1850 people (same names, ages +10, same neighbours).
+
+#### F3. 1870 Tarkio Twp., Page Co., Iowa — John Lowery Maxwell (image check)
+- Record: Iowa, 1870 US census, Page Co., Tarkio Twp., image 222 of 265; ARK 1:1:MDVP-8P9.
+- Verbatim (image, partly faint): `Maxwell John L. 36 M W [occupation: "Dry goods mer.[?]"] RE 200 PE 2500, Pennsylvania | Martha 37 F keeping house, Pennsylvania | Mary A. [?] 9 Pennsylvania | Emma 7 Pennsylvania | Effa 2 Pennsylvania | Mc[Kee?] David B. 34 M Physician, Pennsylvania`.
+- What it shows: all of them born in Pennsylvania. This fits John Lowery of Butler (b. 1834, wife Martha 27 in 1860). David B. McKee is probably Martha's brother, as she was "Martha McKee" (see F5). That is an inference from the name, not a read relationship (no relationship column in 1870).
+
+#### F4. 1900 Tarkio Twp., Page Co., Iowa — John L. with son David L. (image check)
+- Record: Iowa, 1900 US census, Page Co., Yarkio [Tarkio] Twp., ED 97, sheet 9B, lines 98–100; image 214 of 257; ARK 1:1:M9L7-D4C.
+- Verbatim (image): `Maxwell John L. | Head | W M | Dec 1833 | [age 66/67] | Wd | b. Pennsylvania (father Pennsylvania, mother Pennsylvania) | Farmer` / `Davaid L. | Son | W M | Oct 1870 | 29 | M [0 yrs] | b. Iowa, father Pennsylvania, mother Pennsylvania | Farmer` / `Margaret R. | Daughter-in-law | W F | May 1874 | 26 | M [0] | 0 children | b. Iowa, father Ohio, mother Pennsylvania`.
+- What it shows: the census itself says "Son" for David. John L.'s birthplace and both parents' birthplaces are Pennsylvania. David's marriage in Aug 1899 fits "married less than a year".
+- Which Maxwell, and confidence: Confirmed that this John L. (b. Dec 1833, Pa.) is the Butler John Lowery of 1850 and 1860 (name, age, Pa. birth, son's name consistent across chain; tree attachment agrees).
+
+#### F5. Iowa county marriage, 23 Aug 1899, Adams Co. — David Logan Maxwell
+- Record: Iowa, County Marriages, 1838–1934, index only (the page says "Image Unavailable"); ARK 1:1:XJ86-4Z7.
+- Verbatim (index): David Logan Maxwell, age 28, b. Page Co., Iowa; parents "John L. Maxwell" and "Martha McKee"; wife Margaret Riche [Ritchie] Johnston, age 24, b. Adams Co., Iowa; her parents Isaac Johnston and Lovina Brownlee.
+- What it shows: an independent record naming David's parents. This is the strongest evidence in the chain, though it is an index and not an image.
+- Which Maxwell, and confidence: Probable-to-Confirmed (index only).
+
+#### F6. Later generation: David L. Maxwell (b. 1870) and son John (b. 1902) — names, birth years, residence only
+- David L., census 1910 Walton, Labette Co., Kansas (age 39; wife Margaret 30; children Lucile 9, John 7, Mary 4; ARK 1:1:M2CJ-DX8); 1920 Prowers Co., Colorado, ED 188 (age 49; son John 17; ARK 1:1:MXLC-FLW). Tree ID K27R-15J gives children Lucile, John L., Mary and Elizabeth M. (leads).
+- Son: John Maxwell, b. 1902–03, Iowa. Iowa county births list a John Maxwell b. 19 Dec 1902, Tarkio Twp., Page Co., parents "D L Maxwell" and "Margett Maxwell". Later index entries with that same birth date show a John L. Maxwell with a family in California in the 1930 and 1940 censuses. That identification rests on the birth-date match across index entries and is **Possible** until an image or a document ties them. I stopped here: his own son was born after 1925, so I did not pursue it.
+- Prospect for Y-DNA: a Y-line exists for John L. → David L. → John L. (b. 1902) → at least one later generation.
+
+#### F7. 1870 Apollo, Armstrong Co. — Adam's household (image check)
+- Record: Pennsylvania, 1870 US census, Armstrong Co., Apollo (P.O. Kelly's Station [?]), image 363 of 525; household 105; ARK 1:1:MZL6-JLS.
+- Verbatim (image): `Maxwell Adam 41 M W Brick Manufacturer [?] 2500 5000 [?] Pennsylvania | Mariah 40 F keeping house | Mary 14 | Flora 12 | Isaac 8 | Charles 1 (all Pennsylvania) | McMath James 18 M works in brickyard, Scotland`.
+- What it shows: the Butler man (Adam, b. 1829, Maria, Mary E., Flora) now in Armstrong Co., with two sons born there or nearby. A brickyard worker lives with them.
+- Which Maxwell, and confidence: Confirmed (same wife and children's names and ages as 1860).
+
+#### F8. 1880 Clarinda, Page Co., Iowa — Adam's household (image check)
+- Record: Iowa, 1880 US census, Page Co., Clarinda, ED 154, image 33 of 777; ARK 1:1:MDLH-9JX.
+- Verbatim (image at zoom): `Maxwell Adam 51 W M Merchant, Penn. (father Penn., mother Penn.) | Marie 50 Wife, keeping house | Mary 24 Daughter, at home | Flora 22 school teacher | Isaac 18 Son, clerk dry goods | Charley 11 Son, at home | Cooper [?] 24 Nephew, Farmer`. Birthplaces: Pennsylvania / Penn. / Penn. for the family; Cooper's birthplace is Ohio [?] with a Maryland [?] parent.
+- What it shows: the family from F7, now in Iowa. A nephew, Cooper, lives with them (surname not clear).
+- Which Maxwell, and confidence: Confirmed (same wife and children).
+
+#### F9. 1910 Lamar, Prowers Co., Colorado — Isaac L., with his parents Adam and Marie
+- Record: Colorado, 1910 US census, Lamar, ED 136, image 1310 of 1,471; ARK 1:1:MK4F-CHX.
+- Verbatim (image at zoom): `Maxwell I. L. | Head | M W 47 | M1 [married once] 12 yrs | b. Pennsylvania, father Pennsylvania, mother Pennsylvania | merchant, retail hardware` / `Mabel | Wife | F W | M1 12 | children born 0, living 0 | b. Iowa, father Iowa, mother Iowa` / `Father | M W 80 | M1 | b. Pennsylvania, father's birthplace "Scotland (Scotch)", mother's birthplace "Scotland (Scotch)"` / `Mother | F W 78 | M1 | b. Pennsylvania, Pennsylvania, Pennsylvania`.
+- What it shows: (a) Isaac has no children after 12 years of marriage. (b) Relationships are written out ("father", "mother"), so Adam (80) and Marie (78) live with Isaac. (c) **Adam's parents are recorded as born in Scotland**, while the 1880 census (F8) says Pennsylvania. Age 80 made the informant's recollection; this is a lead, not a fact.
+- Which Maxwell, and confidence: Confirmed that Isaac L. is Adam's son (the census reads "father/mother").
+
+#### F10. 1910 Lamar — Charles Maxwell and Alda
+- Record: Colorado, 1910 US census, Lamar, ED 136, image 1337 of 1,471, sheet 31B; ARK 1:1:MK4F-ZL1. 1920: Prowers Co., ED 181, sheet 12A, ARK 1:1:MXLH-VZ3 (Charles 51; wife Alda T. 43; mother Maria 90). 1900: Holly, Prowers, ED 92, ARK 1:1:MQMJ-95B (wife Alva E. 27, "Years Married 2").
+- Verbatim (1910 image at zoom, partly faint): `Maxwell Charles | Head | M W 41 | M1 12 | b. Pennsylvania (Pa., Pa.) | Alda | Wife | F W 36? | M1 12 | children born 0 | b. Iowa`.
+- What it shows: no children in 1900, 1910 or 1920 (1910 read on image; the 1900 and 1920 pages are index only). The marriage index gives 30 Dec 1897 at Lamar to Alda E. Lynch. Charles's mother (Maria, 90) lived with him in 1920.
+- Which Maxwell, and confidence: Confirmed that Charles is Adam's son (1870 Apollo "Charles 1"; 1880 Clarinda "Charley 11"; 1920 shows his mother).
+
+#### F11. Perry Co. Orphans' Court, April Term 1826 (p. 140) — order to sell Col. John Maxwell's land
+- Record: Perry, Pennsylvania. Court Records 1820–1845, image 95 of 742, left page "140"; ARK 3:1:3QS7-899B-28F1. (DGS number not recorded.)
+- Date / place: 3 April 1826, Landisburg, Perry Co.
+- Verbatim (image, zoomed): "John Maxwell decd. / Alias order for sale of the real estate | April 3d 1826. Joseph Eaton and Thomas Adams Administrators of John Maxwell late of Toboyne township deceased made the following report. That in pursuance of the order of the Orphans court of Perry county, having given due public and timely notice of the time and place of sale agreeably to the direction of said order, did on the eighteenth day of February at twelve oclock in the day at the premises expose the Land and tenement in said order mentioned, to sale by public vendue or outcry. And that the same could not be sold for want of buyers and they pray the Court to grant an alias order for the sale thereof on the Twenty second day of April Inst. at twelve oclock in the day, and that the same be advertised by handbills as directed in the original order and advertised for three weeks in the Perry Forester [?]. Whereupon the court grant an alias order agreeably to the prayer of the Petitioners. By the Court."
+- What it shows: John Maxwell of Toboyne was dead and his estate was in the hands of administrators Joseph Eaton and Thomas Adams. The land failed to sell at the first outcry (18 Feb 1826). No heirs are named.
+- Which Maxwell, and confidence: this is the Toboyne John Maxwell; the deed (F13) calls him "Col. John Maxwell" — Confirmed that they are the same estate. No identification with the "James of Toboyne" chain beyond F13.
+
+#### F12. Perry Orphans' Court, 5 Nov 1827 (p. 257) — auditors' report referred back
+- Record: Perry. Court Records 1820–1845, image 144 of 742, right page "257"; ARK 3:1:3QS7-899B-2ZRV.
+- Verbatim (image, zoomed): "John Maxwell decd. | Auditors report refered back for correction | November 5th 1827 Robert H. McClelland, William P. Mitchell [?] and Henry Zeller [?], the auditors appointed by the Orphans court of Perry county on the third day of January Anno Domini one thousand eight hundred and twenty six, to Marshall the assets of John Maxwell deceased, make report, and on exception taken the same is refered back to the same Auditors for correction. By the Court."
+- What it shows: auditors were appointed 3 Jan 1826 to marshal his assets; in Nov 1827 someone excepted to their report. The report itself (which would list the creditors, widow and children) is not on this page. It was not found in this session.
+
+#### F13. Perry Deeds 1845–1849, pp. 346–349 — administrators' deed for Col. John Maxwell's plantation
+- Record: Perry, Pennsylvania. Deeds 1845–1849, images 184–185 of 678; ARK 3:1:3Q9M-CSF1-39VK-3 (image 184); entered May 1846 (the acknowledgement visible on p. 346 is dated 11 March 1846 and entered 20 May 1846; the Maxwell deeds are recorded in the same group).
+- Verbatim ([OCR] unless stated; the p. 348 passage was confirmed on the image): the right-hand heading on p. 347 reads "Deed. Jos. Eaton & Thomas Adams admrs of Col. John Maxwell decd to Solomon Bower." The deed text: "…Joseph Eaton and Thomas Adams administrators of all and singular the goods and chattels rights and credits which were of John Maxwell late of Toboyne township Perry County and State of Pennsylvania deceased (who died intestate)…of the one part, and Solomon Bower…of the other part. Whereas the said John Maxwell in his life time and at the time of his death was seized in his demesne as of fee of and in a certain plantation and tract of land situate in the township and County aforesaid containing one hundred and eighty four acres more or less bounded by lands of Joseph Eaton, Casper Rolf [?], William Owen [?] and others…" The account was exhibited "on the twenty sixth day of December A D one thousand eight hundred and twenty five by which it was manifest that the personal estate of said Intestate was not sufficient to pay his just debts and maintain his children &c." The order of sale; the alias order of 3 April 1826; "on the ninth day of August A D one thousand eight hundred and twenty six, a Pluries order was granted…the said premises be sold…on Saturday the twenty third of September next ensuing…and that the same be sold subject to the lien of a mortgage entered of Record in Cumberland County, executed by said John Maxwell to James Maxwell, as by the records and proceedings of said Court, reference thereunto being had may more fully and at large appear." (image). The sale was to Solomon Bower [OCR: "Bonsal"] for "eight dollars and twenty five cents (subject to the lien of said mortgage)", confirmed by the court on 7 Nov 1826 [OCR]. A second deed on p. 346 is from Solomon Bower and Magdalena to Joseph Eaton, consideration $1 [OCR].
+- What it shows: (1) John died intestate and before 26 Dec 1825 (consistent with May 1825). (2) He left "children" but they are not named. (3) His land was encumbered by a mortgage he had given to a **James Maxwell**, recorded in Cumberland Co. This fits your 1815 Cumberland agreement (Deeds 1814–16 pp. 312–314). It supports, but does not prove, that this James was his father. (4) The price of $8.25 is the price of the equity over the mortgage.
+- Which Maxwell, and confidence: Col. John of Toboyne — Confirmed (the deed names him "Col. John Maxwell decd"). James as father — Possible (the document says only "James Maxwell", mortgagee).
+
+#### F14. Perry county history, "Boroughs, Townships and Villages" — Bistline mill
+- Record: Philadelphia. History Records 1609–1884 (DGS 007548314, item 2), image 153 of 434, right page (printed number looks like 97 [?]); ARK 3:1:3QS7-89DX-CSPY.
+- Verbatim (OCR, one quotation): "The Bistline mill is located along Sherman's Creek, on the south bank, about a mile south of Cisna's run. This tract was warranted by James Maxwell, May 7, 1787, and was originally 70 acres. Col. John Maxwell, who was county commissioner in 1824, and was a son of John Maxwell, was assessed with a fulling mill and a power mill in 1820 … In 1835 … a fulling mill, a carding machine and a still. From his heirs, in 1873, it was conveyed to Abraham Bistline…"
+- What it shows: the 1873 Bistline deed is a conveyance "from his heirs"; the mill property stayed with the heirs from Col. John's death (1825) to 1873. This book says "son of John Maxwell". Your note from the 1886 history (p. 1025) says "son of James". The two printed accounts disagree. One may copy the other with a slip. A secondary source; the deeds are the way to decide.
+- Which Maxwell, and confidence: Col. John — Confirmed. His father — conflicting secondary statements.
+
+#### F15. 1820 census, Toboyne Twp., Perry Co. — John Maxwell
+- Record: Fourth Census 1820, Pennsylvania, Perry Co., Toboyne, image 331 of 358, source page 328; ARK 1:1:XHGX-CLX.
+- Tallies (image, read at zoom; this page has no printed column headings, so I map the columns by position to the standard 1820 order): `Maxwell John: col.1 = 2 | col.4 = 1 | col.5 = 2 | col.7 = 1 | col.8 = 3 | col.10 = 1 | col.12 = 2`.
+- What it shows: on that mapping, two free white males under 10, one male 16–26, two males 26–45 (one would be John), one female under 10, three females 10–16, one female 26–45. **Two boys under 10 are present** (so a boy of about 2, such as Andrew, b. Oct 1818, is possible). That is consistent with Andrew but proves nothing. This also fits the 1810 household you noted ("– 1 2 2 – || 4 – – 1 –"), where four girls under 10 become three girls 10–16 and one female under 10.
+- Which Maxwell, and confidence: Possible only (the census gives no names beyond the head).
+
+#### F16. Andrew A. Maxwell, death 9 March 1901 — register of deaths
+- Record: Perry. Death Records 1893–1906 (DGS 007599980, item 2), image 82 of 146, register p. 165; ARK 1:1:H5FY-X82M.
+- Verbatim (image at zoom): `Maxwell Andrew A. | M | 82 [yrs] | Married | b. Horse Valley | Farmer | [died] Mch 9 1901 | Horse Valley | old age | [interred] Concord, Mch 11`.
+- What it shows: the register's parent columns ("when a minor") are blank for him. **It does not name his father.** He was born in Horse Valley (the Toboyne/Concord side of Perry Co., per this entry; I have not checked the geography).
+- Which Maxwell, and confidence: this is the Andrew b. 1818 (born Oct 1818 per the 1900 index; 82 years old at death in March 1901 fits). No obituary found yet.
+
+#### F17. Toboyne Twp. Maxwell households, 1860 and 1870
+- 1860: Andrew Maxwell 42 (b. Pa.), Hannah 45, Henry W. 13, Joseph A. 11, Sarah E. 9, John A. 7, Simon C. 5 (Toboyne, p. 9; ARK 1:1:MXRL-2X9, index only). 1880: Andrew 62 widowed farmer; Albert I. 22; Sarah Middleton 64; David Campbell 18 (ARK 1:1:MWJM-CW4, index only). Tree ID GHV3-9J2 (no parents attached; sons Henry W. GHV3-4T8, Joseph Alexander GHV3-9MG, John A. GHV3-4TF, Simon C. GHV3-HYG, Albert J. P7PX-M5S).
+- 1870 Toboyne, p. 13, image 571 of 694 (image, zoomed): `5 5 Maxwell Alex[?] 22 M W Farming 1200 600 | John 18 | Lemuel 16 | Johnston 13` all born Pa. (ARK 1:1:MZPM-Q4M). Four young men in one household, no adult woman or older man shown.
+- What it shows: these four are either Andrew's sons (ages fit Joseph Alexander, John A., [Simon C.?], Albert/"Johnston"), indexed or written with different names, or a separate family. Andrew's own 1870 household was not found in this session.
+- Y-DNA prospect: both groups are candidates in Toboyne in the 1870s, but neither is tied to Col. John.
+
+### Search log
+
+| county | range | query | hits | result |
+|---|---|---|---|---|
+| Butler | 1850 image | open John L. record M44R-LW6 | 1 | verified (F1) |
+| Butler | 1860 image | open John L. record MXPD-GGJ (and the page) | 1 | verified (F2) |
+| Page, Iowa | 1870 image | open MDVP-8P9 | 1 | verified (F3) |
+| Page, Iowa | 1900 image | open M9L7-D4C | 1 | verified (F4) |
+| Armstrong | 1870 image | open MZL6-JLS | 1 | verified (F7) |
+| Page, Iowa | 1880 | Adam Maxwell, Page Iowa, 1880 | 1 used | verified (F8) |
+| Prowers, Colorado | 1910 | open MK4F-CHX, MK4F-ZL1 | 2 | verified (F9, F10) |
+| Prowers, Colorado | 1900–1920 | Charles Maxwell b. 1867–71 | 5,296 | 1900, 1910, 1920 and marriage hits; no children (F10) |
+| Page, Iowa | b. 1868–72 | David Maxwell | 2,190 | David Logan (1899 marriage, 1905, 1910, 1920, 1940) (F5, F6) |
+| any | b. 1901–04 | John Maxwell, Iowa-born, father David | 7,012 | 1910 and 1920 census, county birth 1902; later California entries (post-1925 and post-1950 content not used) (F6) |
+| Perry | 1825–45 | full text: "John Maxwell" Toboyne | 1,220 | Orphans' court (Apr 1826, Aug 1826, Nov 1827), Deeds 1845–49 (administrators), Perry history (F11–14) |
+| Perry | 1825–42 | full text: Maxwell guardian minor children Toboyne | 29,298 | too broad; no Maxwell guardianship entry seen on page 1 (not a negative finding) |
+| Perry | 1825–26 | full text: "John Maxwell" Eaton Adams administrators petition widow children | 9,328 | same group as above; the deed gives the sale details (F13) |
+| Perry | 1826–50 | full text: "son of / children of / heirs of John Maxwell" | 3 | Lancaster Deeds 1835–37 ("land of the heirs of John Maxwell deed", Wheatfield Twp., Perry [likely a different John]); Perry history; an unrelated 1840 deposition about John Maxwell of Tyrone Twp., Adams Co. (not relevant) |
+| Perry, Toboyne | 1820 | 1820 census, Maxwell, Toboyne | 1 | John Maxwell opened (F15) |
+| Perry | 1870 | Maxwell, Toboyne | 10 shown | household of four (F17) |
+| Perry | 1901 | Andrew Maxwell death | 1,881 | register entry opened (F16) |
+| FS tree | n/a | person pages (Adam, John Lowery [partly loaded], Isaac, Charles, David Logan, Andrew) | 6 | IDs and families as leads only (see Tree profiles) |
+
+### Tree profiles and Find a Grave (task d). IDs only; no names of contributors recorded; nobody contacted
+
+| Person | FS tree ID | Contributors shown? | Notes (tree = lead only) |
+|---|---|---|---|
+| John Leslie Maxwell 1790–1871 | LJVZ-ZQ4 | not opened | tree lists wife Mary Hamilton and 7 children |
+| Adam Maxwell 1829–1916 | LJVZ-FLW | yes ("Latest Changes" lists contributors); Collaborate (0) | spouse "Maria Yetter" (maiden name from tree only) |
+| John Lowery Maxwell 1833–1903 | KGSL-FC2 | "Latest Changes" present, names did not load; Collaborate (0) | tree: m. Martha E. McKee 15 Mar 1857, Butler |
+| David Logan Maxwell 1870–1944 | K27R-15J | yes; Collaborate (0); 1 Memory | children listed |
+| Isaac Leslie Maxwell 1862–1919 | 9CXL-FS2 | yes; Collaborate (0) | Children (0) |
+| Charles Maxwell 1868–1926 | LCQ3-WSS | yes; Collaborate (0) | Children (0) |
+| Andrew Maxwell b. 1818 | GHV3-9J2 | yes; Collaborate (0) | no parents attached; "possible duplicate" G1QR-11X |
+| A. Bennett Maxwell 1826–1891 | G6DB-YWJ | not opened | |
+| Newton Maxwell 1823–1893 | KLNK-RZZ | not opened | tree says son of John L. (lead only) |
+| Milton Maxwell 1824–1901 | LJVZ-66T | not opened | tree says son of John L. (lead only) |
+
+Find a Grave memorials: I did not open Find a Grave (it showed a bot check before, and you said you would check it yourself), and FamilySearch's index does not show memorial numbers. The index entries I saw: Charles Maxwell, b. 21 Oct 1868, d. 14 Apr 1926, Riverside Cemetery, Lamar, Colorado (FS record 1:1:QVKY-3CYR, "photograph included"). Memorial numbers and managers are still to be read on the Find a Grave site.
+
+### Leads for follow-up (exact references)
+1. **Perry Orphans' Court, 1826–1828, auditors' report on John Maxwell's estate** (the report that was "refered back" on 5 Nov 1827). It should list the widow and children. Perry. Court Records 1820–1845, image 144 of 742 (p. 257, ARK 3:1:3QS7-899B-2ZRV) and the following terms (Jan–Aug 1828). Also the Aug 1826 term (hit ARK 3:1:3QSQ-G99B-28S1) and the Jan 1826 term images 85–92 (not found there on images 88 and 91).
+2. **Perry Wills 1820–1854:** the full-text results listed several "Perry, Pennsylvania. Wills 1820-1854" hits for the John Maxwell/Toboyne search. I did not open any. A widow's will, if there is one, could name the children.
+3. **Cumberland Co. mortgage, John Maxwell to James Maxwell** (before 1825; probably the 1815 agreement, Deeds 1814–16 pp. 312–314, DGS 008035090, images 465–466). Check whether the mortgage is a separate instrument, and its date.
+4. **1830 and 1840 censuses, Toboyne/Madison:** find John's widow and boys 10–20.
+5. **Perry Deeds 1870–1875 (the 1873 conveyance "from his heirs" to Abraham Bistline).** It should list the heirs by name. Not yet found; Perry deed books for 1873 may be on FS under "Perry, Pennsylvania. Deed Books".
+6. **Andrew (b. 1818):** the Concord burial (Concord, Franklin Co. or the Concord in Perry; not checked) and any obituary in March 1901 (e.g., a Perry newspaper). The register gives no parents.
+7. **The 1870 Toboyne four-man household** vs Andrew's sons: look up Andrew's 1870 household.
+8. **Newton and Milton** (tree: sons of John L.): Newton's 1850 and 1860 households sit on the same pages as John L., his sons are Leslie Q. (b. c.1846), Robert L. (b. c.1851) and Alexander H. (b. c.1860). I did not pursue them, as you said.
+9. **A conflict to resolve:** Adam's parents' birthplace "Scotland (Scotch)" in 1910 versus Pennsylvania in 1880. If true, John L.'s parents (William of Unity and Jean) would be Scottish-born; the 1800 census puts William aged 45+, so he would be born before 1755. Treat as a lead only.
+
+### Questions for me
+1. Should I now follow Newton's three sons (and Milton) forward, since the Butler side has only one continuing line (David Logan's)?
+2. The Perry orphans' court has no guardianship entry for Maxwell minors that I could find yet. Do you want me to scan the Court Records page by page for 1826–1828 to find the auditors' report, or go to the Perry Wills hits first?
+3. For David Logan's son John (b. 1902), the next generation was born after 1925, so I stopped. Is that where you want the line to end in the planning table?

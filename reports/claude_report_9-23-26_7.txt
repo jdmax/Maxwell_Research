@@ -1,0 +1,197 @@
+## Session report 7: ages of the candidate siblings, militia and 1798 tax, Kinkead land — 30 Sep 2026
+
+[?] marks an uncertain reading and [illeg.] marks text I couldn't read. ARKs are https://www.familysearch.org/ark:/61903/… . "Read on the image" means I checked it on the page image, not just in the machine-read (OCR) text.
+
+### Headline
+1. **Andrew Kinkead's wife was aged 26–44 in the 1800 census (born 1756–1774).**
+   - If she is the Elizabeth Maxwell he married in 1779, she was born between 1756 and about 1761. That makes her **4 to 9 years younger than Adam (b. 1752)** and much younger than James of Toboyne (b. c.1740–46).
+   - Andrew himself was 45 or older (born before 1755).
+2. **William Maxwell of Unity was 45 or older in 1800 (born before 1755).**
+   - That puts him in the same generation as Adam and James.
+   - His oldest child at home was a daughter aged 16–25, so he probably married by the early 1780s.
+3. **Adam was 2nd Lieutenant of the 8th Company, 1st Battalion, Westmoreland militia, in a return dated 25 Apr 1778 [?].**
+   - His captain was William Love, and his 1st Lieutenant was **Alexander Craig**. Craig witnessed Adam's 1818 deed to Isaac Peirce.
+   - No William Maxwell or Andrew Kinkead turned up in the militia collection.
+4. **Andrew Kinkead's Derry farm was the William Tindel warrant tract, which adjoined "Adam Maxwell's Claim".** Andrew bought Tindel's right on 18 May 1785. So Andrew and Adam were next-door neighbours from 1785.
+5. **Andrew's Armstrong County land was 200 acres of John Craig's "Wheatfield" tract on Cherry Run, Kittanning Twp.** He bought it in 1807.
+   - It did **not** come from Adam.
+   - It lay in a different township from Adam's Buffalo Twp. land, so they were not neighbours there.
+6. **In the 1798 Direct Tax, Adam Maxwell is listed as the owner of the Derry farm occupied by Isaac Pearce** (230 acres). Pearce is the man Adam sold "Springdale" to in 1818.
+   - Adam himself doesn't appear as an occupant on that page. He may already have been living elsewhere.
+7. **No Maxwell appears** in the ending of John Kincaid's will, in any Kinkead estate record I found, or in any church or cemetery source for Unity that I could reach online.
+
+---
+
+### Findings
+
+**1. William Maxwell, Unity Twp., 1800 census (task a)**
+- Record: US Census 1800, Westmoreland, Unity Twp., p. 1162 (NARA M32), image 287. Index ARK 1:1:XHR6-LPH.
+- Read on the image. The columns are: males under 10, 10–15, 16–25, 26–44, 45+ | the same five for females. A ditto mark (") means none.
+  > "Maxwell Wm — 2 | 3 | " | " | 1 || 2 | " | 1 | 1 | " "
+- What it shows:
+  - **William is 45 or older (born 1755 or earlier).**
+  - A woman aged 26–44 (born 1756–1774) is probably his wife Jean.
+  - A female aged 16–25 (born 1775–1784) is probably his oldest daughter.
+  - Five boys are under 16, and two girls are under 10.
+  - The sons found in 1850 fit these brackets: John L. (born about 1790) was 10–15 in 1800, and William Jr. (born about 1793) was under 10.
+  - Neighbours on the page include James Marshall, Matthew McLean and Thomas McFarland.
+- Which Maxwell, and confidence: **Confirmed** as William of Unity. He is the only William Maxwell indexed in Westmoreland in 1800.
+
+**2. Andrew Kinkead, Derry Twp., 1800 census (task a)**
+- Record: US Census 1800, Westmoreland, Derry Twp., p. 1216, image 315. Index ARK 1:1:XHR6-GKQ.
+- Read on the image. I checked each figure against the ruled column lines, using the Kreeps and Keller entries above and below as a guide.
+  > "Kinkead Andw — 1 | 2 | 2 | – | 1 || 3 | 1 | – | 1 | –"
+- What it shows:
+  - Andrew is 45 or older (born before 1755).
+  - **The only adult woman is aged 26–44, so born between 1756 and 1774.**
+  - There are 5 boys and young men and 4 girls. The children named in the 1820–22 wills are George, Robert, Andrew, John, Sally and Elizabeth.
+- For the sister hypothesis:
+  - If this woman is Elizabeth (Maxwell), married 4 Nov 1779, she was born between 1756 and about 1761 (i.e. no older than about 23 when she married).
+  - **She cannot be older than Adam.** She would be a younger sister, 4 to 9 years younger than Adam, and at least 10 years younger than James of Toboyne.
+  - Caveat: nothing proves the 1800 wife is the 1779 bride and not a later wife. Elizabeth Jr. (1821) and John (1822) both call the widow Elizabeth their mother, which points to the same woman, but that isn't proof.
+- Confidence: **Confirmed** as Andrew Sr. of Derry.
+
+**3. Andrew Kinkead in 1810 and in 1820; the widow in 1820 (task a)**
+- **1810:** "Andrew Kinhard", Derry, p. 777 (M252), image 208, ARK 1:1:XH2N-3TX.
+  - His line falls in a band of the page that is badly faded on the film. I couldn't read it even with contrast adjusted.
+  - **I couldn't read any ages [illeg.].**
+- **1820:** "Anthony Kinkead, Esquire" (a misindexing of Andw Kinkead Esqr), Derry, p. 136 (M33), image 147, ARK 1:1:XHG7-963.
+  - The name line sits exactly under a strip of repair tape across the page. **The age figures are hidden [illeg.].**
+  - Andrew was still alive at the 1820 enumeration: his will is dated 6 Sept 1820.
+  - **So the widow Elizabeth isn't a head of household in 1820.**
+  - Also indexed nearby: George "Kinhead" (ARK 1:1:XHG7-9C8) and Andrew "Kieaden" (1:1:XHGQ-1L1). These are probably Andrew Jr.; not opened.
+
+**4. The sons of William of Unity in Butler Co., 1850 (task a)**
+- **William Maxwell:** North Butler Twp., dwelling 110, image 178. ARK 1:1:M44R-YMG. Read on the image:
+  > "Wm Maxwell 57 M Farmer [real estate] 5000 [born] Penna — Mary 56 F — Jane 28 F"
+  - So he was **born about 1793 in Pennsylvania.** He fits the executor "William Maxwell of Butler County" of 1823.
+- **John L. Maxwell:** North Butler, dwelling 179, image 187. ARK 1:1:M44R-LW6. Read on the image:
+  > "John L. Maxwell 60 M Farmer 7000 [Pa] — Agnes 60 F — A. Bennet 24 M Student — Adam 21 M Farmer 1000 — Emily 19 F — Johnston [?] 16 M Farmer — Lydia Frear 11 F"
+  - So he was **born about 1790 in Pennsylvania.** He is William of Unity's son "John L." He named a son **Adam** (b. about 1829).
+  - Next door, dwelling 178, is Newton Maxwell, 29, farmer, $6000, with wife Priscilla (born Virginia) and children Leslie and Catharine.
+- **No James or Adam of William's own generation** was found in North Butler.
+  - A "James Maxwell, Fairview Twp., b. 1801 Pa." is in the index. I didn't open it, so he is unverified as William's son.
+- Confidence: **Probable** that William (57) and John L. (60) are the sons named in the 1815 will. The names, the Butler residence stated in the 1823 deed, and the ages all fit.
+
+**5. The 1778 militia return (task b)**
+- Record: Pennsylvania Militia Records 1777–1790 ("Militia returns by county"), Westmoreland. DGS 008123756, item 3, image 648. ARK 3:1:3Q9M-CSVF-K4H5-B.
+- Read on the image:
+  > "A Return of the Militia in their Rank belonging to Westmoreland County in the Common Wealth of Pennsylvania … First Battallion … 8th Compy — Wm Love Capt. — Alexr Craig 1st Lt. — Adam Maxwell 2d do. — Thomas Watson Ensn. — 4 Sergt 3 Corpl — Privates 58"
+  - The covering letter is written up the right side of the page, dated "the 25th Apl 1778 [?]" and addressed to Thomas Wharton, junior, Esq., President of the Supreme Executive Council. I didn't read the signature.
+- What it shows:
+  - **Adam was an officer (2nd Lieutenant) by April 1778, at about age 26.** That points to someone of standing, probably already a householder.
+  - He served alongside Alexander Craig. The Craigs were his Derry neighbours, and Alexander witnessed his 1818 deed.
+- **William Maxwell and Andrew Kinkead:** I searched Full Text for Pennsylvania and for Westmoreland, 1775–1799 (Andrew Kinkead variants; William, Wm and Adam Maxwell). **No militia-collection hit came up for either man.**
+  - I also tried reading images 600–760 of the same film automatically, but the transcript panel didn't refresh reliably, so I don't count that as a complete check.
+  - **I can't say whether they were in the same company.**
+- Confidence: **Probable** that this is our Adam. He is the only Adam Maxwell in Westmoreland, and his fellow officer is a Derry man.
+
+**6. The 1798 Direct Tax, Derry Twp. (task b)**
+- Record: Pennsylvania Tax Records 1798, Westmoreland, Derry Twp., 1st assessment district, 9th division. It is filmed twice: image 134 (ARK 3:1:3Q9M-CSPT-MQXJ-J) and image 136 (ARK 3:1:3Q9M-CS1K-D3KT-W). The lands list is image 401 (ARK 3:1:3Q9M-CS1K-D32T-V).
+- Schedule (B), Dwelling-houses, read on the image:
+  > "194 | [Occupant] Pearce Isaac | [Owner] Adam Maxwell | 1 [dwelling] 28 by 16, 1 Barn 20 by 22 | … | [Adjoining proprietors] William Rainey | [acres] 230 | [valuation] 675 / 114 … 689"
+  - The next occupants are Samuel Patterson, John Pumroy, George Pumroy (who has a fulling mill), Francis Pumroy, James Patterson and William Patton. Their owner column reads "do." I think this means each one owns his own place, not that Adam owns it, but I'm not sure.
+- Image 401 (the lands list): the OCR shows "Adam Maxwell" in the adjoining-proprietors column. The film is overexposed there, and **I couldn't confirm it on the image.**
+- What it shows:
+  - In 1798 **Adam owned 230 acres in Derry that Isaac Pearce was occupying as his tenant.**
+  - Adam doesn't appear as an occupant on the pages I read.
+- **Andrew Kinkead's own 1798 entry:** not found. The viewer wouldn't move to other images, and Full Text found no hit. Left as a lead.
+- Confidence: **Confirmed** as our Adam. The tract ties to his later sales to Peirce and Rainey.
+
+**7. The 1784 application and the 1808 caveat (task b)**
+- **William Tindel's application, December 1784** (Applications for warrants, December 1784, image 34, ARK 3:1:3QHV-V38R-M98L-P; OCR):
+  > "William Tindel Applies for [180] acres of Land on the water of Canamah joining Adam Maxwell improvement in Derry Township Westmoreland County"
+  - Certified by Isaac Mason [?], a Justice of the Peace.
+  - This is the application behind the 1 Dec 1784 warrant I reported last session.
+- **Adam's caveat, 17 Oct 1808** (Land Records 1807–1811, Caveats, images 318–319, ARKs 3:1:3QHV-V38T-V9QG-M and -V9QL-S). Read on the image:
+  > "Oct 17th 1808. Adam Maxwell enters a caveat against the issuing of a Patent to Mary Beaty or any other person claiming under her, for a tract of land situate in Derry township Westmoreland County surveyed on Location No 1799 [sic; the 1818 deed says 1719] dated 3d of April 1769 in the name of sd Mary Beaty alledging that he has the best right to sd Land by Purchase under the same title. To the Secretary of the L[and] Office. — 1 Monday of Feby Next."
+  - What it shows: Adam protected his purchase of the Beaty right in 1808. **There's no kinship content.**
+
+**8. Andrew Kinkead's Derry patent: the Tindel tract (tasks b and c)**
+- Record: Pennsylvania Patent Records (volume labelled 1786–1788; this is the 1816 patent), image 770. ARK 3:1:3QHV-V3DZ-7DSK. Read on the image:
+  > "…in consideration of the monies paid by William Tindel for the warrant herein mentioned and of the sum of two dollars and eighty seven cents … paid by Andrew Kinkead … a certain tract of Land situate in Derry Township Westmoreland County, Beginning at a hickory thence by the claim of the heirs of Robert Bell … thence by land of Robert Anderson … thence by vacant land … thence by the Claim of Ralph Vorhis North fifty four degrees East one hundred twenty one perches to an Ironwood thence by the same and Adam Maxwell's Claim North thirty two degrees West two hundred thirty eight perches … Containing one hundred eighty eight acres … surveyed on the 16th August [1785?] in pursuance of a warrant dated the 1st day of December 1784 granted to the said William Tindel who by deed dated the 18th day of May 1785 conveyed his right … to the said Andrew Kinkead …"
+  - The patent is dated December 1816. This matches the 23 Dec 1816 date recited in the 1830 deed.
+- What it shows: **from May 1785, Andrew Kinkead's farm shared a 238-perch line with Adam's claim.** That makes the Kinkead "old place" in the 1825 release this Tindel tract.
+
+**9. Andrew Kinkead's Armstrong County land (task c)**
+- **Deed, John Craig to Andrew Kincaid, 26 May 1807** (Armstrong Deeds 1805–1815, image 81, ARK 3:1:3Q9M-CSQ7-V92N-H). OCR only; the text is garbled here:
+  > "This Indenture made this twenty sixth day of May … one thousand eight hundred and seven [between John Craig] of … Armstrong … and Andrew Kincaid of [Derry] Township Westmoreland County … the said John Craig hath sold … unto the said Andrew Kincaid a small t[ract] …"
+- **Deed, George Kinkaid to Anthony Helfferich, 17 Oct 1828** (Armstrong Deeds 1823–1830, image 469, ARK 3:1:3Q9M-CSNL-SSQ8-N; OCR). It recites the title:
+  > "George Kinkaid of Derry Township Westmoreland County … and Anthony Helferich of Kittanning Township Armstrong County … two hundred acres of Land (more or less) it being a part of a large tract of land called Wheatfield situate on Cherry run now in Kittanning Township … patented to John Craig … the sixteenth day of December A.D. 1803 and the said John Craig did sell and convey unto Andrew Kincaid the above named two hundred acres … by deed dated the sixth [sic; 26th?] day of May A.D. 1807 and the said tract … was sold for taxes by Alexander Caldwell then Treasurer of Armstrong County to [the] Commissioners … by deed dated the fourth day of November A.D. 1826 and … [the] Commissioners did convey the said tract of land to George Kinkaid by deed dated the twentieth day of September A.D. 1827 …"
+- What it shows:
+  - The Armstrong land was on Cherry Run in Kittanning Twp. It **came from John Craig, not from Adam.** I found no evidence that it adjoined Adam's Buffalo Twp. land. It is not recited as bounded by him.
+  - The seller, John Craig, is another Craig. This is a pattern: Adam, Andrew and the Craigs acted together in both counties.
+- **Also noticed:** James Kinkead to Samuel Kinkead, recorded 1811 (Armstrong Deeds 1805–1815, image 311, ARK 3:1:3Q9M-CSQ7-V9LC-R; OCR).
+  - It conveys 440 acres "on the east side of Buffaloe Creek," held by an improvement surveyed 21 Nov 1793. The OCR gives the improvement date as "1743," which must be a misreading.
+  - This is **Buffalo Creek, Adam's later neighbourhood.** How these Kinkeads relate to Andrew is unknown.
+
+**10. Andrew Kinkead's estate and the end of John Kincaid's will (task d)**
+- **Orphans' Court:** Full Text for "Andrew Kinkead/Kincaid/Kinkade/Kincade deceased/dec/late", Westmoreland 1820–1840, gave 3 hits. All are deeds:
+  - an adjoiner mention of "the heirs of Andrew Kincade deceased" (Deed Books 1830–32, image 32);
+  - the executors' deed to Andrew Kinkead (Jr.), already reported (image 185/186).
+  - **No Orphans' Court partition, valuation or account appeared.**
+  - The Westmoreland O.C. general index hit from last session is 20th-century. I haven't browsed the 1820s O.C. dockets page by page; left as a lead.
+- **End of John Kincaid's will** (Wills 1819–1839, image 34, ARK 3:1:3QS7-89SM-CXS9; OCR, not checked on the image):
+  > "…to be equally divided betwixt my brothers above Names & lastly I Nominate Constitute & appoint George Kincaid to be the executor … this 20th day of Febuary in the year [1822] … came Thomas Elder [and] Robert Elder the subscribing Witnesses … saw John Kincaid who is now deceased sign …"
+  - **No Maxwell appears anywhere on the image.**
+
+**11. Unity and Derry church and cemetery records (task e)**
+- FamilySearch Wiki (Westmoreland Church Records) lists only "Inscriptions of the Unity Presbyterian Church Cemetery," on Ancestry (subscription). It gives no session, baptism or burial registers for Unity or Derry.
+- The Unity Cemetery & Chapel history booklet says no burial records were kept for decades. It says about 300 graves are unmarked, and a burial book began only in 1905. The oldest stones it names date from 1782 and 1786, and it mentions no Maxwell.
+- I couldn't query Find a Grave (Unity Cemetery, cemetery 46551): the site returned a bot-check page, which I did not try to get past. The PAGenWeb Unity Cemetery page gave a 404 error.
+- **Nothing online was found for William Maxwell's burial or his children's baptisms.**
+
+---
+
+### Age table (what the evidence now allows)
+| Person | Birth window | Basis |
+|---|---|---|
+| James of Toboyne | c.1740–46 (your figure); taxed householder by 1768 | earlier sessions |
+| Adam | 1752 | your data; 2nd Lt. in 1778 fits |
+| William of Unity | before 1755 (45+ in 1800); probably married by about 1783 | 1800 census, Finding 1 |
+| Elizabeth (Maxwell) Kinkead | 1756–1774 in the 1800 bracket; about 1756–61 if she married in 1779 | 1800 census, Finding 2 |
+
+All four fit **one generation spread over roughly 20 years**, and Elizabeth would be the youngest. But the brackets are wide:
+- William could be older than James or younger than Adam.
+- **Nothing here proves they are siblings.**
+- Ages alone don't rule the idea out.
+
+---
+
+### Search log
+| county | range | query / action | hits | result |
+|---|---|---|---|---|
+| Westmoreland | 1800 census | William Maxwell | 1 | Unity, read on the image (Finding 1) |
+| Westmoreland | 1800 census | surname Kinkead | 1 | Derry, read on the image (Finding 2) |
+| Westmoreland | 1810 census | Kinkead; Andrew Kincaid; And* K* | 1 / 0 / 1 | John Kinkaid (Fairfield, not ours); "Andrew Kinhard" Derry p. 777, line faded (Finding 3) |
+| Derry, Westmoreland | 1820 census | K* surnames | ~35 | "Anthony [Andw] Kinkead Esq." line under tape; George, Andrew Jr. indexed (Finding 3) |
+| Butler | 1850 census | Maxwell | 100+ | William 57, John L. 60 read on the images; James (Fairview, b. 1801) not opened (Finding 4) |
+| Westmoreland | Militia 1777–90 | the flagged ARK | 1 | Finding 5 |
+| Westmoreland, PA | 1775–1799 | Andrew Kinkead variants; William/Wm/Adam Maxwell | 49 / 100+ | no militia hits for Andrew or William |
+| Militia film | images 600–760 | automatic scan | — | transcript panel didn't refresh reliably; not counted as a check |
+| 1798 tax | 3 flagged ARKs | read | 3 | Finding 6 |
+| Westmoreland | 1798 | Kinkead variants OR Maxwell | 100+ (OR) | no tax hit ranked; Andrew's 1798 entry not found |
+| PA | Warrants Dec 1784; Caveats 1807–11 | flagged ARKs | 3 | Finding 7 |
+| Westmoreland | 1775–1799 | Andrew Kinkead variants | 49 | the 1816 Kinkead patent (Finding 8) |
+| Armstrong | 1800–1835 | Kinkead/Kincaid/Kinkade/Kincade/Kinkaid/Kincard | 100+ | 3 deeds (Finding 9) |
+| Westmoreland | 1820–1840 | "Andrew Kinkead … deceased/dec/late" | 3 | deeds only (Finding 10) |
+| Westmoreland | 1821–1823 | "John Kincaid" / "John Kinkead" / "Andrew Russel" | 25 | end of John's will (Finding 10) |
+| Web | — | Unity Presbyterian records and cemetery | — | Finding 11 |
+
+### Leads for follow-up (exact references)
+1. **1810 Derry, Andrew "Kinhard", p. 777 (M252, roll for Westmoreland).**
+   - The FamilySearch copy is faded. Other scans (Ancestry, or the NARA microfilm itself) may be readable.
+   - His line would give the wife's 1810 bracket (26–44 or 45+), narrowing Elizabeth's birth further.
+2. **1820 Derry, p. 136 (M33).** The line is under repair tape. Another scan may show it.
+3. **1790 census:** William Maxwell (Unity) and Andrew Kinkead (Derry, sheet 23, which you already have). 1790 only divides males at 16, so it adds little on ages.
+4. **Andrew Kinkead in the 1798 Direct Tax, Derry.** The same volume (DGS for "Pennsylvania. Tax Records 1798"), K entries of Schedules A and B, near images 120–140.
+5. **James Maxwell, Fairview Twp., Butler, 1850, born 1801 Pa.** He could be William's son James.
+6. **The Buffalo Creek Kinkeads** (James and Samuel, 1793–1811). Their relationship to Andrew is unknown. They matter only if the kinship link runs through Armstrong.
+7. **Westmoreland Orphans' Court dockets 1821–1830,** browsed page by page for the Kinkead estate. It was testate, so there may be no O.C. action.
+8. **Unity Presbyterian Cemetery inscriptions.**
+   - On Ancestry (subscription), listed on the FamilySearch Wiki.
+   - Find a Grave, Unity Cemetery no. 46551. This one needs a manual check in your browser, because it blocked my automated access.
+
+### Questions for me
+1. The ages allow the sibling model but don't prove it. Should I next try for a better 1810 image of Andrew Kinkead's line (Lead 1)? That is the one record that could narrow Elizabeth's birth. Or should I turn to the Craig family? Alexander, Samuel and John Craig run through Adam's militia company, his Derry neighbourhood, his 1818 deed and Andrew's Armstrong purchase, and one of them might be kin.
+2. Can you check Find a Grave (Unity Cemetery 46551, and Derry Presbyterian) for William Maxwell (d. 1815) or Jean/Jane Maxwell yourself? My automated access was blocked.
